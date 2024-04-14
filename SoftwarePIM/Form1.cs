@@ -14,6 +14,9 @@ namespace SoftwarePIM
 
             // Exibindo o FormSecundario
             frm_TelaMapa.Show();
+
+            // Fechar a Tela Inicial
+            this.Hide();
         }
 
         private void btn_Historia_Click(object sender, EventArgs e)
@@ -22,7 +25,10 @@ namespace SoftwarePIM
             Frm_TelaHistoria frm_TelaHistoria = new Frm_TelaHistoria();
 
             // Exibindo o FormSecundario
-            frm_TelaHistoria.Show();  
+            frm_TelaHistoria.Show();
+
+            // Fechar a Tela Inicial
+            this.Hide();
         }
 
         private void btn_Avaliacao_Click(object sender, EventArgs e)
@@ -32,6 +38,9 @@ namespace SoftwarePIM
 
             // Exibindo o FormSecundario
             frm_TelaAvaliacao.Show();
+
+            // Fechar a Tela Inicial
+            this.Hide();
         }
     }
 }
