@@ -35,12 +35,12 @@
             pictureBox3 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
-            pictureBox4 = new PictureBox();
+            btn_Menu = new PictureBox();
             notifyIcon1 = new NotifyIcon(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btn_Menu).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -101,17 +101,17 @@
             label2.TabIndex = 4;
             label2.Text = resources.GetString("label2.Text");
             // 
-            // pictureBox4
+            // btn_Menu
             // 
-            pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(295, 315);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(193, 43);
-            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox4.TabIndex = 5;
-            pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox4_Click;
+            btn_Menu.BackColor = Color.Transparent;
+            btn_Menu.Image = (Image)resources.GetObject("btn_Menu.Image");
+            btn_Menu.Location = new Point(295, 315);
+            btn_Menu.Name = "btn_Menu";
+            btn_Menu.Size = new Size(193, 43);
+            btn_Menu.SizeMode = PictureBoxSizeMode.StretchImage;
+            btn_Menu.TabIndex = 5;
+            btn_Menu.TabStop = false;
+            btn_Menu.Click += btn_Menu_Click;
             // 
             // notifyIcon1
             // 
@@ -125,7 +125,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(782, 553);
-            Controls.Add(pictureBox4);
+            Controls.Add(btn_Menu);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox3);
@@ -138,7 +138,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btn_Menu).EndInit();
             ResumeLayout(false);
         }
 
@@ -149,7 +149,7 @@
         private PictureBox pictureBox3;
         private Label label1;
         private Label label2;
-        private PictureBox pictureBox4;
+        private PictureBox btn_Menu;
         private NotifyIcon notifyIcon1;
     }
 }
