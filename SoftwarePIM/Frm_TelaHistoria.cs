@@ -16,5 +16,17 @@ namespace SoftwarePIM
         {
             InitializeComponent();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            // Criando uma instância da Tela do Mapa
+            Frm_TelaInicial frm_TelaInicial = new Frm_TelaInicial();
+
+            // Exibindo o FormSecundario
+            frm_TelaInicial.Show();
+
+            // Fechar a Tela Inicial
+            this.Hide();
+        }
     }
 }
