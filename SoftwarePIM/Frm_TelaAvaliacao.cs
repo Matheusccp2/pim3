@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace SoftwarePIM
 {
-    public partial class Frm_TelaAvaliacao : Form
+    public partial class Frm_Pergunta1 : Form
     {
-        public Frm_TelaAvaliacao()
+        public Frm_Pergunta1()
         {
             InitializeComponent();
+        }
+
+        private void btn_VoltarMenu_Click(object sender, EventArgs e)
+        {
+            Frm_TelaInicial frm_TelaInicial = new Frm_TelaInicial();
+
+            frm_TelaInicial.Show();
+
+            this.Hide();
         }
     }
 }

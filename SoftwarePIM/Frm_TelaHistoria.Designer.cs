@@ -30,49 +30,52 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_TelaHistoria));
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
+            btn_Anterior = new PictureBox();
+            btn_Proximo = new PictureBox();
             pictureBox3 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
             btn_Menu = new PictureBox();
             notifyIcon1 = new NotifyIcon(components);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btn_Anterior).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btn_Proximo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_Menu).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // btn_Anterior
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(146, 315);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(40, 43);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            btn_Anterior.BackColor = Color.Transparent;
+            btn_Anterior.Image = (Image)resources.GetObject("btn_Anterior.Image");
+            btn_Anterior.Location = new Point(128, 236);
+            btn_Anterior.Margin = new Padding(3, 2, 3, 2);
+            btn_Anterior.Name = "btn_Anterior";
+            btn_Anterior.Size = new Size(35, 32);
+            btn_Anterior.SizeMode = PictureBoxSizeMode.Zoom;
+            btn_Anterior.TabIndex = 0;
+            btn_Anterior.TabStop = false;
             // 
-            // pictureBox2
+            // btn_Proximo
             // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(589, 315);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(40, 43);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
+            btn_Proximo.BackColor = Color.Transparent;
+            btn_Proximo.Image = (Image)resources.GetObject("btn_Proximo.Image");
+            btn_Proximo.Location = new Point(515, 236);
+            btn_Proximo.Margin = new Padding(3, 2, 3, 2);
+            btn_Proximo.Name = "btn_Proximo";
+            btn_Proximo.Size = new Size(35, 32);
+            btn_Proximo.SizeMode = PictureBoxSizeMode.Zoom;
+            btn_Proximo.TabIndex = 1;
+            btn_Proximo.TabStop = false;
             // 
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.Location = new Point(146, 80);
+            pictureBox3.Location = new Point(128, 60);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(144, 220);
+            pictureBox3.Size = new Size(126, 165);
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
             // 
@@ -81,10 +84,10 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(0, 192, 192);
-            label1.Location = new Point(296, 80);
+            label1.Location = new Point(259, 60);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(333, 42);
+            label1.Size = new Size(291, 32);
             label1.TabIndex = 3;
             label1.Text = "\"UM PEQUENO PASSO PARA O HOMEM, UM GRANDE PASSO PARA A HUMANIDADE\"";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -95,9 +98,9 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 7.20000029F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(296, 122);
+            label2.Location = new Point(259, 92);
             label2.Name = "label2";
-            label2.Size = new Size(348, 178);
+            label2.Size = new Size(304, 134);
             label2.TabIndex = 4;
             label2.Text = resources.GetString("label2.Text");
             // 
@@ -105,9 +108,10 @@
             // 
             btn_Menu.BackColor = Color.Transparent;
             btn_Menu.Image = (Image)resources.GetObject("btn_Menu.Image");
-            btn_Menu.Location = new Point(295, 315);
+            btn_Menu.Location = new Point(258, 236);
+            btn_Menu.Margin = new Padding(3, 2, 3, 2);
             btn_Menu.Name = "btn_Menu";
-            btn_Menu.Size = new Size(193, 43);
+            btn_Menu.Size = new Size(169, 32);
             btn_Menu.SizeMode = PictureBoxSizeMode.StretchImage;
             btn_Menu.TabIndex = 5;
             btn_Menu.TabStop = false;
@@ -120,23 +124,24 @@
             // 
             // Frm_TelaHistoria
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(782, 553);
+            ClientSize = new Size(684, 415);
             Controls.Add(btn_Menu);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
+            Controls.Add(btn_Proximo);
+            Controls.Add(btn_Anterior);
             DoubleBuffered = true;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Frm_TelaHistoria";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "História";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btn_Anterior).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btn_Proximo).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Menu).EndInit();
             ResumeLayout(false);
@@ -144,8 +149,8 @@
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private PictureBox btn_Anterior;
+        private PictureBox btn_Proximo;
         private PictureBox pictureBox3;
         private Label label1;
         private Label label2;

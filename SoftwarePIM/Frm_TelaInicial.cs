@@ -34,10 +34,10 @@ namespace SoftwarePIM
         private void btn_Avaliacao_Click(object sender, EventArgs e)
         {
             // Criando uma instância do FormSecundario
-            Frm_TelaAvaliacao frm_TelaAvaliacao = new Frm_TelaAvaliacao();
+            Frm_Pergunta1 frm_Pergunta1 = new Frm_Pergunta1();
 
             // Exibindo o FormSecundario
-            frm_TelaAvaliacao.Show();
+            frm_Pergunta1.Show();
 
             // Fechar a Tela Inicial
             this.Hide();
