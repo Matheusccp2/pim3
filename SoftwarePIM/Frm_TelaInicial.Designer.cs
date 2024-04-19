@@ -39,12 +39,15 @@
             // 
             // btn_Historia
             // 
-            btn_Historia.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            btn_Historia.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             btn_Historia.BackColor = Color.Transparent;
             btn_Historia.Image = (Image)resources.GetObject("btn_Historia.Image");
-            btn_Historia.Location = new Point(298, 188);
+            btn_Historia.Location = new Point(294, 185);
+            btn_Historia.Margin = new Padding(3, 2, 3, 2);
+            btn_Historia.MaximumSize = new Size(196, 63);
+            btn_Historia.MinimumSize = new Size(196, 63);
             btn_Historia.Name = "btn_Historia";
-            btn_Historia.Size = new Size(186, 62);
+            btn_Historia.Size = new Size(196, 63);
             btn_Historia.SizeMode = PictureBoxSizeMode.Zoom;
             btn_Historia.TabIndex = 0;
             btn_Historia.TabStop = false;
@@ -52,12 +55,15 @@
             // 
             // btn_Mapa
             // 
-            btn_Mapa.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            btn_Mapa.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             btn_Mapa.BackColor = Color.Transparent;
             btn_Mapa.Image = (Image)resources.GetObject("btn_Mapa.Image");
-            btn_Mapa.Location = new Point(329, 97);
+            btn_Mapa.Location = new Point(316, 89);
+            btn_Mapa.Margin = new Padding(3, 2, 3, 2);
+            btn_Mapa.MaximumSize = new Size(153, 64);
+            btn_Mapa.MinimumSize = new Size(153, 64);
             btn_Mapa.Name = "btn_Mapa";
-            btn_Mapa.Size = new Size(125, 62);
+            btn_Mapa.Size = new Size(153, 64);
             btn_Mapa.SizeMode = PictureBoxSizeMode.Zoom;
             btn_Mapa.TabIndex = 1;
             btn_Mapa.TabStop = false;
@@ -65,12 +71,15 @@
             // 
             // btn_Avaliacao
             // 
-            btn_Avaliacao.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            btn_Avaliacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             btn_Avaliacao.BackColor = Color.Transparent;
             btn_Avaliacao.Image = (Image)resources.GetObject("btn_Avaliacao.Image");
-            btn_Avaliacao.Location = new Point(280, 279);
+            btn_Avaliacao.Location = new Point(245, 280);
+            btn_Avaliacao.Margin = new Padding(3, 2, 3, 2);
+            btn_Avaliacao.MaximumSize = new Size(295, 79);
+            btn_Avaliacao.MinimumSize = new Size(295, 79);
             btn_Avaliacao.Name = "btn_Avaliacao";
-            btn_Avaliacao.Size = new Size(223, 62);
+            btn_Avaliacao.Size = new Size(295, 79);
             btn_Avaliacao.SizeMode = PictureBoxSizeMode.Zoom;
             btn_Avaliacao.TabIndex = 2;
             btn_Avaliacao.TabStop = false;
@@ -78,15 +87,18 @@
             // 
             // Frm_TelaInicial
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(782, 553);
+            ClientSize = new Size(784, 561);
             Controls.Add(btn_Avaliacao);
             Controls.Add(btn_Mapa);
             Controls.Add(btn_Historia);
             DoubleBuffered = true;
+            Margin = new Padding(3, 2, 3, 2);
+            MaximumSize = new Size(800, 600);
+            MinimumSize = new Size(800, 600);
             Name = "Frm_TelaInicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
