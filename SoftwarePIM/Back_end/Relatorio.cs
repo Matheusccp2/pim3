@@ -32,7 +32,6 @@ namespace SoftwarePIM.Back_End
         #region Constructor
         public Relatorio(Dictionary<int, string> lista_idade, Dictionary<int, string> lista_alternativa, Dictionary<int, string> lista_muitoruim, Dictionary<int, string> lista_ruim, Dictionary<int, string> lista_regular, Dictionary<int, string> lista_bom, Dictionary<int, string> lista_muitobom)
         {
-
             this.lista_idade = lista_idade;           
             this.lista_alternativa = lista_alternativa;
 
@@ -45,20 +44,13 @@ namespace SoftwarePIM.Back_End
             calcular_media(lista_idade, lista_alternativa);
             
         }
-
-       
-
+        
         #endregion
 
         #region Metodos
-
-
-
         private void calcular_media(Dictionary<int, string> lista_idade,Dictionary<int, string> lista_alternativa)
 
         {
-
-
             int soma_idade;
 
             for (int i = 0; i < lista_idade.Count || i < lista_alternativa.Count; i++) {
@@ -70,15 +62,9 @@ namespace SoftwarePIM.Back_End
 
                 soma_idade = listaInt[i] + listaInt[-i];
                 
-
-
-
-
             }
 
         }
-
-
         #endregion
 
         #region propriedades
