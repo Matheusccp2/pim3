@@ -47,6 +47,8 @@
             btn_Anterior.Image = (Image)resources.GetObject("btn_Anterior.Image");
             btn_Anterior.Location = new Point(146, 331);
             btn_Anterior.Margin = new Padding(3, 2, 3, 2);
+            btn_Anterior.MaximumSize = new Size(35, 32);
+            btn_Anterior.MinimumSize = new Size(35, 32);
             btn_Anterior.Name = "btn_Anterior";
             btn_Anterior.Size = new Size(35, 32);
             btn_Anterior.SizeMode = PictureBoxSizeMode.Zoom;
@@ -59,6 +61,8 @@
             btn_Proximo.Image = (Image)resources.GetObject("btn_Proximo.Image");
             btn_Proximo.Location = new Point(597, 331);
             btn_Proximo.Margin = new Padding(3, 2, 3, 2);
+            btn_Proximo.MaximumSize = new Size(35, 32);
+            btn_Proximo.MinimumSize = new Size(35, 32);
             btn_Proximo.Name = "btn_Proximo";
             btn_Proximo.Size = new Size(35, 32);
             btn_Proximo.SizeMode = PictureBoxSizeMode.Zoom;
@@ -72,6 +76,8 @@
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(146, 85);
             pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.MaximumSize = new Size(156, 242);
+            pictureBox3.MinimumSize = new Size(156, 242);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(156, 242);
             pictureBox3.TabIndex = 2;
@@ -83,6 +89,8 @@
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(0, 192, 192);
             label1.Location = new Point(308, 85);
+            label1.MaximumSize = new Size(324, 32);
+            label1.MinimumSize = new Size(324, 32);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
             label1.Size = new Size(324, 32);
@@ -97,6 +105,8 @@
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
             label2.Location = new Point(318, 127);
+            label2.MaximumSize = new Size(314, 200);
+            label2.MinimumSize = new Size(314, 200);
             label2.Name = "label2";
             label2.Size = new Size(314, 200);
             label2.TabIndex = 4;
@@ -108,6 +118,8 @@
             btn_Menu.Image = (Image)resources.GetObject("btn_Menu.Image");
             btn_Menu.Location = new Point(308, 331);
             btn_Menu.Margin = new Padding(3, 2, 3, 2);
+            btn_Menu.MaximumSize = new Size(169, 32);
+            btn_Menu.MinimumSize = new Size(169, 32);
             btn_Menu.Name = "btn_Menu";
             btn_Menu.Size = new Size(169, 32);
             btn_Menu.SizeMode = PictureBoxSizeMode.StretchImage;

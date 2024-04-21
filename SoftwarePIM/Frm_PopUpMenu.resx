@@ -121,7 +121,7 @@
   <data name="btn_Sim.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAF0AAAAwCAYAAABzG3ZHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABhlJREFUeF7tnM9rG0cUx/0ftFffiq66+uhDL/LRx9xCc/DRCYU4NGmT1nJN80OV
+        EAAACxABrSO9dQAABhlJREFUeF7tnM9rG0cUx/0ftFffiq66+uhDL/LRx9xCc/DRCYU4NGmT1nJN80OV
         HBtK0zStQ4kvSSHBDcV1IWrAKWkdexyndmtQq1rrQAsBQaAhhoA6390de+btW2kl7ShIq4FPbO/82vnu
         2zdvZnczEEfKrTpv59d2382LvfmCcERB7JXlz1r3446jmBfObYwP4/SH/HqSK/Tjyow8qap5or3OXhnG
         dV6U3/KlsJ8gtuy8GDyZRFK0av24suiEdNpHYsXy5S31jmw81I1c+OWvV2PfFp+NfnGrMjT92U5q4pMn
@@ -153,7 +153,7 @@
   <data name="btn_Nao.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAF0AAAAwCAYAAABzG3ZHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABrxJREFUeF7tXM9LXFcU9j9ot+6KW7cuLXSjS3fNTpqFSw2FGJqYxGasNBo7YxRK
+        EAAACxABrSO9dQAABrxJREFUeF7tXM9LXFcU9j9ot+6KW7cuLXSjS3fNTpqFSw2FGJqYxGasNBo7YxRK
         0hBqqLrRgsGEYC1kKqikNXqNaaYVbAfnmdKAMCAoEQR7v3nv2vPOO29m3vONo85c+Bq87/787rnfOffO
         e62JIg0sWZ/Elzc/j6utkYSyVEJtpfW/h2cfuXkk48qawvwwT2fK5Uk5ol9lBvWgsu6BnndspWFct1X6
         I4eK0ieQrTtPegdTkUiW1PqxsuiEdVqFRkksX2+pz3TjvjLS9+vfB20/JrdbvpvMNPR+u17X+fXrD9qu
@@ -188,7 +188,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA5cAAAETCAYAAACiK/ICAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAKKlJREFUeF7t3V/MblldH/CT9K5e1JQ7aoLWwBxD7c3MzXnH86fEYInYKiZSVGIT
+        EAAACxABrSO9dQAAKKlJREFUeF7t3V/MblldH/CT9K5e1JQ7aoLWwBxD7c3MzXnH86fEYInYKiZSVGIT
         cKLpIFQx6TCEJmLipGbamJC0odEmtGpKMjV4U6e3owne1EvPfVMYgQKKoBb65/2dcxb+ZrH2b6+93ucZ
         mDmfN/nAnPdZez9rr732Wuu79/O+77XVrzc8fvvm9Rs3n3zkxu2PP3Jx++71G7c/ffn/fwEAAMArQ+S4
         N1zc/sP7ue7W05HzHkS+835955073/7IxZ2nBUkAAIBXrbvXL25/9LsuLl73IAqe7uteqHz8zq8O3hQA

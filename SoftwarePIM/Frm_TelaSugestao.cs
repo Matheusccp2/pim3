@@ -28,7 +28,11 @@ namespace SoftwarePIM
 
         private void btn_Proximo_Click(object sender, EventArgs e)
         {
+            Frm_RegistroUsuario frm_RegistroUsuario = new Frm_RegistroUsuario();
 
+            frm_RegistroUsuario.ShowDialog();
+            
+            this.Hide();
         }
     }
 }

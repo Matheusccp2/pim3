@@ -61,6 +61,8 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(161, 85);
+            pictureBox1.MaximumSize = new Size(463, 53);
+            pictureBox1.MinimumSize = new Size(463, 53);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(463, 53);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -72,6 +74,8 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(161, 162);
+            pictureBox2.MaximumSize = new Size(463, 164);
+            pictureBox2.MinimumSize = new Size(463, 164);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(463, 164);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -83,6 +87,8 @@
             btn_VoltarMenu.BackColor = Color.Transparent;
             btn_VoltarMenu.Image = (Image)resources.GetObject("btn_VoltarMenu.Image");
             btn_VoltarMenu.Location = new Point(161, 332);
+            btn_VoltarMenu.MaximumSize = new Size(124, 35);
+            btn_VoltarMenu.MinimumSize = new Size(124, 35);
             btn_VoltarMenu.Name = "btn_VoltarMenu";
             btn_VoltarMenu.Size = new Size(124, 35);
             btn_VoltarMenu.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -95,18 +101,22 @@
             btn_ProximaPergunta.BackColor = Color.Transparent;
             btn_ProximaPergunta.Image = (Image)resources.GetObject("btn_ProximaPergunta.Image");
             btn_ProximaPergunta.Location = new Point(500, 332);
+            btn_ProximaPergunta.MaximumSize = new Size(124, 35);
+            btn_ProximaPergunta.MinimumSize = new Size(124, 35);
             btn_ProximaPergunta.Name = "btn_ProximaPergunta";
             btn_ProximaPergunta.Size = new Size(124, 35);
             btn_ProximaPergunta.SizeMode = PictureBoxSizeMode.StretchImage;
             btn_ProximaPergunta.TabIndex = 3;
             btn_ProximaPergunta.TabStop = false;
-            btn_ProximaPergunta.Click += this.btn_ProximaPergunta_Click;
+            btn_ProximaPergunta.Click += btn_ProximaPergunta_Click;
             // 
             // rbt_MuitoRuim
             // 
             rbt_MuitoRuim.AutoSize = true;
             rbt_MuitoRuim.BackColor = Color.Transparent;
             rbt_MuitoRuim.Location = new Point(209, 289);
+            rbt_MuitoRuim.MaximumSize = new Size(14, 13);
+            rbt_MuitoRuim.MinimumSize = new Size(14, 13);
             rbt_MuitoRuim.Name = "rbt_MuitoRuim";
             rbt_MuitoRuim.Size = new Size(14, 13);
             rbt_MuitoRuim.TabIndex = 4;
@@ -118,6 +128,8 @@
             rbt_Ruim.AutoSize = true;
             rbt_Ruim.BackColor = Color.Transparent;
             rbt_Ruim.Location = new Point(302, 289);
+            rbt_Ruim.MaximumSize = new Size(14, 13);
+            rbt_Ruim.MinimumSize = new Size(14, 13);
             rbt_Ruim.Name = "rbt_Ruim";
             rbt_Ruim.Size = new Size(14, 13);
             rbt_Ruim.TabIndex = 5;
@@ -129,6 +141,8 @@
             rbt_Regular.AutoSize = true;
             rbt_Regular.BackColor = Color.Transparent;
             rbt_Regular.Location = new Point(388, 289);
+            rbt_Regular.MaximumSize = new Size(14, 13);
+            rbt_Regular.MinimumSize = new Size(14, 13);
             rbt_Regular.Name = "rbt_Regular";
             rbt_Regular.Size = new Size(14, 13);
             rbt_Regular.TabIndex = 6;
@@ -140,6 +154,8 @@
             rbt_Bom.AutoSize = true;
             rbt_Bom.BackColor = Color.Transparent;
             rbt_Bom.Location = new Point(476, 289);
+            rbt_Bom.MaximumSize = new Size(14, 13);
+            rbt_Bom.MinimumSize = new Size(14, 13);
             rbt_Bom.Name = "rbt_Bom";
             rbt_Bom.Size = new Size(14, 13);
             rbt_Bom.TabIndex = 7;
@@ -151,6 +167,8 @@
             rbt_MuitoBom.AutoSize = true;
             rbt_MuitoBom.BackColor = Color.Transparent;
             rbt_MuitoBom.Location = new Point(568, 289);
+            rbt_MuitoBom.MaximumSize = new Size(14, 13);
+            rbt_MuitoBom.MinimumSize = new Size(14, 13);
             rbt_MuitoBom.Name = "rbt_MuitoBom";
             rbt_MuitoBom.Size = new Size(14, 13);
             rbt_MuitoBom.TabIndex = 8;
@@ -162,6 +180,8 @@
             pictureBox5.BackColor = Color.Transparent;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.Location = new Point(171, 175);
+            pictureBox5.MaximumSize = new Size(443, 37);
+            pictureBox5.MinimumSize = new Size(443, 37);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(443, 37);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -174,6 +194,8 @@
             pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
             pictureBox6.Location = new Point(187, 218);
+            pictureBox6.MaximumSize = new Size(55, 55);
+            pictureBox6.MinimumSize = new Size(55, 55);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(55, 55);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -186,6 +208,8 @@
             pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
             pictureBox7.Location = new Point(368, 218);
+            pictureBox7.MaximumSize = new Size(55, 55);
+            pictureBox7.MinimumSize = new Size(55, 55);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(55, 55);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -198,6 +222,8 @@
             pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
             pictureBox8.Location = new Point(279, 218);
+            pictureBox8.MaximumSize = new Size(55, 55);
+            pictureBox8.MinimumSize = new Size(55, 55);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(55, 55);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -210,6 +236,8 @@
             pictureBox9.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
             pictureBox9.Location = new Point(454, 218);
+            pictureBox9.MaximumSize = new Size(55, 55);
+            pictureBox9.MinimumSize = new Size(55, 55);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(55, 55);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -222,6 +250,8 @@
             pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
             pictureBox10.Location = new Point(547, 218);
+            pictureBox10.MaximumSize = new Size(55, 55);
+            pictureBox10.MinimumSize = new Size(55, 55);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(55, 55);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;

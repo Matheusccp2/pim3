@@ -44,6 +44,8 @@
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(155, 82);
+            pictureBox1.MaximumSize = new Size(475, 46);
+            pictureBox1.MinimumSize = new Size(475, 46);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(475, 46);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -56,6 +58,8 @@
             txb_Sugestao.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             txb_Sugestao.ForeColor = SystemColors.ControlText;
             txb_Sugestao.Location = new Point(155, 157);
+            txb_Sugestao.MaximumSize = new Size(475, 160);
+            txb_Sugestao.MinimumSize = new Size(475, 160);
             txb_Sugestao.Multiline = true;
             txb_Sugestao.Name = "txb_Sugestao";
             txb_Sugestao.PlaceholderText = "  Deixe a sua opinião aqui...";
@@ -67,6 +71,8 @@
             btn_Proximo.BackColor = Color.Transparent;
             btn_Proximo.Image = (Image)resources.GetObject("btn_Proximo.Image");
             btn_Proximo.Location = new Point(500, 332);
+            btn_Proximo.MaximumSize = new Size(124, 35);
+            btn_Proximo.MinimumSize = new Size(124, 35);
             btn_Proximo.Name = "btn_Proximo";
             btn_Proximo.Size = new Size(124, 35);
             btn_Proximo.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -79,6 +85,8 @@
             btn_VoltarMenu.BackColor = Color.Transparent;
             btn_VoltarMenu.Image = (Image)resources.GetObject("btn_VoltarMenu.Image");
             btn_VoltarMenu.Location = new Point(161, 332);
+            btn_VoltarMenu.MaximumSize = new Size(124, 35);
+            btn_VoltarMenu.MinimumSize = new Size(124, 35);
             btn_VoltarMenu.Name = "btn_VoltarMenu";
             btn_VoltarMenu.Size = new Size(124, 35);
             btn_VoltarMenu.SizeMode = PictureBoxSizeMode.StretchImage;
