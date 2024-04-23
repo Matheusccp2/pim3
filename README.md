@@ -58,10 +58,10 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 ## 👨‍🎓👨‍🎓👨‍🎓 Desenvolvedores
 - [Matheus Costa Caetano Pinto](https://github.com/Matheusccp2)
 - [Juan Gabriel](https://github.com/JuanGabriel741)
-- David Rodgers
+- [David Rodgers](https://github.com/DavidRodgersNunes)
 - Fernando Fernandes
 - Roberta Oliveira
-- João
+- [João Vitor](https://github.com/joooaovitor)
 
 
 
