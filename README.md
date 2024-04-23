@@ -61,7 +61,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 - [David Rodgers](https://github.com/DavidRodgersNunes)
 - Fernando Fernandes
 - Roberta Oliveira
-- [João Vitor](https://github.com/joooaovitor)
+- [João Vitor](https://github.com/joooavitor)
 
 
 
