@@ -12,6 +12,9 @@ namespace SoftwarePIM
 {
     public partial class Frm_PopUpMenu : Form
     {
+        public Form? FormAnterior { get; set; }
+        public Form? FormPrincipal { get; set; }
+
         public Frm_PopUpMenu()
         {
             InitializeComponent();
@@ -19,17 +22,12 @@ namespace SoftwarePIM
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Frm_TelaInicial frm_TelaInicial = new Frm_TelaInicial();
-
-            frm_TelaInicial.Show();
-
-            this.Hide();
-
+            this.Close();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

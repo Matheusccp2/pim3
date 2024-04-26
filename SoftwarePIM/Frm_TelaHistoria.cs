@@ -19,14 +19,29 @@ namespace SoftwarePIM
 
         private void btn_Menu_Click(object sender, EventArgs e)
         {
-            // Criando uma instância da Tela do Mapa
-            Frm_TelaInicial frm_TelaInicial = new Frm_TelaInicial();
-
-            // Exibindo o FormSecundario
-            frm_TelaInicial.Show();
-
-            // Fechar a Tela Inicial
-            this.Hide();
+            this.Close();
         }
+
+        //private void btn_Proximo_Click(object sender, EventArgs e)
+        //{
+        //    Frm_TelaHistoria2 frm_TelaHistoria2 = new Frm_TelaHistoria2();
+        //    frm_TelaHistoria2.FormAnterior = this;
+        //    frm_TelaHistoria2.FormPrincipal = this.FormPrincipal;
+        //    frm_TelaHistoria2.Show();
+        //    frm_TelaHistoria2.BringToFront();
+        //}
+
+        private void Frm_TelaHistoria_Load(object sender, EventArgs e)
+        {
+            this.FormPrincipal?.Hide();
+        }
+
+        private void Frm_TelaHistoria_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.FormPrincipal?.Show();
+        }
+
+        public Form? FormAnterior { get; set; }
+        public Form? FormPrincipal { get; set; }
     }
 }

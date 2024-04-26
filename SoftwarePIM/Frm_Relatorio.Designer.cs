@@ -84,7 +84,7 @@
             // 
             btn_Confirmar.BackColor = Color.Transparent;
             btn_Confirmar.Image = (Image)resources.GetObject("btn_Confirmar.Image");
-            btn_Confirmar.Location = new Point(330, 331);
+            btn_Confirmar.Location = new Point(330, 333);
             btn_Confirmar.MaximumSize = new Size(124, 35);
             btn_Confirmar.MinimumSize = new Size(124, 35);
             btn_Confirmar.Name = "btn_Confirmar";
@@ -92,6 +92,7 @@
             btn_Confirmar.SizeMode = PictureBoxSizeMode.StretchImage;
             btn_Confirmar.TabIndex = 2;
             btn_Confirmar.TabStop = false;
+            btn_Confirmar.Click += btn_Confirmar_Click;
             // 
             // pictureBox4
             // 
@@ -299,7 +300,10 @@
             MaximumSize = new Size(800, 600);
             MinimumSize = new Size(800, 600);
             Name = "Frm_Relatorio";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Relatório";
+            FormClosing += Frm_Relatorio_FormClosing;
+            Load += Frm_Relatorio_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Confirmar).EndInit();

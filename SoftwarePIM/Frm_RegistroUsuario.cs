@@ -12,6 +12,10 @@ namespace SoftwarePIM
 {
     public partial class Frm_RegistroUsuario : Form
     {
+        public Form? FormAnterior { get; set; }
+        public Form? FormPrincipal { get; set; }
+        public Form? FormAnterior2 { get; set; }
+
         public Frm_RegistroUsuario()
         {
             InitializeComponent();
@@ -19,11 +23,19 @@ namespace SoftwarePIM
 
         private void btn_Confirmar_Click(object sender, EventArgs e)
         {
-            Frm_Relatorio frm_Relatorio = new Frm_Relatorio();
+            var frm_Relatorio = new Frm_Relatorio();
+            frm_Relatorio.FormAnterior = this;
+            frm_Relatorio.FormPrincipal = this.FormPrincipal;
+            frm_Relatorio.Show();
+            frm_Relatorio.BringToFront();
+            
 
-            frm_Relatorio.ShowDialog();
+            //Frm_Relatorio frm_Relatorio = new Frm_Relatorio();
 
-            this.Hide();
+            //frm_Relatorio.ShowDialog();
+
+            //this.Hide();
         }
+
     }
 }

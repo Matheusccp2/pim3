@@ -15,8 +15,7 @@ namespace SoftwarePIM
             // Exibindo o FormSecundario
             frm_TelaMapa.Show();
 
-            // Fechar a Tela Inicial
-            this.Hide();
+            //frm_TelaMapa.FormPrincipal = this;
         }
 
         private void btn_Historia_Click(object sender, EventArgs e)
@@ -24,11 +23,11 @@ namespace SoftwarePIM
             // Criando uma instância do FormSecundario
             Frm_TelaHistoria frm_TelaHistoria = new Frm_TelaHistoria();
 
+            frm_TelaHistoria.FormPrincipal = this;
+
             // Exibindo o FormSecundario
             frm_TelaHistoria.Show();
 
-            // Fechar a Tela Inicial
-            this.Hide();
         }
 
         private void btn_Avaliacao_Click(object sender, EventArgs e)
@@ -36,11 +35,10 @@ namespace SoftwarePIM
             // Criando uma instância do FormSecundario
             Frm_Pergunta1 frm_Pergunta1 = new Frm_Pergunta1();
 
+            frm_Pergunta1.FormPrincipal = this;
+
             // Exibindo o FormSecundario
             frm_Pergunta1.Show();
-
-            // Fechar a Tela Inicial
-            this.Hide();
         }
     }
 }

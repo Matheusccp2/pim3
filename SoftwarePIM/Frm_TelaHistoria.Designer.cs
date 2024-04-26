@@ -68,6 +68,7 @@
             btn_Proximo.SizeMode = PictureBoxSizeMode.Zoom;
             btn_Proximo.TabIndex = 1;
             btn_Proximo.TabStop = false;
+            //btn_Proximo.Click += btn_Proximo_Click;
             // 
             // pictureBox3
             // 
@@ -147,6 +148,8 @@
             Name = "Frm_TelaHistoria";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "História";
+            FormClosing += Frm_TelaHistoria_FormClosing;
+            Load += Frm_TelaHistoria_Load;
             ((System.ComponentModel.ISupportInitialize)btn_Anterior).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Proximo).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

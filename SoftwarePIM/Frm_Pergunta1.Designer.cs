@@ -286,6 +286,8 @@
             Name = "Frm_Pergunta1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_TelaPerguntas";
+            FormClosing += Frm_Pergunta1_FormClosing;
+            Load += Frm_Pergunta1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_VoltarMenu).EndInit();
