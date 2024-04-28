@@ -9,19 +9,23 @@ namespace SoftwarePIM.Modelo
 {
     internal class Validacao
     {
+        #region Propriedades
         private int idadei;
         private string mensagem;
         private string nome;
         private string idade;
+        #endregion
 
+        #region Construtor
         public Validacao(string nome, string idade)
         {
             this.nome = nome;
             this.idade = idade;
             this.Validar(nome, idade);
         }
+        #endregion
 
-
+        #region Metodos
         private void Validar(string nome, string idade)
         {
             this.mensagem = "ok";
@@ -38,15 +42,12 @@ namespace SoftwarePIM.Modelo
                     this.mensagem = "O nome não pode conter caracteres especiais.";
                 }
 
-                foreach (char c in nome)
+                foreach (char c in nome) //Verifica se esta sendo acrescido 2 espaços entre os caracteres
                 {
 
                     if (c == ' ' && i == ' ')
-
                     {
-
                         contadorEspacos++;
-
 
                         if (contadorEspacos >= 1)
                         {
@@ -55,11 +56,9 @@ namespace SoftwarePIM.Modelo
                     }
                     else
                     {
-
                         contadorEspacos = 0;
                     }
                     i = c;
-
 
                 }
 
@@ -71,7 +70,6 @@ namespace SoftwarePIM.Modelo
                     }
                 }
 
-
                 if (nome.Length > 255 || nome.Length < 3)
                 {
                     this.mensagem = "O nome deve conter entre 3 a 255 caracteres";
@@ -81,22 +79,21 @@ namespace SoftwarePIM.Modelo
                     this.mensagem = "Idade com valor invalido, digite um numero com valor entre 1 a 110";
                 }
 
-
-
-
             }
             catch (Exception)
             {
                 this.mensagem = "Digite dados válidos";
-
-
             }
 
         }
+        #endregion
+
+        #region Encapsulamento
 
         public string Mensagem
         {
             get { return this.mensagem; }
         }
+        #endregion
     }
 }
