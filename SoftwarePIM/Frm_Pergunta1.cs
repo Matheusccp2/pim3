@@ -53,46 +53,55 @@ namespace SoftwarePIM
 
             // Passa para o próximo painel
             painelAtual++;
-            if (painelAtual > 6)
-                painelAtual = 1;
+            //if (painelAtual > 6)
+            //    painelAtual = 1;
 
-            // Exibe o próximo painel
-            switch (painelAtual)
+            if (painelAtual > 5)
             {
-                case 1:
-                    panel1.Visible = true;
-                    break;
-                case 2:
-                    panel2.Visible = true;
-                    break;
-                case 3:
-                    panel3.Visible = true;
-                    break;
-                case 4:
-                    panel4.Visible = true;
-                    break;
-                case 5:
-                    panel5.Visible = true;
-                    break;
+                painelAtual = 1;
+                // Abre um novo formulário
+                AbrirNovoFormulario();
+            }
+            else
+            {
 
-                //case 6:
-                //    Frm_TelaSugestao frm_TelaSugestao = new Frm_TelaSugestao();
-                //    frm_TelaSugestao.FormAnterior = this;
-                //    frm_TelaSugestao.FormPrincipal2 = this;
-                //    frm_TelaSugestao.FormPrincipal = this.FormPrincipal;
-                //    frm_TelaSugestao.Show();
-                //    frm_TelaSugestao.BringToFront();
-
-                    //Frm_TelaSugestao frm_TelaSugestao = new Frm_TelaSugestao();
-
-                    //frm_TelaSugestao.Show();
-
-                    //this.Hide();
-
-
+                // Exibe o próximo painel
+                switch (painelAtual)
+                {
+                    case 1:
+                        panel1.Visible = true;
+                        break;
+                    case 2:
+                        panel2.Visible = true;
+                        break;
+                    case 3:
+                        panel3.Visible = true;
+                        break;
+                    case 4:
+                        panel4.Visible = true;
+                        break;
+                    case 5:
+                        panel5.Visible = true;
+                        break;
+                }
             }
 
+        }
 
+        private void AbrirNovoFormulario()
+        {
+            // Crie uma instância do novo formulário
+            Frm_TelaSugestao frm_TelaSugestao = new Frm_TelaSugestao();
+            // Defina o formulário atual como o formulário anterior no novo formulário
+            frm_TelaSugestao.FormAnterior = this;
+            // Defina o formulário atual como o formulário principal no novo formulário
+            frm_TelaSugestao.FormPrincipal2 = this;
+            // Defina o formulário principal no novo formulário
+            frm_TelaSugestao.FormPrincipal = this.FormPrincipal;
+            // Exiba o novo formulário
+            frm_TelaSugestao.Show();
+            // Traga o novo formulário para a frente
+            frm_TelaSugestao.BringToFront();
         }
 
         private void Frm_Pergunta1_Load(object sender, EventArgs e)
