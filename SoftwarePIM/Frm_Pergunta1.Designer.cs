@@ -1093,6 +1093,7 @@
             rbt_MuitoBomPg5.TabIndex = 21;
             rbt_MuitoBomPg5.TabStop = true;
             rbt_MuitoBomPg5.UseVisualStyleBackColor = false;
+            rbt_MuitoBomPg5.CheckedChanged += rbt_MuitoBomPg5_CheckedChanged;
             // 
             // rbt_BomPg5
             // 
@@ -1106,6 +1107,7 @@
             rbt_BomPg5.TabIndex = 20;
             rbt_BomPg5.TabStop = true;
             rbt_BomPg5.UseVisualStyleBackColor = false;
+            rbt_BomPg5.CheckedChanged += rbt_BomPg5_CheckedChanged;
             // 
             // rbt_RegularPg5
             // 
@@ -1119,6 +1121,7 @@
             rbt_RegularPg5.TabIndex = 19;
             rbt_RegularPg5.TabStop = true;
             rbt_RegularPg5.UseVisualStyleBackColor = false;
+            rbt_RegularPg5.CheckedChanged += rbt_RegularPg5_CheckedChanged;
             // 
             // rbt_RuimPg5
             // 
@@ -1132,6 +1135,7 @@
             rbt_RuimPg5.TabIndex = 18;
             rbt_RuimPg5.TabStop = true;
             rbt_RuimPg5.UseVisualStyleBackColor = false;
+            rbt_RuimPg5.CheckedChanged += rbt_RuimPg5_CheckedChanged;
             // 
             // rbt_MuitoRuimPg5
             // 

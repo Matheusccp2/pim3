@@ -47,6 +47,7 @@
             txb_NomeUsuario.Name = "txb_NomeUsuario";
             txb_NomeUsuario.Size = new Size(203, 23);
             txb_NomeUsuario.TabIndex = 0;
+            txb_NomeUsuario.TextChanged += txb_NomeUsuario_TextChanged;
             // 
             // txb_IdadeUsuario
             // 

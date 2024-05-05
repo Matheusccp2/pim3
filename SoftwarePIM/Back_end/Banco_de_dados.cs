@@ -26,24 +26,32 @@ namespace SoftwarePIM.Back_End
         private int total_menos18;
         private int total_mais60;
 
-        public Banco_de_dados(string nome, int idade, int muitoruim, int ruim, int regular, int bom, int muitobom)
+        public Banco_de_dados(int muitoruim, int ruim, int regular, int bom, int muitobom)
+
+        {
+           
+
+            Armazenar_alternativas(muitoruim, ruim, regular, bom, muitobom);
+
+        }
+
+        public Banco_de_dados(string nome, int idade)
 
         {
             if (idade < 18) this.total_menos18++;
             if (idade > 18) this.total_mais18++;
             if (idade > 18) this.total_mais60++;
-
             this.nome = nome;
             this.idade = idade;
             Armazenar_nome_idade(nome, idade);
-            Armazenar_alternativas(muitoruim, ruim, regular, bom, muitobom);
-
+            Armazenar_id_visitante();
         }
 
         private void Armazenar_id_visitante()
         {
 
             for (int i = 0; i < this.lista_id_visitante.Count; i++)
+
             {
 
                 this.lista_id_visitante.Add(this.lista_id_visitante[i] + 1);

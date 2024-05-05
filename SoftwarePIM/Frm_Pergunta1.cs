@@ -13,6 +13,9 @@ namespace SoftwarePIM
 {
     public partial class Frm_Pergunta1 : Form
     {
+        private char alternativa; //varial que vai receber a alternativa escolhida pelo visitante
+        private char numero_pergunta; //variavel que vai receber o numero da pergunta
+
         public Form? FormAnterior { get; set; }
         public Form? FormPrincipal { get; set; }
 
@@ -21,11 +24,12 @@ namespace SoftwarePIM
             InitializeComponent();
         }
 
-        private void gerar_relatorio() { 
-        
-            Controle controle = new Controle();
+        private void gerar_relatorio(char alternativa)
 
-        
+        {
+
+            Controle controle = new Controle(alternativa);
+
         }
 
         private void btn_VoltarMenu_Click(object sender, EventArgs e)
@@ -37,10 +41,7 @@ namespace SoftwarePIM
 
         private void btn_ProximaPergunta_Click(object sender, EventArgs e)
         {
-            //vai acionar o programa para gerar o relatorio
-
-            if () { }
-            gerar_relatorio();
+            
             // Esconde o painel atual
             switch (painelAtual)
             {
@@ -81,21 +82,29 @@ namespace SoftwarePIM
                 {
                     case 1:
                         panel1.Visible = true;
+                        numero_pergunta = '1';
                         break;
                     case 2:
                         panel2.Visible = true;
+                        numero_pergunta = '2';
                         break;
                     case 3:
                         panel3.Visible = true;
+                        numero_pergunta = '3';
                         break;
                     case 4:
                         panel4.Visible = true;
+                        numero_pergunta = '4';
                         break;
                     case 5:
                         panel5.Visible = true;
+                        numero_pergunta = '5';
                         break;
                 }
             }
+
+            //vai acionar o programa para gerar o relatorio
+            gerar_relatorio(this.alternativa);
 
         }
 
@@ -133,7 +142,27 @@ namespace SoftwarePIM
 
         private void rbt_MuitoRuimPg5_CheckedChanged(object sender, EventArgs e)
         {
+            this.alternativa = '1';
+        }
 
+        private void rbt_RuimPg5_CheckedChanged(object sender, EventArgs e)
+        {
+            this.alternativa = '2';
+        }
+
+        private void rbt_RegularPg5_CheckedChanged(object sender, EventArgs e)
+        {
+            this.alternativa = '3';
+        }
+
+        private void rbt_BomPg5_CheckedChanged(object sender, EventArgs e)
+        {
+            this.alternativa = '4';
+        }
+
+        private void rbt_MuitoBomPg5_CheckedChanged(object sender, EventArgs e)
+        {
+            this.alternativa = '5';
         }
     }
 }

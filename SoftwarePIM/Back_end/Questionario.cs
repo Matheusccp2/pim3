@@ -13,14 +13,15 @@ namespace SoftwarePIM.Modelo
         private int regular;
         private int bom;
         private int muitobom;
+        
 
         public Questionario(char alternativa)
         {
-            Resetar();
+            
             Verificar(alternativa);
         }
 
-        private void Resetar()
+        /*private void Resetar()
         {
 
             this.muitoruim = 0;
@@ -28,11 +29,12 @@ namespace SoftwarePIM.Modelo
             this.regular = 0;
             this.bom = 0;
             this.muitobom = 0;
-        }
+        }*/
 
         private void Verificar(char alternativa)
 
         {
+            
             switch (alternativa)
             {
                 case '1': this.muitoruim++; break;
