@@ -1178,7 +1178,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(784, 561);
+            ClientSize = new Size(1904, 1041);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -1187,8 +1187,6 @@
             Controls.Add(btn_ProximaPergunta);
             Controls.Add(btn_VoltarMenu);
             DoubleBuffered = true;
-            MaximumSize = new Size(800, 600);
-            MinimumSize = new Size(800, 600);
             Name = "Frm_Pergunta1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_TelaPerguntas";
