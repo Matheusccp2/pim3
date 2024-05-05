@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoftwarePIM.Back_end;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,13 @@ namespace SoftwarePIM
             InitializeComponent();
         }
 
+        private void gerar_relatorio() { 
+        
+            Controle controle = new Controle();
+
+        
+        }
+
         private void btn_VoltarMenu_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -29,7 +37,10 @@ namespace SoftwarePIM
 
         private void btn_ProximaPergunta_Click(object sender, EventArgs e)
         {
+            //vai acionar o programa para gerar o relatorio
 
+            if () { }
+            gerar_relatorio();
             // Esconde o painel atual
             switch (painelAtual)
             {
@@ -113,6 +124,16 @@ namespace SoftwarePIM
         private void Frm_Pergunta1_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.FormPrincipal?.Show();
+        }
+
+        private void pictureBox40_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbt_MuitoRuimPg5_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

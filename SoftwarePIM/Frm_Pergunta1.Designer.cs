@@ -1145,6 +1145,7 @@
             rbt_MuitoRuimPg5.TabIndex = 17;
             rbt_MuitoRuimPg5.TabStop = true;
             rbt_MuitoRuimPg5.UseVisualStyleBackColor = false;
+            rbt_MuitoRuimPg5.CheckedChanged += rbt_MuitoRuimPg5_CheckedChanged;
             // 
             // pictureBox39
             // 
@@ -1171,6 +1172,7 @@
             pictureBox40.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox40.TabIndex = 15;
             pictureBox40.TabStop = false;
+            pictureBox40.Click += pictureBox40_Click;
             // 
             // Frm_Pergunta1
             // 
