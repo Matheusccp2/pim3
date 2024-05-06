@@ -33,12 +33,12 @@ namespace SoftwarePIM
         private void btn_Avaliacao_Click(object sender, EventArgs e)
         {
             // Criando uma instância do FormSecundario
-            Frm_Pergunta1 frm_Pergunta1 = new Frm_Pergunta1();
+            Frm_TelaPerguntas frm_TelaPerguntas = new Frm_TelaPerguntas();
 
-            frm_Pergunta1.FormPrincipal = this;
+            frm_TelaPerguntas.FormPrincipal = this;
 
             // Exibindo o FormSecundario
-            frm_Pergunta1.Show();
+            frm_TelaPerguntas.Show();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace SoftwarePIM
 {
-    partial class Frm_Pergunta1
+    partial class Frm_TelaPerguntas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Pergunta1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_TelaPerguntas));
             btn_VoltarMenu = new PictureBox();
             btn_ProximaPergunta = new PictureBox();
             panel1 = new Panel();
@@ -215,6 +215,7 @@
             pcb_MuitoBomPg1.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoBomPg1.TabIndex = 27;
             pcb_MuitoBomPg1.TabStop = false;
+            pcb_MuitoBomPg1.Click += pcb_MuitoBomPg1_Click;
             // 
             // pcb_BomPg1
             // 
@@ -229,6 +230,7 @@
             pcb_BomPg1.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_BomPg1.TabIndex = 26;
             pcb_BomPg1.TabStop = false;
+            pcb_BomPg1.Click += pcb_BomPg1_Click;
             // 
             // pcb_RuimPg1
             // 
@@ -243,6 +245,7 @@
             pcb_RuimPg1.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RuimPg1.TabIndex = 25;
             pcb_RuimPg1.TabStop = false;
+            pcb_RuimPg1.Click += pcb_RuimPg1_Click;
             // 
             // pcb_RegularPg1
             // 
@@ -257,6 +260,7 @@
             pcb_RegularPg1.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RegularPg1.TabIndex = 24;
             pcb_RegularPg1.TabStop = false;
+            pcb_RegularPg1.Click += pcb_RegularPg1_Click;
             // 
             // pcb_MuitoRuimPg1
             // 
@@ -270,6 +274,7 @@
             pcb_MuitoRuimPg1.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoRuimPg1.TabIndex = 23;
             pcb_MuitoRuimPg1.TabStop = false;
+            pcb_MuitoRuimPg1.Click += pcb_MuitoRuimPg1_Click;
             // 
             // pictureBox5
             // 
@@ -413,6 +418,7 @@
             pcb_MuitoBomPg2.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoBomPg2.TabIndex = 27;
             pcb_MuitoBomPg2.TabStop = false;
+            pcb_MuitoBomPg2.Click += pcb_MuitoBomPg2_Click;
             // 
             // pcb_BomPg2
             // 
@@ -427,6 +433,7 @@
             pcb_BomPg2.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_BomPg2.TabIndex = 26;
             pcb_BomPg2.TabStop = false;
+            pcb_BomPg2.Click += pcb_BomPg2_Click;
             // 
             // pcb_RuimPg2
             // 
@@ -441,6 +448,7 @@
             pcb_RuimPg2.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RuimPg2.TabIndex = 25;
             pcb_RuimPg2.TabStop = false;
+            pcb_RuimPg2.Click += pcb_RuimPg2_Click;
             // 
             // pcb_RegularPg2
             // 
@@ -455,6 +463,7 @@
             pcb_RegularPg2.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RegularPg2.TabIndex = 24;
             pcb_RegularPg2.TabStop = false;
+            pcb_RegularPg2.Click += pcb_RegularPg2_Click;
             // 
             // pcb_MuitoRuimPg2
             // 
@@ -469,6 +478,7 @@
             pcb_MuitoRuimPg2.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoRuimPg2.TabIndex = 23;
             pcb_MuitoRuimPg2.TabStop = false;
+            pcb_MuitoRuimPg2.Click += pcb_MuitoRuimPg2_Click;
             // 
             // pictureBox14
             // 
@@ -612,6 +622,7 @@
             pcb_MuitoBomPg3.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoBomPg3.TabIndex = 27;
             pcb_MuitoBomPg3.TabStop = false;
+            pcb_MuitoBomPg3.Click += pcb_MuitoBomPg3_Click;
             // 
             // pcb_BomPg3
             // 
@@ -626,6 +637,7 @@
             pcb_BomPg3.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_BomPg3.TabIndex = 26;
             pcb_BomPg3.TabStop = false;
+            pcb_BomPg3.Click += pcb_BomPg3_Click;
             // 
             // pcb_RuimPg3
             // 
@@ -640,6 +652,7 @@
             pcb_RuimPg3.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RuimPg3.TabIndex = 25;
             pcb_RuimPg3.TabStop = false;
+            pcb_RuimPg3.Click += pcb_RuimPg3_Click;
             // 
             // pcb_RegularPg3
             // 
@@ -654,6 +667,7 @@
             pcb_RegularPg3.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RegularPg3.TabIndex = 24;
             pcb_RegularPg3.TabStop = false;
+            pcb_RegularPg3.Click += pcb_RegularPg3_Click;
             // 
             // pcb_MuitoRuimPg3
             // 
@@ -668,6 +682,7 @@
             pcb_MuitoRuimPg3.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoRuimPg3.TabIndex = 23;
             pcb_MuitoRuimPg3.TabStop = false;
+            pcb_MuitoRuimPg3.Click += pcb_MuitoRuimPg3_Click;
             // 
             // pictureBox22
             // 
@@ -811,6 +826,7 @@
             pcb_MuitoBomPg4.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoBomPg4.TabIndex = 27;
             pcb_MuitoBomPg4.TabStop = false;
+            pcb_MuitoBomPg4.Click += pcb_MuitoBomPg4_Click;
             // 
             // pcb_BomPg4
             // 
@@ -825,6 +841,7 @@
             pcb_BomPg4.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_BomPg4.TabIndex = 26;
             pcb_BomPg4.TabStop = false;
+            pcb_BomPg4.Click += pcb_BomPg4_Click;
             // 
             // pcb_RuimPg4
             // 
@@ -839,6 +856,7 @@
             pcb_RuimPg4.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RuimPg4.TabIndex = 25;
             pcb_RuimPg4.TabStop = false;
+            pcb_RuimPg4.Click += pcb_RuimPg4_Click;
             // 
             // pcb_RegularPg4
             // 
@@ -853,6 +871,7 @@
             pcb_RegularPg4.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RegularPg4.TabIndex = 24;
             pcb_RegularPg4.TabStop = false;
+            pcb_RegularPg4.Click += pcb_RegularPg4_Click;
             // 
             // pcb_MuitoRuimPg4
             // 
@@ -867,6 +886,7 @@
             pcb_MuitoRuimPg4.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoRuimPg4.TabIndex = 23;
             pcb_MuitoRuimPg4.TabStop = false;
+            pcb_MuitoRuimPg4.Click += pcb_MuitoRuimPg4_Click;
             // 
             // pictureBox30
             // 
@@ -1011,6 +1031,7 @@
             pcb_MuitoBomPg5.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoBomPg5.TabIndex = 27;
             pcb_MuitoBomPg5.TabStop = false;
+            pcb_MuitoBomPg5.Click += pcb_MuitoBomPg5_Click;
             // 
             // pcb_BomPg5
             // 
@@ -1025,6 +1046,7 @@
             pcb_BomPg5.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_BomPg5.TabIndex = 26;
             pcb_BomPg5.TabStop = false;
+            pcb_BomPg5.Click += pcb_BomPg5_Click;
             // 
             // pcb_RuimPg5
             // 
@@ -1039,6 +1061,7 @@
             pcb_RuimPg5.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RuimPg5.TabIndex = 25;
             pcb_RuimPg5.TabStop = false;
+            pcb_RuimPg5.Click += pcb_RuimPg5_Click;
             // 
             // pcb_RegularPg5
             // 
@@ -1053,6 +1076,7 @@
             pcb_RegularPg5.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_RegularPg5.TabIndex = 24;
             pcb_RegularPg5.TabStop = false;
+            pcb_RegularPg5.Click += pcb_RegularPg5_Click;
             // 
             // pcb_MuitoRuimPg5
             // 
@@ -1067,6 +1091,7 @@
             pcb_MuitoRuimPg5.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_MuitoRuimPg5.TabIndex = 23;
             pcb_MuitoRuimPg5.TabStop = false;
+            pcb_MuitoRuimPg5.Click += pcb_MuitoRuimPg5_Click;
             // 
             // pictureBox38
             // 
