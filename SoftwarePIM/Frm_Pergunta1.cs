@@ -90,18 +90,11 @@ namespace SoftwarePIM
 
         private void AbrirNovoFormulario()
         {
-            // Crie uma instância do novo formulário
-            Frm_TelaSugestao frm_TelaSugestao = new Frm_TelaSugestao();
-            // Defina o formulário atual como o formulário anterior no novo formulário
-            frm_TelaSugestao.FormAnterior = this;
-            // Defina o formulário atual como o formulário principal no novo formulário
-            frm_TelaSugestao.FormPrincipal2 = this;
-            // Defina o formulário principal no novo formulário
-            frm_TelaSugestao.FormPrincipal = this.FormPrincipal;
-            // Exiba o novo formulário
-            frm_TelaSugestao.Show();
-            // Traga o novo formulário para a frente
-            frm_TelaSugestao.BringToFront();
+            var frm_Relatorio = new Frm_Relatorio();
+            frm_Relatorio.FormAnterior = this;
+            frm_Relatorio.FormPrincipal = this.FormPrincipal;
+            frm_Relatorio.Show();
+            frm_Relatorio.BringToFront();
         }
 
         private void Frm_Pergunta1_Load(object sender, EventArgs e)

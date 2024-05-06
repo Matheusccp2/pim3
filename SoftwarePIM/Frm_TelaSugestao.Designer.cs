@@ -111,6 +111,7 @@
             Name = "Frm_TelaSugestao";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_TelaSugestao";
+            FormClosing += Frm_TelaSugestao_FormClosing;
             Load += Frm_TelaSugestao_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Proximo).EndInit();
