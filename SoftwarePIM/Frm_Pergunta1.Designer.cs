@@ -1003,7 +1003,7 @@
             pcb_MuitoBomPg5.BackgroundImageLayout = ImageLayout.Stretch;
             pcb_MuitoBomPg5.Image = (Image)resources.GetObject("pcb_MuitoBomPg5.Image");
             pcb_MuitoBomPg5.Location = new Point(1035, 195);
-            pcb_MuitoBomPg5.Margin = new Padding(0, 0, 0, 0);
+            pcb_MuitoBomPg5.Margin = new Padding(0);
             pcb_MuitoBomPg5.MaximumSize = new Size(80, 80);
             pcb_MuitoBomPg5.MinimumSize = new Size(80, 80);
             pcb_MuitoBomPg5.Name = "pcb_MuitoBomPg5";
@@ -1187,6 +1187,8 @@
             Controls.Add(btn_ProximaPergunta);
             Controls.Add(btn_VoltarMenu);
             DoubleBuffered = true;
+            MaximumSize = new Size(1920, 920);
+            MinimumSize = new Size(1598, 850);
             Name = "Frm_Pergunta1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_TelaPerguntas";
