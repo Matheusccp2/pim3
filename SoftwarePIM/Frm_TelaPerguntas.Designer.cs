@@ -293,7 +293,7 @@
             // 
             rbt_MuitoBomPg1.AutoSize = true;
             rbt_MuitoBomPg1.BackColor = Color.Transparent;
-            rbt_MuitoBomPg1.Location = new Point(1068, 301);
+            rbt_MuitoBomPg1.Location = new Point(1068, 320);
             rbt_MuitoBomPg1.MaximumSize = new Size(14, 13);
             rbt_MuitoBomPg1.MinimumSize = new Size(14, 13);
             rbt_MuitoBomPg1.Name = "rbt_MuitoBomPg1";
@@ -306,7 +306,7 @@
             // 
             rbt_BomPg1.AutoSize = true;
             rbt_BomPg1.BackColor = Color.Transparent;
-            rbt_BomPg1.Location = new Point(835, 301);
+            rbt_BomPg1.Location = new Point(835, 320);
             rbt_BomPg1.MaximumSize = new Size(14, 13);
             rbt_BomPg1.MinimumSize = new Size(14, 13);
             rbt_BomPg1.Name = "rbt_BomPg1";
@@ -319,7 +319,7 @@
             // 
             rbt_RegularPg1.AutoSize = true;
             rbt_RegularPg1.BackColor = Color.Transparent;
-            rbt_RegularPg1.Location = new Point(600, 301);
+            rbt_RegularPg1.Location = new Point(600, 320);
             rbt_RegularPg1.MaximumSize = new Size(14, 13);
             rbt_RegularPg1.MinimumSize = new Size(14, 13);
             rbt_RegularPg1.Name = "rbt_RegularPg1";
@@ -332,7 +332,7 @@
             // 
             rbt_RuimPg1.AutoSize = true;
             rbt_RuimPg1.BackColor = Color.Transparent;
-            rbt_RuimPg1.Location = new Point(383, 301);
+            rbt_RuimPg1.Location = new Point(383, 320);
             rbt_RuimPg1.MaximumSize = new Size(14, 13);
             rbt_RuimPg1.MinimumSize = new Size(14, 13);
             rbt_RuimPg1.Name = "rbt_RuimPg1";
@@ -345,7 +345,7 @@
             // 
             rbt_MuitoRuimPg1.AutoSize = true;
             rbt_MuitoRuimPg1.BackColor = Color.Transparent;
-            rbt_MuitoRuimPg1.Location = new Point(158, 301);
+            rbt_MuitoRuimPg1.Location = new Point(158, 320);
             rbt_MuitoRuimPg1.MaximumSize = new Size(14, 13);
             rbt_MuitoRuimPg1.MinimumSize = new Size(14, 13);
             rbt_MuitoRuimPg1.Name = "rbt_MuitoRuimPg1";
@@ -1197,7 +1197,7 @@
             pictureBox40.TabIndex = 15;
             pictureBox40.TabStop = false;
             // 
-            // Frm_Pergunta1
+            // Frm_TelaPerguntas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -1214,7 +1214,7 @@
             DoubleBuffered = true;
             MaximumSize = new Size(1920, 920);
             MinimumSize = new Size(1598, 850);
-            Name = "Frm_Pergunta1";
+            Name = "Frm_TelaPerguntas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_TelaPerguntas";
             FormClosing += Frm_Pergunta1_FormClosing;

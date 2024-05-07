@@ -17,9 +17,9 @@ namespace SoftwarePIM
 
         // Array de caminhos dos arquivos de imagem no seu PC
         private string[] caminhosDasImagens = {
-            @"C:\Users\t_matheus.caetano\Documents\Dev\pim3\SoftwarePIM\Properties\imagens\Obra5.1.jpg",
-            @"C:\Users\t_matheus.caetano\Documents\Dev\pim3\SoftwarePIM\Properties\imagens\Obra5.2.jpg",
-            @"C:\Users\t_matheus.caetano\Documents\Dev\pim3\SoftwarePIM\Properties\imagens\Obra5.3.jpg"
+            @"C:\Users\t_matheus.caetano\Documents\Matheus\DEV\pim3\SoftwarePIM\Properties\Imagens\Obra5.1.jpg",
+            @"C:\Users\t_matheus.caetano\Documents\Matheus\DEV\pim3\SoftwarePIM\Properties\Imagens\Obra5.2.jpg",
+            @"C:\Users\t_matheus.caetano\Documents\Matheus\DEV\pim3\SoftwarePIM\Properties\Imagens\Obra5.3.jpg"
         };
 
         private int indiceAtual = 0;
