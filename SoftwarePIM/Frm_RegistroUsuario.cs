@@ -28,7 +28,7 @@ namespace SoftwarePIM
             frm_Relatorio.FormPrincipal = this.FormPrincipal;
             frm_Relatorio.Show();
             frm_Relatorio.BringToFront();
-            
+
 
             //Frm_Relatorio frm_Relatorio = new Frm_Relatorio();
 
@@ -37,5 +37,9 @@ namespace SoftwarePIM
             //this.Hide();
         }
 
+        private void txb_NomeUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
