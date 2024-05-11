@@ -107,6 +107,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
@@ -147,6 +148,7 @@
             lbl_QtdMuitoRuim.Size = new Size(15, 17);
             lbl_QtdMuitoRuim.TabIndex = 6;
             lbl_QtdMuitoRuim.Text = "0";
+            lbl_QtdMuitoRuim.Click += lbl_QtdMuitoRuim_Click;
             // 
             // lbl_QtdRuim
             // 
@@ -161,6 +163,7 @@
             lbl_QtdRuim.Size = new Size(15, 17);
             lbl_QtdRuim.TabIndex = 7;
             lbl_QtdRuim.Text = "0";
+            lbl_QtdRuim.Click += lbl_QtdRuim_Click;
             // 
             // lbl_QtdBom
             // 

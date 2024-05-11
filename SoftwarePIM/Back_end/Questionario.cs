@@ -17,16 +17,25 @@ namespace SoftwarePIM.Modelo
         private int alternativa;
         private int numero_pergunta;
         
+        
 
+<<<<<<< Updated upstream
         public Questionario(int alternativa,int nuemro_pergunta)
         {
             this.alternativa = alternativa;
             this.numero_pergunta = nuemro_pergunta;
             Verificar();
+=======
+        public Questionario(char alternativa, int numero_pergunta)
+        {
+            
+            Verificar(alternativa,numero_pergunta);
+>>>>>>> Stashed changes
         }
 
 
 
+<<<<<<< Updated upstream
         private void Verificar()
 
         {
@@ -44,6 +53,31 @@ namespace SoftwarePIM.Modelo
            
             
             
+=======
+        private void Verificar(char alternativa, int numero_pergunta)
+
+        {
+            if (numero_pergunta <= 5)
+            {
+                switch (alternativa)
+                {
+                    case '1': this.muitoruim++; break;
+                    case '2': this.ruim++; break;
+                    case '3': this.regular++; break;
+                    case '4': this.bom++; break;
+                    case '5': this.muitobom++; break;
+
+                }
+            }
+
+            else {
+                this.muitoruim = 0;
+                this.ruim = 0;
+                this.regular = 0;
+                this.bom = 0;
+                this.muitobom = 0;
+            }
+>>>>>>> Stashed changes
         }
         public int Muitoruim { get => muitoruim;}
         public int Ruim { get => ruim; }
