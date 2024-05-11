@@ -38,5 +38,7 @@ namespace SoftwarePIM
             this.Close();
             this.FormPrincipal?.Show();
         }
+
+        
     }
 }

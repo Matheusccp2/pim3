@@ -23,11 +23,11 @@ namespace SoftwarePIM
 
         private void btn_Confirmar_Click(object sender, EventArgs e)
         {
-            var frm_Relatorio = new Frm_Relatorio();
-            frm_Relatorio.FormAnterior = this;
-            frm_Relatorio.FormPrincipal = this.FormPrincipal;
-            frm_Relatorio.Show();
-            frm_Relatorio.BringToFront();
+            var frm_TelaPerguntas = new Frm_TelaPerguntas();
+            frm_TelaPerguntas.FormAnterior = this;
+            frm_TelaPerguntas.FormPrincipal = this.FormPrincipal;
+            frm_TelaPerguntas.Show();
+            frm_TelaPerguntas.BringToFront();
 
 
             //Frm_Relatorio frm_Relatorio = new Frm_Relatorio();
@@ -37,9 +37,9 @@ namespace SoftwarePIM
             //this.Hide();
         }
 
-        private void txb_NomeUsuario_TextChanged(object sender, EventArgs e)
+        private void btn_VoltarMenu_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

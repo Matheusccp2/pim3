@@ -28,10 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Frm_TelaMapa";
+            SuspendLayout();
+            // 
+            // Frm_TelaMapa
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
+            BackgroundImage = Properties.Resources.Foto_de_Fundo2;
+            ClientSize = new Size(1918, 1041);
+            FormBorderStyle = FormBorderStyle.None;
+            MaximumSize = new Size(1920, 1080);
+            MinimumSize = new Size(1918, 1030);
+            Name = "Frm_TelaMapa";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Mapa";
+            WindowState = FormWindowState.Maximized;
+            ResumeLayout(false);
         }
 
         #endregion

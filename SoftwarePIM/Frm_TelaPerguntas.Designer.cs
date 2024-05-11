@@ -154,9 +154,9 @@
             // 
             btn_VoltarMenu.BackColor = Color.Transparent;
             btn_VoltarMenu.Image = (Image)resources.GetObject("btn_VoltarMenu.Image");
-            btn_VoltarMenu.Location = new Point(363, 602);
+            btn_VoltarMenu.Location = new Point(363, 584);
             btn_VoltarMenu.MaximumSize = new Size(276, 74);
-            btn_VoltarMenu.MinimumSize = new Size(242, 62);
+            btn_VoltarMenu.MinimumSize = new Size(276, 74);
             btn_VoltarMenu.Name = "btn_VoltarMenu";
             btn_VoltarMenu.Size = new Size(276, 74);
             btn_VoltarMenu.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -168,7 +168,7 @@
             // 
             btn_ProximaPergunta.BackColor = Color.Transparent;
             btn_ProximaPergunta.Image = (Image)resources.GetObject("btn_ProximaPergunta.Image");
-            btn_ProximaPergunta.Location = new Point(1274, 602);
+            btn_ProximaPergunta.Location = new Point(1274, 584);
             btn_ProximaPergunta.MaximumSize = new Size(276, 74);
             btn_ProximaPergunta.MinimumSize = new Size(242, 62);
             btn_ProximaPergunta.Name = "btn_ProximaPergunta";
@@ -1201,9 +1201,10 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1904, 1041);
+            ClientSize = new Size(1918, 1041);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -1212,11 +1213,13 @@
             Controls.Add(btn_ProximaPergunta);
             Controls.Add(btn_VoltarMenu);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.None;
             MaximumSize = new Size(1920, 1080);
             MinimumSize = new Size(1918, 1030);
             Name = "Frm_TelaPerguntas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_TelaPerguntas";
+            WindowState = FormWindowState.Maximized;
             FormClosing += Frm_Pergunta1_FormClosing;
             Load += Frm_Pergunta1_Load;
             ((System.ComponentModel.ISupportInitialize)btn_VoltarMenu).EndInit();
