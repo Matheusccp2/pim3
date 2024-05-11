@@ -53,7 +53,9 @@
             txb_NomeUsuario.MinimumSize = new Size(203, 23);
             txb_NomeUsuario.Name = "txb_NomeUsuario";
             txb_NomeUsuario.Size = new Size(607, 50);
-            txb_NomeUsuario.TabIndex = 0;
+            txb_NomeUsuario.TabIndex = 9;
+            txb_NomeUsuario.Enter += txb_NomeUsuario_Enter;
+            txb_NomeUsuario.Leave += txb_NomeUsuario_Leave;
             // 
             // txb_IdadeUsuario
             // 
@@ -66,6 +68,8 @@
             txb_IdadeUsuario.Size = new Size(90, 50);
             txb_IdadeUsuario.TabIndex = 1;
             txb_IdadeUsuario.TextAlign = HorizontalAlignment.Center;
+            txb_IdadeUsuario.Enter += txb_IdadeUsuario_Enter;
+            txb_IdadeUsuario.Leave += txb_IdadeUsuario_Leave;
             // 
             // pictureBox1
             // 
@@ -136,7 +140,7 @@
             BackColor = Color.Black;
             BackgroundImage = Properties.Resources.Foto_de_Fundo2;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1904, 1041);
+            ClientSize = new Size(1918, 1041);
             Controls.Add(btn_VoltarMenu);
             Controls.Add(txb_IdadeUsuario);
             Controls.Add(txb_NomeUsuario);
@@ -155,6 +159,8 @@
             Text = "Registro Usuário";
             TransparencyKey = Color.Black;
             WindowState = FormWindowState.Maximized;
+            FormClosed += Frm_RegistroUsuario_FormClosed;
+            Load += Frm_RegistroUsuario_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Confirmar).EndInit();
