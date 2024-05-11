@@ -1,9 +1,12 @@
-﻿using System;
+﻿using SoftwarePIM.Back_end;
+using SoftwarePIM.Back_End;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,7 +22,13 @@ namespace SoftwarePIM
         public Frm_Relatorio()
         {
             InitializeComponent();
+            Controle controle = new Controle();
+            label1.Text = controle.Numero_pergunta.ToString();
+
         }
+
+        
+
 
         private void Frm_Relatorio_Load(object sender, EventArgs e)
         {
@@ -28,6 +37,7 @@ namespace SoftwarePIM
             this.FormPrincipal?.Hide();
         }
 
+        
         private void Frm_Relatorio_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.FormPrincipal?.Show();
@@ -37,6 +47,11 @@ namespace SoftwarePIM
         {
             this.Close();
             this.FormPrincipal?.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

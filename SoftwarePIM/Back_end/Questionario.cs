@@ -8,42 +8,42 @@ namespace SoftwarePIM.Modelo
 {
     internal class Questionario
     {
+
         private int muitoruim;
         private int ruim;
         private int regular;
         private int bom;
         private int muitobom;
+        private int alternativa;
+        private int numero_pergunta;
         
 
-        public Questionario(char alternativa)
+        public Questionario(int alternativa,int nuemro_pergunta)
         {
-            
-            Verificar(alternativa);
+            this.alternativa = alternativa;
+            this.numero_pergunta = nuemro_pergunta;
+            Verificar();
         }
 
-        /*private void Resetar()
-        {
 
-            this.muitoruim = 0;
-            this.ruim = 0;
-            this.regular = 0;
-            this.bom = 0;
-            this.muitobom = 0;
-        }*/
 
-        private void Verificar(char alternativa)
+        private void Verificar()
 
         {
             
-            switch (alternativa)
-            {
-                case '1': this.muitoruim++; break;
-                case '2': this.ruim++; break;
-                case '3': this.regular++; break;
-                case '4': this.bom++; break;
-                case '5': this.muitobom++; break;
+                switch (alternativa)
+                {
+                    case 1: this.muitoruim++; break;
+                    case 2: this.ruim++; break;
+                    case 3: this.regular++; break;
+                    case 4: this.bom++; break;
+                    case 5: this.muitobom++; break;
 
-            }
+                }
+            
+           
+            
+            
         }
         public int Muitoruim { get => muitoruim;}
         public int Ruim { get => ruim; }

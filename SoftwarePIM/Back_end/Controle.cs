@@ -11,15 +11,26 @@ namespace SoftwarePIM.Back_end
 {
     internal class Controle
     {
-        private char alternativa;
-        private char numero_pergunta;
+        private int alternativa;
+        private int numero_pergunta;
+        private int muitoruim;
+        private int ruim;
+        private int regular;
+        private int bom;
+        private int muitobom;
 
-        public Controle(char alternativa)
+        
+
+        public Controle(int alternativa, int numero_pergunta)
 
         {
             this.alternativa = alternativa;
+            this.numero_pergunta = numero_pergunta;
 
-            Executar(alternativa);
+            Executar_questionario();
+        }
+        public Controle() { 
+        
         }
         public Controle(string nome, string idade)
 
@@ -28,13 +39,26 @@ namespace SoftwarePIM.Back_end
 
         }
 
-        private void Executar(char alternativa){
+        private void Executar_questionario(){
 
-            Questionario questionario = new Questionario(alternativa);
-            Banco_de_dados bd = new Banco_de_dados(questionario.Muitoruim,questionario.Ruim, questionario.Regular,questionario.Bom,questionario.Muitobom);
+            if (Numero_pergunta <= 5)
+            {
+                Questionario questionario = new Questionario(Alternativa,Numero_pergunta);
+                this.muitoruim = questionario.Muitoruim;
+                this.ruim = questionario.Ruim;
+                this.regular = questionario.Regular;
+                this.bom = questionario.Bom;
+                this.muitoruim = questionario.Muitobom;
+                Relatorio relatorio = new Relatorio(5, this.ruim, this.regular, this.bom, this.muitobom);
+            }
+            else {
+
+                  
+            }
 
                   
         }
+
         private void Executar(string nome,string idade)
 
         {
@@ -42,5 +66,7 @@ namespace SoftwarePIM.Back_end
             Validacao validacao = new Validacao(nome,idade);
 
         }
+        public int Alternativa { get => alternativa; }
+        public int Numero_pergunta { get => numero_pergunta; }
     }
 }

@@ -45,6 +45,7 @@
             lbl_Qtd18Menos = new Label();
             lbl_MediaAvaliacao = new Label();
             lbl_MediaEtaria = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_Confirmar).BeginInit();
@@ -273,6 +274,16 @@
             lbl_MediaEtaria.TabIndex = 15;
             lbl_MediaEtaria.Text = "0";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(518, 343);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 16;
+            label1.Text = "label1";
+            label1.Click += label1_Click;
+            // 
             // Frm_Relatorio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -280,6 +291,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(784, 561);
+            Controls.Add(label1);
             Controls.Add(lbl_MediaEtaria);
             Controls.Add(lbl_MediaAvaliacao);
             Controls.Add(lbl_Qtd18Menos);
@@ -332,5 +344,6 @@
         private Label lbl_Qtd18Menos;
         private Label lbl_MediaAvaliacao;
         private Label lbl_MediaEtaria;
+        private Label label1;
     }
 }
