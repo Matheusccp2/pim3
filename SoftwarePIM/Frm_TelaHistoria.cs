@@ -25,6 +25,7 @@ namespace SoftwarePIM
         private int indiceAtual = 0;
 
         public Frm_TelaHistoria()
+
         {
             InitializeComponent();
 
@@ -155,7 +156,6 @@ namespace SoftwarePIM
                     // Adicione os casos necessários para os painéis adicionais aqui
             }
         }
-
         
     }
 }

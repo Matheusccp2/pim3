@@ -51,19 +51,9 @@ namespace SoftwarePIM.Back_End
         private void calcular_media(Dictionary<int, string> lista_idade, Dictionary<int, string> lista_alternativa)
 
         {
-            int soma_idade;
+            
 
-            for (int i = 0; i < lista_idade.Count || i < lista_alternativa.Count; i++)
-            {
-
-                this.lista_idade_string[i] = lista_idade[i];
-                this.lista_alternativa_string[i] = lista_alternativa[i];
-
-                List<int> listaInt = lista_idade_string.ConvertAll(int.Parse);
-
-                soma_idade = listaInt[i] + listaInt[-i];
-
-            }
+          
 
         }
         #endregion

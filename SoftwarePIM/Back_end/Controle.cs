@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SoftwarePIM.Back_end
+
 {
     internal class Controle
     {
@@ -31,9 +32,11 @@ namespace SoftwarePIM.Back_end
 
             Questionario questionario = new Questionario(alternativa);
             Banco_de_dados bd = new Banco_de_dados(questionario.Muitoruim,questionario.Ruim, questionario.Regular,questionario.Bom,questionario.Muitobom);
+
                   
         }
         private void Executar(string nome,string idade)
+
         {
 
             Validacao validacao = new Validacao(nome,idade);

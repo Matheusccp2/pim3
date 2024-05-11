@@ -41,7 +41,7 @@ namespace SoftwarePIM
 
         private void btn_ProximaPergunta_Click(object sender, EventArgs e)
         {
-            
+
             // Esconde o painel atual
             switch (painelAtual)
             {
@@ -82,23 +82,23 @@ namespace SoftwarePIM
                 {
                     case 1:
                         panel1.Visible = true;
-                        numero_pergunta = '1';
+                        
                         break;
                     case 2:
                         panel2.Visible = true;
-                        numero_pergunta = '2';
+                        
                         break;
                     case 3:
                         panel3.Visible = true;
-                        numero_pergunta = '3';
+                        
                         break;
                     case 4:
                         panel4.Visible = true;
-                        numero_pergunta = '4';
+                        
                         break;
                     case 5:
                         panel5.Visible = true;
-                        numero_pergunta = '5';
+                       
                         break;
                 }
             }
@@ -142,27 +142,32 @@ namespace SoftwarePIM
 
         private void rbt_MuitoRuimPg5_CheckedChanged(object sender, EventArgs e)
         {
-            this.alternativa = '1';
+            
         }
 
         private void rbt_RuimPg5_CheckedChanged(object sender, EventArgs e)
         {
-            this.alternativa = '2';
+            
         }
 
         private void rbt_RegularPg5_CheckedChanged(object sender, EventArgs e)
         {
-            this.alternativa = '3';
+            
         }
 
         private void rbt_BomPg5_CheckedChanged(object sender, EventArgs e)
         {
-            this.alternativa = '4';
+           
         }
 
         private void rbt_MuitoBomPg5_CheckedChanged(object sender, EventArgs e)
         {
-            this.alternativa = '5';
+            
+        }
+
+        private void pictureBox35_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1039,6 +1039,7 @@
             pictureBox35.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox35.TabIndex = 25;
             pictureBox35.TabStop = false;
+            pictureBox35.Click += pictureBox35_Click;
             // 
             // pictureBox36
             // 

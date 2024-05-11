@@ -45,7 +45,7 @@ namespace SoftwarePIM.Modelo
 
             }
         }
-        public int Muitoruim { get => muitoruim; }
+        public int Muitoruim { get => muitoruim;}
         public int Ruim { get => ruim; }
         public int Regular { get => regular; }
         public int Bom { get => bom; }
