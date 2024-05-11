@@ -54,5 +54,10 @@ namespace SoftwarePIM
             this.FormPrincipal2?.Hide();
             this.FormPrincipal?.Hide();
         }
+
+        private void Frm_TelaSugestao_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.FormPrincipal?.Show();
+        }
     }
 }
