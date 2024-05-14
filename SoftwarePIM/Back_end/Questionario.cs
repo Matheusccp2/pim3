@@ -30,7 +30,6 @@ namespace SoftwarePIM.Modelo
                     case 3: this.regular++; break;
                     case 4: this.bom++; break;
                     case 5: this.muito_bom++; break;
-
                 }
             
            

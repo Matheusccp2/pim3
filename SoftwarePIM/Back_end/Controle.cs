@@ -20,6 +20,13 @@ namespace SoftwarePIM.Back_end
         {
             this.alternativa = alternativa;
             this.numero_pergunta = numero_pergunta;
+            Questionario questionario = new Questionario(alternativa, numero_pergunta);
+
+            this.muito_ruim = questionario.Muitoruim;
+            this.ruim = questionario.Ruim;
+            this.regular = questionario.Regular;
+            this.bom = questionario.Bom;
+            this.muito_bom = questionario.Muitobom;
 
             Executar_questionario();
         }
@@ -39,20 +46,8 @@ namespace SoftwarePIM.Back_end
 
         private void Executar_questionario(){
 
-
-
-            //Questionario questionario = new Questionario(alternativa,numero_pergunta);
-
-
-            //this.muito_ruim = questionario.Muitoruim;
-            //this.ruim = questionario.Ruim;
-            //this.regular = questionario.Regular;
-            //this.bom = questionario.Bom;
-            //this.muito_bom = questionario.Muitobom;
-
-            while (numero_pergunta < 4) { muito_ruim++; }
-            Relatorio.total_muitoruim = this.muito_ruim;
-            //Relatorio relatorio = new Relatorio(this.muito_ruim, this.ruim, this.regular, this.bom, this.muito_bom);
+           
+            Relatorio relatorio = new Relatorio(this.muito_ruim, this.ruim, this.regular, this.bom, this.muito_bom);
             
 
                   

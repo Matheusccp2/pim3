@@ -110,8 +110,10 @@ namespace SoftwarePIM
                         break;
                 }
             }
+          
 
             mandar();
+            label1.Text = Relatorio.total_muitoruim.ToString();
 
         }
         private void mandar()
