@@ -9,46 +9,21 @@ using System.Threading.Tasks;
 namespace SoftwarePIM.Back_end
 
 {
-    internal class Controle
+    internal class Controle : Abspropriedades
     {
-<<<<<<< Updated upstream
-        private int alternativa;
-=======
-        private char alternativa;
->>>>>>> Stashed changes
-        private int numero_pergunta;
-        private int muitoruim;
-        private int ruim;
-        private int regular;
-        private int bom;
-        private int muitobom;
-<<<<<<< Updated upstream
 
-        
+
+
 
         public Controle(int alternativa, int numero_pergunta)
-=======
-        private string nome;
-        private string idade;
-
-
-
-        public Controle(char alternativa, int numero_pergunta)
->>>>>>> Stashed changes
 
         {
             this.alternativa = alternativa;
             this.numero_pergunta = numero_pergunta;
 
-<<<<<<< Updated upstream
             Executar_questionario();
         }
-        public Controle() { 
-        
-=======
-            Executar();
->>>>>>> Stashed changes
-        }
+
         public Controle(string nome, string idade)
 
         {
@@ -58,44 +33,31 @@ namespace SoftwarePIM.Back_end
         }
 
         private void Executar(){
-
-            if (numero_pergunta <= 5) {
-                Questionario questionario = new Questionario(alternativa, numero_pergunta);
-                this.muitoruim = questionario.Muitoruim;
-                this.ruim = questionario.Ruim;
-                this.regular = questionario.Regular;
-                this.bom = questionario.Bom;
-                this.muitobom = questionario.Muitobom;
-
-            }
-
-            Banco_de_dados bd = new Banco_de_dados(this.muitoruim,this.ruim,this.regular,this.bom,this.muitobom);
+          
             
         }
 
-<<<<<<< Updated upstream
         private void Executar_questionario(){
 
-            if (Numero_pergunta <= 5)
-            {
-                Questionario questionario = new Questionario(Alternativa,Numero_pergunta);
-                this.muitoruim = questionario.Muitoruim;
-                this.ruim = questionario.Ruim;
-                this.regular = questionario.Regular;
-                this.bom = questionario.Bom;
-                this.muitoruim = questionario.Muitobom;
-                Relatorio relatorio = new Relatorio(5, this.ruim, this.regular, this.bom, this.muitobom);
-            }
-            else {
 
-                  
-            }
+
+            //Questionario questionario = new Questionario(alternativa,numero_pergunta);
+
+
+            //this.muito_ruim = questionario.Muitoruim;
+            //this.ruim = questionario.Ruim;
+            //this.regular = questionario.Regular;
+            //this.bom = questionario.Bom;
+            //this.muito_bom = questionario.Muitobom;
+
+            while (numero_pergunta < 4) { muito_ruim++; }
+            Relatorio.total_muitoruim = this.muito_ruim;
+            //Relatorio relatorio = new Relatorio(this.muito_ruim, this.ruim, this.regular, this.bom, this.muito_bom);
+            
 
                   
         }
 
-=======
->>>>>>> Stashed changes
         private void Executar(string nome,string idade)
 
         {
@@ -107,3 +69,4 @@ namespace SoftwarePIM.Back_end
         public int Numero_pergunta { get => numero_pergunta; }
     }
 }
+

@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
 ﻿using SoftwarePIM.Back_end;
 using SoftwarePIM.Back_End;
-=======
-﻿using SoftwarePIM.Back_End;
->>>>>>> Stashed changes
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,22 +25,19 @@ namespace SoftwarePIM
         public Frm_Relatorio()
         {
             InitializeComponent();
-<<<<<<< Updated upstream
-            Controle controle = new Controle();
-            label1.Text = controle.Numero_pergunta.ToString();
 
-=======
-            Relatorio relatorio = new Relatorio();
-            lbl_QtdMuitoRuim.Text = relatorio.ToString(relatorio.Total_muitoruim);//revisar Classe relatorio()
->>>>>>> Stashed changes
+            
+            lbl_QtdMuitoRuim.Text = Relatorio.total_muitoruim.ToString();
+            lbl_QtdRuim.Text = Relatorio.total_ruim.ToString();
+            lbl_QtdRegular.Text = Relatorio.total_regular.ToString();
+            lbl_QtdBom.Text = Relatorio.total_bom.ToString();
+            lbl_QtdMuitoBom.Text = Relatorio.total_muitobom.ToString();
+
         }
 
         
 
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
         private void Frm_Relatorio_Load(object sender, EventArgs e)
         {
             FormAnterior?.Close();
@@ -66,12 +59,6 @@ namespace SoftwarePIM
             this.FormPrincipal?.Show();
         }
 
-<<<<<<< Updated upstream
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-=======
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
@@ -88,6 +75,5 @@ namespace SoftwarePIM
             
             
                 }
->>>>>>> Stashed changes
     }
 }

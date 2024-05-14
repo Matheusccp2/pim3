@@ -147,7 +147,6 @@
             lbl_QtdMuitoRuim.Name = "lbl_QtdMuitoRuim";
             lbl_QtdMuitoRuim.Size = new Size(15, 17);
             lbl_QtdMuitoRuim.TabIndex = 6;
-            lbl_QtdMuitoRuim.Text = "0";
             lbl_QtdMuitoRuim.Click += lbl_QtdMuitoRuim_Click;
             // 
             // lbl_QtdRuim
@@ -285,7 +284,6 @@
             label1.Size = new Size(38, 15);
             label1.TabIndex = 16;
             label1.Text = "label1";
-            label1.Click += label1_Click;
             // 
             // Frm_Relatorio
             // 
