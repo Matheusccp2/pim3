@@ -26,6 +26,8 @@ namespace SoftwarePIM.Back_End
         private int total_menos18;
         private int total_mais60;
 
+
+
         public Banco_de_dados(int muitoruim, int ruim, int regular, int bom, int muitobom)
 
         {
@@ -47,6 +49,8 @@ namespace SoftwarePIM.Back_End
             Armazenar_id_visitante();
         }
 
+
+
         private void Armazenar_id_visitante()
         {
 
@@ -61,6 +65,7 @@ namespace SoftwarePIM.Back_End
         }
 
         private void Armazenar_nome_idade(string nome, int idade)
+
         {
 
 
@@ -82,5 +87,13 @@ namespace SoftwarePIM.Back_End
 
 
         }
+
+        public Dictionary<int, string> Lista_idade { get => lista_idade; }
+        public Dictionary<int, string> Lista_nome { get => lista_nome; }
+        public Dictionary<int, string> Lista_muitoruim { get => lista_muitoruim; }
+        public Dictionary<int, string> Lista_ruim { get => lista_ruim; }
+        public Dictionary<int, string> Lista_regular { get => lista_regular; }
+        public Dictionary<int, string> Lista_bom { get => lista_bom; }
+        public Dictionary<int, string> Lista_muitobom { get => lista_muitobom; }
     }
 }

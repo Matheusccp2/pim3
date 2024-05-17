@@ -101,6 +101,7 @@
             rbt_MuitoRuimPg5 = new RadioButton();
             pictureBox39 = new PictureBox();
             pictureBox40 = new PictureBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)btn_VoltarMenu).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_ProximaPergunta).BeginInit();
             panel1.SuspendLayout();
@@ -1197,6 +1198,16 @@
             pictureBox40.TabIndex = 15;
             pictureBox40.TabStop = false;
             // 
+            // label1
+            // 
+            label1.Location = new Point(874, 532);
+            label1.Name = "label1";
+            label1.Size = new Size(100, 30);
+            label1.TabIndex = 32;
+            label1.Text = "label1";
+            label1.TextAlign = ContentAlignment.TopCenter;
+            label1.Click += label1_Click;
+            // 
             // Frm_TelaPerguntas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1204,7 +1215,6 @@
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1918, 1041);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -1350,5 +1360,6 @@
         private RadioButton rbt_MuitoRuimPg5;
         private PictureBox pictureBox39;
         private PictureBox pictureBox40;
+        private Label label1;
     }
 }

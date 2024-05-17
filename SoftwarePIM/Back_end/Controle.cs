@@ -9,38 +9,39 @@ using System.Threading.Tasks;
 namespace SoftwarePIM.Back_end
 
 {
-    internal class Controle
+    internal class Controle : Abspropriedades
     {
-        private char alternativa;
-        private char numero_pergunta;
+        public Controle(int muito_ruim, int ruim,int regular,int bom,int muito_bom, int numero_pergunta)
 
-        public Controle(char alternativa)
-
-        {
-            this.alternativa = alternativa;
-
-            Executar(alternativa);
+        {            
+            this.muito_ruim = muito_ruim;
+            this.ruim = ruim;
+            this.regular = regular;
+            this.bom = bom;
+            this.muito_bom = muito_bom;
+            Executar_questionario();
         }
+
         public Controle(string nome, string idade)
-
         {
-            
+            this.nome = nome;
+            this.idade = idade;
 
         }
 
-        private void Executar(char alternativa){
-
-            Questionario questionario = new Questionario(alternativa);
-            Banco_de_dados bd = new Banco_de_dados(questionario.Muitoruim,questionario.Ruim, questionario.Regular,questionario.Bom,questionario.Muitobom);
-
-                  
+        private void Executar_questionario(){
+          
+            Relatorio relatorio = new Relatorio(this.muito_ruim, this.ruim, this.regular, this.bom, this.muito_bom);                           
         }
+
         private void Executar(string nome,string idade)
 
         {
-
             Validacao validacao = new Validacao(nome,idade);
 
         }
+        public int Alternativa { get => alternativa; }
+        public int Numero_pergunta { get => numero_pergunta; }
     }
 }
+

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoftwarePIM.Back_end;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,61 +7,87 @@ using System.Threading.Tasks;
 
 namespace SoftwarePIM.Back_End
 {
-    public class Relatorio
+    public class Relatorio : Abspropriedades
     {
 
         #region Atributos
 
+        private int total_respostas;
+        private int multi_resposta;
+        private int resultado;
+        public static int media_avaliacao;
+        public static string maior_reposta;
 
 
-        private int media_avaliacao;
-        private int total_muitoruim;
-        private int total_ruim;
-        private int total_regular;
-        private int total_bom;
-        private int total_muitobom;
+        public static int total_muitoruim;
+        public static int total_ruim;
+        public static int total_regular;
+        public static int total_bom;
+        public static int total_muitobom;
+
         private int media_etaria;
+        
 
-        Dictionary<int, string> lista_idade = new Dictionary<int, string>();
-        private List<string> lista_idade_string = new List<string> { };
-        Dictionary<int, string> lista_alternativa = new Dictionary<int, string>();
-        private List<string> lista_alternativa_string = new List<string> { };
 
+        
+
+
+        
 
         #endregion
 
         #region Constructor
-        public Relatorio(Dictionary<int, string> lista_idade, Dictionary<int, string> lista_alternativa, Dictionary<int, string> lista_muitoruim, Dictionary<int, string> lista_ruim, Dictionary<int, string> lista_regular, Dictionary<int, string> lista_bom, Dictionary<int, string> lista_muitobom)
+        public Relatorio(int muitoruim, int ruim, int regular, int bom, int muitobom)
         {
-            this.lista_idade = lista_idade;
-            this.lista_alternativa = lista_alternativa;
+            total_muitoruim += muitoruim;
+            total_ruim += ruim;
+            total_regular += regular;
+            total_bom += bom;
+            total_muitobom += muitobom;
+            calcular_media();
 
-            this.total_muitoruim = lista_muitoruim.Count;
-            this.total_ruim = lista_ruim.Count;
-            this.total_regular = lista_regular.Count;
-            this.total_bom = lista_bom.Count;
-            this.total_muitobom = lista_muitobom.Count;
+        }
 
-            calcular_media(lista_idade, lista_alternativa);
+        public Relatorio() { 
 
+            
+        
         }
 
         #endregion
 
         #region Metodos
-        private void calcular_media(Dictionary<int, string> lista_idade, Dictionary<int, string> lista_alternativa)
+        private void calcular_media()
 
         {
-            
+            this.total_respostas = total_muitoruim + total_ruim + total_regular + total_bom + total_muitobom;
 
-          
+            multi_resposta = (total_muitoruim * 1) + (total_ruim * 2) + (total_regular * 3) + (total_bom * 4) + (total_muitobom * 5);
 
+            resultado = multi_resposta / total_respostas;
+
+            media_avaliacao = resultado;
+
+            if (resultado < 2) { maior_reposta = "MUITO RUIM";}
+            else if (resultado < 3) { maior_reposta = "RUIM"; }
+            else if (resultado < 4) { maior_reposta = "REGULAR"; }
+            else if (resultado < 5) { maior_reposta = "BOM"; }
+            else { maior_reposta = "MUITO BOM"; }
+        }
+
+        internal string ToString()
+        {
+            throw new NotImplementedException();
         }
         #endregion
 
         #region propriedades
 
-
+        
+        public int Total_ruim { get => total_ruim; }
+        public int Total_regular { get => total_regular; }
+        public int Total_bom { get => total_bom; }
+        public int Total_muitobom { get => total_muitobom; }
 
         #endregion
 
