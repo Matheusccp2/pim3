@@ -73,7 +73,7 @@
             // 
             btn_Anterior.BackColor = Color.Transparent;
             btn_Anterior.Image = (Image)resources.GetObject("btn_Anterior.Image");
-            btn_Anterior.Location = new Point(353, 593);
+            btn_Anterior.Location = new Point(353, 587);
             btn_Anterior.Margin = new Padding(3, 2, 3, 2);
             btn_Anterior.MaximumSize = new Size(80, 80);
             btn_Anterior.MinimumSize = new Size(80, 80);
@@ -88,7 +88,7 @@
             // 
             btn_Proximo.BackColor = Color.Transparent;
             btn_Proximo.Image = (Image)resources.GetObject("btn_Proximo.Image");
-            btn_Proximo.Location = new Point(1473, 593);
+            btn_Proximo.Location = new Point(1473, 587);
             btn_Proximo.Margin = new Padding(3, 2, 3, 2);
             btn_Proximo.MaximumSize = new Size(80, 80);
             btn_Proximo.MinimumSize = new Size(80, 80);
@@ -103,11 +103,11 @@
             // 
             btn_Menu.BackColor = Color.Transparent;
             btn_Menu.Image = (Image)resources.GetObject("btn_Menu.Image");
-            btn_Menu.Location = new Point(831, 604);
+            btn_Menu.Location = new Point(831, 588);
             btn_Menu.Margin = new Padding(3, 2, 3, 2);
             btn_Menu.MinimumSize = new Size(169, 32);
             btn_Menu.Name = "btn_Menu";
-            btn_Menu.Size = new Size(238, 59);
+            btn_Menu.Size = new Size(280, 78);
             btn_Menu.SizeMode = PictureBoxSizeMode.StretchImage;
             btn_Menu.TabIndex = 5;
             btn_Menu.TabStop = false;
