@@ -142,6 +142,9 @@
   <data name="BOTÃO voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\BOTÃO voltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BOTÃO_INICIAR_VALIDAÇÃO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTÃO INICIAR VALIDAÇÃO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="emoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\emoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -165,6 +168,12 @@
   </data>
   <data name="Foto de Fundo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\Foto de Fundo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDADE_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDADE_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOME_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOME_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NÃO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\NÃO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

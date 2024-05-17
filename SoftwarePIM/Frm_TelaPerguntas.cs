@@ -82,11 +82,7 @@ namespace SoftwarePIM
                     break;
             }
 
-            // Passa para o próximo painel
             painelAtual++;
-            //if (painelAtual > 6)
-            //    painelAtual = 1;
-
             if (painelAtual > 5)
             {
                 

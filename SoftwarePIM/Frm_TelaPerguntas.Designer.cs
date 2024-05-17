@@ -155,9 +155,9 @@
             // 
             btn_VoltarMenu.BackColor = Color.Transparent;
             btn_VoltarMenu.Image = (Image)resources.GetObject("btn_VoltarMenu.Image");
-            btn_VoltarMenu.Location = new Point(363, 502);
+            btn_VoltarMenu.Location = new Point(363, 584);
             btn_VoltarMenu.MaximumSize = new Size(276, 74);
-            btn_VoltarMenu.MinimumSize = new Size(242, 62);
+            btn_VoltarMenu.MinimumSize = new Size(276, 74);
             btn_VoltarMenu.Name = "btn_VoltarMenu";
             btn_VoltarMenu.Size = new Size(276, 74);
             btn_VoltarMenu.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -169,7 +169,7 @@
             // 
             btn_ProximaPergunta.BackColor = Color.Transparent;
             btn_ProximaPergunta.Image = (Image)resources.GetObject("btn_ProximaPergunta.Image");
-            btn_ProximaPergunta.Location = new Point(1274, 502);
+            btn_ProximaPergunta.Location = new Point(1274, 584);
             btn_ProximaPergunta.MaximumSize = new Size(276, 74);
             btn_ProximaPergunta.MinimumSize = new Size(242, 62);
             btn_ProximaPergunta.Name = "btn_ProximaPergunta";
@@ -196,11 +196,11 @@
             panel1.Controls.Add(rbt_MuitoRuimPg1);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(340, 116);
-            panel1.MaximumSize = new Size(1224, 380);
-            panel1.MinimumSize = new Size(1224, 380);
+            panel1.Location = new Point(340, 147);
+            panel1.MaximumSize = new Size(1224, 435);
+            panel1.MinimumSize = new Size(1224, 435);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1224, 380);
+            panel1.Size = new Size(1224, 435);
             panel1.TabIndex = 15;
             // 
             // pcb_MuitoBomPg1
@@ -398,11 +398,11 @@
             panel2.Controls.Add(rbt_MuitoRuimPg2);
             panel2.Controls.Add(pictureBox15);
             panel2.Controls.Add(pictureBox16);
-            panel2.Location = new Point(340, 116);
-            panel2.MaximumSize = new Size(1224, 380);
-            panel2.MinimumSize = new Size(1224, 380);
+            panel2.Location = new Point(340, 147);
+            panel2.MaximumSize = new Size(1224, 435);
+            panel2.MinimumSize = new Size(1224, 435);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1224, 380);
+            panel2.Size = new Size(1224, 435);
             panel2.TabIndex = 28;
             panel2.Visible = false;
             // 
@@ -602,11 +602,11 @@
             panel3.Controls.Add(rbt_MuitoRuimPg3);
             panel3.Controls.Add(pictureBox23);
             panel3.Controls.Add(pictureBox24);
-            panel3.Location = new Point(340, 116);
-            panel3.MaximumSize = new Size(1224, 380);
-            panel3.MinimumSize = new Size(1224, 380);
+            panel3.Location = new Point(340, 147);
+            panel3.MaximumSize = new Size(1224, 435);
+            panel3.MinimumSize = new Size(1224, 435);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1224, 380);
+            panel3.Size = new Size(1224, 435);
             panel3.TabIndex = 29;
             panel3.Visible = false;
             // 
@@ -806,11 +806,11 @@
             panel4.Controls.Add(rbt_MuitoRuimPg4);
             panel4.Controls.Add(pictureBox31);
             panel4.Controls.Add(pictureBox32);
-            panel4.Location = new Point(340, 116);
-            panel4.MaximumSize = new Size(1224, 380);
-            panel4.MinimumSize = new Size(1224, 380);
+            panel4.Location = new Point(340, 147);
+            panel4.MaximumSize = new Size(1224, 435);
+            panel4.MinimumSize = new Size(1224, 435);
             panel4.Name = "panel4";
-            panel4.Size = new Size(1224, 380);
+            panel4.Size = new Size(1224, 435);
             panel4.TabIndex = 30;
             panel4.Visible = false;
             // 
@@ -1010,11 +1010,11 @@
             panel5.Controls.Add(rbt_MuitoRuimPg5);
             panel5.Controls.Add(pictureBox39);
             panel5.Controls.Add(pictureBox40);
-            panel5.Location = new Point(340, 116);
-            panel5.MaximumSize = new Size(1224, 380);
-            panel5.MinimumSize = new Size(1224, 380);
+            panel5.Location = new Point(340, 147);
+            panel5.MaximumSize = new Size(1224, 435);
+            panel5.MinimumSize = new Size(1224, 435);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1224, 380);
+            panel5.Size = new Size(1224, 435);
             panel5.TabIndex = 31;
             panel5.Visible = false;
             // 
@@ -1212,10 +1212,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1904, 881);
-            Controls.Add(label1);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -1224,11 +1223,13 @@
             Controls.Add(btn_ProximaPergunta);
             Controls.Add(btn_VoltarMenu);
             DoubleBuffered = true;
-            MaximumSize = new Size(1920, 920);
-            MinimumSize = new Size(1598, 850);
+            FormBorderStyle = FormBorderStyle.None;
+            MaximumSize = new Size(1920, 1080);
+            MinimumSize = new Size(1918, 1030);
             Name = "Frm_TelaPerguntas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frm_TelaPerguntas";
+            WindowState = FormWindowState.Maximized;
             FormClosing += Frm_Pergunta1_FormClosing;
             Load += Frm_Pergunta1_Load;
             ((System.ComponentModel.ISupportInitialize)btn_VoltarMenu).EndInit();

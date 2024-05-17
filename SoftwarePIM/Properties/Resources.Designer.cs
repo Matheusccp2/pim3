@@ -123,6 +123,16 @@ namespace SoftwarePIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BOTÃO_INICIAR_VALIDAÇÃO {
+            get {
+                object obj = ResourceManager.GetObject("BOTÃO_INICIAR_VALIDAÇÃO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Botão_Mapa {
             get {
                 object obj = ResourceManager.GetObject("Botão Mapa", resourceCulture);
@@ -223,9 +233,29 @@ namespace SoftwarePIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IDADE_ {
+            get {
+                object obj = ResourceManager.GetObject("IDADE_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NÃO {
             get {
                 object obj = ResourceManager.GetObject("NÃO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOME_ {
+            get {
+                object obj = ResourceManager.GetObject("NOME_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

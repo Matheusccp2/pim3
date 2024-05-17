@@ -59,27 +59,5 @@ namespace SoftwarePIM
             this.Close();
             this.FormPrincipal?.Show();
         }
-
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_QtdMuitoRuim_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_QtdRuim_Click(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void lbl_MediaAvaliacao_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -73,19 +73,19 @@ namespace SoftwarePIM
                 case 2:
                     panel2.Visible = false;
                     break;
-                //case 3:
-                //    panel3.Visible = false;
-                //    break;
-                //case 4:
-                //    panel4.Visible = false;
-                //    break;
-                //case 5:
-                //    panel5.Visible = false;
-                //    break;
+                case 3:
+                    panel3.Visible = false;
+                    break;
+                case 4:
+                    panel4.Visible = false;
+                    break;
+                case 5:
+                    panel5.Visible = false;
+                    break;
             }
 
             painelAtual++;
-            if (painelAtual > 2)
+            if (painelAtual > 5)
                 painelAtual = 1;
 
             switch (painelAtual)
@@ -96,15 +96,15 @@ namespace SoftwarePIM
                 case 2:
                     panel2.Visible = true;
                     break;
-                //case 3:
-                //    panel3.Visible = true;
-                //    break;
-                //case 4:
-                //    panel4.Visible = true;
-                //    break;
-                //case 5:
-                //    panel5.Visible = true;
-                //    break;
+                case 3:
+                    panel3.Visible = true;
+                    break;
+                case 4:
+                    panel4.Visible = true;
+                    break;
+                case 5:
+                    panel5.Visible = true;
+                    break;
             }
 
         }
@@ -119,21 +119,20 @@ namespace SoftwarePIM
                 case 2:
                     panel2.Visible = false;
                     break;
-                    // Adicione os casos necessários para os painéis adicionais aqui
-                //case 3:
-                //    panel3.Visible = false;
-                //    break;
-                //case 4:
-                //    panel4.Visible = false;
-                //    break;
-                //case 5:
-                //    panel5.Visible = false;
-                //    break;
+                case 3:
+                    panel3.Visible = false;
+                    break;
+                case 4:
+                    panel4.Visible = false;
+                    break;
+                case 5:
+                    panel5.Visible = false;
+                    break;
             }
 
             painelAtual--;
             if (painelAtual < 1)
-                painelAtual = 2; // Altere para o número total de painéis
+                painelAtual = 5; // Altere para o número total de painéis
 
             switch (painelAtual)
             {
@@ -143,16 +142,15 @@ namespace SoftwarePIM
                 case 2:
                     panel2.Visible = true;
                     break;
-                    // Adicione os casos necessários para os painéis adicionais aqui
-                //case 3:
-                //    panel3.Visible = true;
-                //    break;
-                //case 4:
-                //    panel4.Visible = true;
-                //    break;
-                //case 5:
-                //    panel5.Visible = true;
-                //    break;
+                case 3:
+                    panel3.Visible = true;
+                    break;
+                case 4:
+                    panel4.Visible = true;
+                    break;
+                case 5:
+                    panel5.Visible = true;
+                    break;
             }
         }
     }
