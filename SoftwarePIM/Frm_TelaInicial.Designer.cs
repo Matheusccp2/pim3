@@ -92,7 +92,7 @@
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1918, 1041);
+            ClientSize = new Size(1920, 1080);
             Controls.Add(btn_Avaliacao);
             Controls.Add(btn_Mapa);
             Controls.Add(btn_Historia);

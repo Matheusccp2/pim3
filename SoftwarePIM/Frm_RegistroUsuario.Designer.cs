@@ -140,7 +140,7 @@
             BackColor = Color.Black;
             BackgroundImage = Properties.Resources.Foto_de_Fundo2;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1918, 1041);
+            ClientSize = new Size(1920, 1080);
             Controls.Add(btn_VoltarMenu);
             Controls.Add(txb_IdadeUsuario);
             Controls.Add(txb_NomeUsuario);

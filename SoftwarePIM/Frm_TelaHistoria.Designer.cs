@@ -405,7 +405,7 @@
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1918, 1041);
+            ClientSize = new Size(1920, 1080);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);

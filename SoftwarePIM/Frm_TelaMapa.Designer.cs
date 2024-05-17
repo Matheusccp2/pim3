@@ -36,7 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             BackgroundImage = Properties.Resources.Foto_de_Fundo2;
-            ClientSize = new Size(1918, 1041);
+            ClientSize = new Size(1920, 1080);
             FormBorderStyle = FormBorderStyle.None;
             MaximumSize = new Size(1920, 1080);
             MinimumSize = new Size(1918, 1030);
