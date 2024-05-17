@@ -29,7 +29,7 @@ namespace SoftwarePIM.Back_End
         
 
 
-        private List<string> lista_idade_string = new List<string> { };
+        
 
 
         
