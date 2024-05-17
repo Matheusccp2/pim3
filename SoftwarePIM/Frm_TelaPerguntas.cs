@@ -34,15 +34,28 @@ namespace SoftwarePIM
             this.Close();
         }
 
+        private int muito_ruim;
+        private int ruim;
+        private int regular;
+        private int bom;
+        private int muito_bom;
         private int painelAtual = 1; // Variável para rastrear qual painel está atualmente visível
-        
+        private void mandar()
+
+        {
+            Controle controle = new Controle(muito_ruim,ruim,regular,bom,muito_bom,numero_pergunta);
+
+        }
         private void btn_ProximaPergunta_Click(object sender, EventArgs e)
 
         {
-           
-
-
-
+            if (alternativa == 1) muito_ruim++;
+            if (alternativa == 2) ruim++;
+            if (alternativa == 3) regular++;
+            if (alternativa == 4) bom++;
+            if (alternativa == 5) muito_bom++;
+            if (numero_pergunta == 5) mandar();
+            label1.Text = Relatorio.maior_reposta;
 
             // Esconde o painel atual
             switch (painelAtual)
@@ -67,7 +80,6 @@ namespace SoftwarePIM
                     panel5.Visible = false;
                     // this.numero_pergunta = 0;
                     break;
-
             }
 
             // Passa para o próximo painel
@@ -77,7 +89,7 @@ namespace SoftwarePIM
 
             if (painelAtual > 5)
             {
-                numero_pergunta = 6;
+                
                 painelAtual = 1;
                 // Abre um novo formulário
                 AbrirNovoFormulario();
@@ -110,21 +122,10 @@ namespace SoftwarePIM
                         break;
                 }
             }
-          
 
-            mandar();
-            label1.Text = Relatorio.total_muitoruim.ToString();
-
-        }
-        private void mandar()
-
-        {
-
-            Controle controle = new Controle(alternativa,numero_pergunta);
-
-                     
         }
         private void AbrirNovoFormulario()
+
         {
             var frm_Relatorio = new Frm_Relatorio();
             frm_Relatorio.FormAnterior = this;

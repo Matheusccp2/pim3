@@ -11,11 +11,11 @@ namespace SoftwarePIM.Back_end
     {
         public int alternativa;
         public int numero_pergunta;
-        public int muito_ruim = 0;
-        public int ruim = 0;
-        public int regular = 0;
-        public int bom = 0;
-        public int muito_bom = 0;
+        public int muito_ruim;
+        public int ruim ;
+        public int regular;
+        public int bom;
+        public int muito_bom;
         public string nome;
         public string idade;
 

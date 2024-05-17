@@ -1200,12 +1200,12 @@
             // 
             // label1
             // 
-            label1.AutoSize = true;
             label1.Location = new Point(874, 532);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(100, 30);
             label1.TabIndex = 32;
             label1.Text = "label1";
+            label1.TextAlign = ContentAlignment.TopCenter;
             label1.Click += label1_Click;
             // 
             // Frm_TelaPerguntas
@@ -1284,7 +1284,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox39).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
