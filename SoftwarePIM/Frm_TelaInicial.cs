@@ -40,5 +40,10 @@ namespace SoftwarePIM
             // Exibindo o FormSecundario
             frm_RegistroUsuario.Show();
         }
+
+        private void Frm_TelaInicial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

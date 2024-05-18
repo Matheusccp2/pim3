@@ -87,8 +87,8 @@
             // 
             // Frm_TelaInicial
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
@@ -105,6 +105,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
             WindowState = FormWindowState.Maximized;
+            Load += Frm_TelaInicial_Load;
             ((System.ComponentModel.ISupportInitialize)btn_Historia).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Mapa).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Avaliacao).EndInit();
