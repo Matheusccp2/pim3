@@ -41,7 +41,6 @@
             btnCapslock = new Button();
             btnBackspace = new Button();
             btnM = new Button();
-            btnEnter = new Button();
             btnN = new Button();
             btnB = new Button();
             btnV = new Button();
@@ -70,7 +69,6 @@
             pnlTeclado_idade = new Panel();
             btnBackspace_Idade = new Button();
             btn1 = new Button();
-            btnEnter_Idade = new Button();
             btn2 = new Button();
             btn3 = new Button();
             btn4 = new Button();
@@ -99,8 +97,10 @@
             txb_NomeUsuario.Location = new Point(824, 295);
             txb_NomeUsuario.Name = "txb_NomeUsuario";
             txb_NomeUsuario.Size = new Size(607, 50);
-            txb_NomeUsuario.TabIndex = 9;
+            txb_NomeUsuario.TabIndex = 1;
             txb_NomeUsuario.TextChanged += txb_NomeUsuario_TextChanged;
+            txb_NomeUsuario.Enter += txb_NomeUsuario_Enter;
+            txb_NomeUsuario.Leave += txb_NomeUsuario_Leave;
             // 
             // txb_IdadeUsuario
             // 
@@ -111,9 +111,11 @@
             txb_IdadeUsuario.Location = new Point(824, 390);
             txb_IdadeUsuario.Name = "txb_IdadeUsuario";
             txb_IdadeUsuario.Size = new Size(90, 50);
-            txb_IdadeUsuario.TabIndex = 1;
+            txb_IdadeUsuario.TabIndex = 9;
             txb_IdadeUsuario.TextAlign = HorizontalAlignment.Center;
             txb_IdadeUsuario.TextChanged += txb_IdadeUsuario_TextChanged;
+            txb_IdadeUsuario.Enter += txb_IdadeUsuario_Enter;
+            txb_IdadeUsuario.Leave += txb_IdadeUsuario_Leave;
             // 
             // pictureBox1
             // 
@@ -184,7 +186,6 @@
             pnlTeclado_Nome.Controls.Add(btnCapslock);
             pnlTeclado_Nome.Controls.Add(btnBackspace);
             pnlTeclado_Nome.Controls.Add(btnM);
-            pnlTeclado_Nome.Controls.Add(btnEnter);
             pnlTeclado_Nome.Controls.Add(btnN);
             pnlTeclado_Nome.Controls.Add(btnB);
             pnlTeclado_Nome.Controls.Add(btnV);
@@ -254,16 +255,6 @@
             btnM.Text = "M";
             btnM.UseVisualStyleBackColor = true;
             btnM.Click += btnM_Click;
-            // 
-            // btnEnter
-            // 
-            btnEnter.Location = new Point(588, 106);
-            btnEnter.Name = "btnEnter";
-            btnEnter.Size = new Size(68, 116);
-            btnEnter.TabIndex = 38;
-            btnEnter.Text = "ENTER";
-            btnEnter.UseVisualStyleBackColor = true;
-            btnEnter.Click += btnEnter_Click;
             // 
             // btnN
             // 
@@ -522,7 +513,6 @@
             pnlTeclado_idade.BackColor = Color.Transparent;
             pnlTeclado_idade.Controls.Add(btnBackspace_Idade);
             pnlTeclado_idade.Controls.Add(btn1);
-            pnlTeclado_idade.Controls.Add(btnEnter_Idade);
             pnlTeclado_idade.Controls.Add(btn2);
             pnlTeclado_idade.Controls.Add(btn3);
             pnlTeclado_idade.Controls.Add(btn4);
@@ -532,14 +522,14 @@
             pnlTeclado_idade.Controls.Add(btn8);
             pnlTeclado_idade.Controls.Add(btn9);
             pnlTeclado_idade.Controls.Add(btn0);
-            pnlTeclado_idade.Location = new Point(1298, 778);
+            pnlTeclado_idade.Location = new Point(856, 702);
             pnlTeclado_idade.Name = "pnlTeclado_idade";
-            pnlTeclado_idade.Size = new Size(213, 246);
+            pnlTeclado_idade.Size = new Size(224, 366);
             pnlTeclado_idade.TabIndex = 11;
             // 
             // btnBackspace_Idade
             // 
-            btnBackspace_Idade.Location = new Point(4, 187);
+            btnBackspace_Idade.Location = new Point(23, 263);
             btnBackspace_Idade.Name = "btnBackspace_Idade";
             btnBackspace_Idade.Size = new Size(55, 55);
             btnBackspace_Idade.TabIndex = 41;
@@ -550,7 +540,7 @@
             // btn1
             // 
             btn1.BackColor = Color.Transparent;
-            btn1.Location = new Point(4, 3);
+            btn1.Location = new Point(23, 79);
             btn1.Name = "btn1";
             btn1.Size = new Size(55, 55);
             btn1.TabIndex = 0;
@@ -558,19 +548,9 @@
             btn1.UseVisualStyleBackColor = false;
             btn1.Click += btn1_Click;
             // 
-            // btnEnter_Idade
-            // 
-            btnEnter_Idade.Location = new Point(126, 186);
-            btnEnter_Idade.Name = "btnEnter_Idade";
-            btnEnter_Idade.Size = new Size(55, 55);
-            btnEnter_Idade.TabIndex = 41;
-            btnEnter_Idade.Text = "ENTER";
-            btnEnter_Idade.UseVisualStyleBackColor = true;
-            btnEnter_Idade.Click += btnEnter_Idade_Click;
-            // 
             // btn2
             // 
-            btn2.Location = new Point(65, 3);
+            btn2.Location = new Point(84, 79);
             btn2.Name = "btn2";
             btn2.Size = new Size(55, 55);
             btn2.TabIndex = 9;
@@ -580,7 +560,7 @@
             // 
             // btn3
             // 
-            btn3.Location = new Point(126, 3);
+            btn3.Location = new Point(145, 79);
             btn3.Name = "btn3";
             btn3.Size = new Size(55, 55);
             btn3.TabIndex = 8;
@@ -590,7 +570,7 @@
             // 
             // btn4
             // 
-            btn4.Location = new Point(4, 65);
+            btn4.Location = new Point(23, 141);
             btn4.Name = "btn4";
             btn4.Size = new Size(55, 55);
             btn4.TabIndex = 7;
@@ -601,7 +581,7 @@
             // btn5
             // 
             btn5.BackColor = Color.Transparent;
-            btn5.Location = new Point(65, 65);
+            btn5.Location = new Point(84, 141);
             btn5.Name = "btn5";
             btn5.Size = new Size(55, 55);
             btn5.TabIndex = 6;
@@ -611,7 +591,7 @@
             // 
             // btn6
             // 
-            btn6.Location = new Point(126, 64);
+            btn6.Location = new Point(145, 140);
             btn6.Name = "btn6";
             btn6.Size = new Size(55, 55);
             btn6.TabIndex = 5;
@@ -621,7 +601,7 @@
             // 
             // btn7
             // 
-            btn7.Location = new Point(4, 126);
+            btn7.Location = new Point(23, 202);
             btn7.Name = "btn7";
             btn7.Size = new Size(55, 55);
             btn7.TabIndex = 4;
@@ -631,7 +611,7 @@
             // 
             // btn8
             // 
-            btn8.Location = new Point(65, 126);
+            btn8.Location = new Point(84, 202);
             btn8.Name = "btn8";
             btn8.Size = new Size(55, 55);
             btn8.TabIndex = 3;
@@ -641,7 +621,7 @@
             // 
             // btn9
             // 
-            btn9.Location = new Point(126, 125);
+            btn9.Location = new Point(145, 201);
             btn9.Name = "btn9";
             btn9.Size = new Size(55, 55);
             btn9.TabIndex = 2;
@@ -651,7 +631,7 @@
             // 
             // btn0
             // 
-            btn0.Location = new Point(65, 187);
+            btn0.Location = new Point(145, 262);
             btn0.Name = "btn0";
             btn0.Size = new Size(55, 55);
             btn0.TabIndex = 1;
@@ -731,7 +711,6 @@
         private Button btn1;
         private Button btnSpace;
         private Button btnCapslock;
-        private Button btnEnter;
         private Button btnBackspace;
         private Button btnM;
         private Button btnN;
@@ -762,7 +741,6 @@
         private Panel pnlTeclado_idade;
         private Button button;
         private Button btnBackspace_Idade;
-        private Button btnEnter_Idade;
         private Label lbl_validacao;
     }
 }

@@ -17,19 +17,15 @@ namespace SoftwarePIM.Back_End
         private int total_respostas;
         private int multi_resposta;
         private int resultado;
-        public static List<int> lista_int_idade = new List<int> ();
         private int soma_idade;
 
+        public static List<int> lista_int_idade = new List<int>();
         public static int media_idade;
         public static int total_menos18;
         public static int total_mais60;
         public static int total_entre18e60;
-
-
         public static int media_avaliacao;
         public static string maior_reposta;
-
-
         public static int total_muitoruim;
         public static int total_ruim;
         public static int total_regular;
