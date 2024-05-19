@@ -37,9 +37,9 @@
             pictureBox6 = new PictureBox();
             lbl_QtdMuitoRuim = new Label();
             lbl_QtdRuim = new Label();
-            lbl_QtdBom = new Label();
-            lbl_QtdRegular = new Label();
             lbl_QtdMuitoBom = new Label();
+            lbl_QtdRegular = new Label();
+            lbl_QtdBom = new Label();
             lbl_Qtd60 = new Label();
             lbl_Qtd18a60 = new Label();
             lbl_Qtd18Menos = new Label();
@@ -155,18 +155,19 @@
             lbl_QtdRuim.TabIndex = 7;
             lbl_QtdRuim.Text = "0";
             // 
-            // lbl_QtdBom
+            // lbl_QtdMuitoBom
             // 
-            lbl_QtdBom.AutoSize = true;
-            lbl_QtdBom.BackColor = Color.Transparent;
-            lbl_QtdBom.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            lbl_QtdBom.ForeColor = Color.White;
-            lbl_QtdBom.Location = new Point(667, 517);
-            lbl_QtdBom.Margin = new Padding(4, 0, 4, 0);
-            lbl_QtdBom.Name = "lbl_QtdBom";
-            lbl_QtdBom.Size = new Size(28, 32);
-            lbl_QtdBom.TabIndex = 8;
-            lbl_QtdBom.Text = "0";
+            lbl_QtdMuitoBom.AutoSize = true;
+            lbl_QtdMuitoBom.BackColor = Color.Transparent;
+            lbl_QtdMuitoBom.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lbl_QtdMuitoBom.ForeColor = Color.White;
+            lbl_QtdMuitoBom.Location = new Point(667, 517);
+            lbl_QtdMuitoBom.Margin = new Padding(4, 0, 4, 0);
+            lbl_QtdMuitoBom.Name = "lbl_QtdMuitoBom";
+            lbl_QtdMuitoBom.Size = new Size(28, 32);
+            lbl_QtdMuitoBom.TabIndex = 8;
+            lbl_QtdMuitoBom.Text = "0";
+            lbl_QtdMuitoBom.Click += lbl_QtdBom_Click;
             // 
             // lbl_QtdRegular
             // 
@@ -181,18 +182,18 @@
             lbl_QtdRegular.TabIndex = 9;
             lbl_QtdRegular.Text = "0";
             // 
-            // lbl_QtdMuitoBom
+            // lbl_QtdBom
             // 
-            lbl_QtdMuitoBom.AutoSize = true;
-            lbl_QtdMuitoBom.BackColor = Color.Transparent;
-            lbl_QtdMuitoBom.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            lbl_QtdMuitoBom.ForeColor = Color.White;
-            lbl_QtdMuitoBom.Location = new Point(667, 476);
-            lbl_QtdMuitoBom.Margin = new Padding(4, 0, 4, 0);
-            lbl_QtdMuitoBom.Name = "lbl_QtdMuitoBom";
-            lbl_QtdMuitoBom.Size = new Size(28, 32);
-            lbl_QtdMuitoBom.TabIndex = 10;
-            lbl_QtdMuitoBom.Text = "0";
+            lbl_QtdBom.AutoSize = true;
+            lbl_QtdBom.BackColor = Color.Transparent;
+            lbl_QtdBom.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lbl_QtdBom.ForeColor = Color.White;
+            lbl_QtdBom.Location = new Point(667, 476);
+            lbl_QtdBom.Margin = new Padding(4, 0, 4, 0);
+            lbl_QtdBom.Name = "lbl_QtdBom";
+            lbl_QtdBom.Size = new Size(28, 32);
+            lbl_QtdBom.TabIndex = 10;
+            lbl_QtdBom.Text = "0";
             // 
             // lbl_Qtd60
             // 
@@ -284,9 +285,9 @@
             Controls.Add(lbl_Qtd18Menos);
             Controls.Add(lbl_Qtd18a60);
             Controls.Add(lbl_Qtd60);
-            Controls.Add(lbl_QtdMuitoBom);
-            Controls.Add(lbl_QtdRegular);
             Controls.Add(lbl_QtdBom);
+            Controls.Add(lbl_QtdRegular);
+            Controls.Add(lbl_QtdMuitoBom);
             Controls.Add(lbl_QtdRuim);
             Controls.Add(lbl_QtdMuitoRuim);
             Controls.Add(pictureBox6);
@@ -326,9 +327,9 @@
         private PictureBox pictureBox6;
         private Label lbl_QtdMuitoRuim;
         private Label lbl_QtdRuim;
-        private Label lbl_QtdBom;
-        private Label lbl_QtdRegular;
         private Label lbl_QtdMuitoBom;
+        private Label lbl_QtdRegular;
+        private Label lbl_QtdBom;
         private Label lbl_Qtd60;
         private Label lbl_Qtd18a60;
         private Label lbl_Qtd18Menos;

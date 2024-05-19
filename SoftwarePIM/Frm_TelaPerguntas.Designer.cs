@@ -38,11 +38,6 @@
             pcb_RegularPg1 = new PictureBox();
             pcb_MuitoRuimPg1 = new PictureBox();
             pictureBox5 = new PictureBox();
-            rbt_MuitoBomPg1 = new RadioButton();
-            rbt_BomPg1 = new RadioButton();
-            rbt_RegularPg1 = new RadioButton();
-            rbt_RuimPg1 = new RadioButton();
-            rbt_MuitoRuimPg1 = new RadioButton();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
@@ -52,11 +47,6 @@
             pcb_RegularPg2 = new PictureBox();
             pcb_MuitoRuimPg2 = new PictureBox();
             pictureBox14 = new PictureBox();
-            rbt_MuitoBomPg2 = new RadioButton();
-            rbt_BomPg2 = new RadioButton();
-            rbt_RegularPg2 = new RadioButton();
-            rbt_RuimPg2 = new RadioButton();
-            rbt_MuitoRuimPg2 = new RadioButton();
             pictureBox15 = new PictureBox();
             pictureBox16 = new PictureBox();
             panel3 = new Panel();
@@ -66,11 +56,6 @@
             pcb_RegularPg3 = new PictureBox();
             pcb_MuitoRuimPg3 = new PictureBox();
             pictureBox22 = new PictureBox();
-            rbt_MuitoBomPg3 = new RadioButton();
-            rbt_BomPg3 = new RadioButton();
-            rbt_RegularPg3 = new RadioButton();
-            rbt_RuimPg3 = new RadioButton();
-            rbt_MuitoRuimPg3 = new RadioButton();
             pictureBox23 = new PictureBox();
             pictureBox24 = new PictureBox();
             panel4 = new Panel();
@@ -80,11 +65,6 @@
             pcb_RegularPg4 = new PictureBox();
             pcb_MuitoRuimPg4 = new PictureBox();
             pictureBox30 = new PictureBox();
-            rbt_MuitoBomPg4 = new RadioButton();
-            rbt_BomPg4 = new RadioButton();
-            rbt_RegularPg4 = new RadioButton();
-            rbt_RuimPg4 = new RadioButton();
-            rbt_MuitoRuimPg4 = new RadioButton();
             pictureBox31 = new PictureBox();
             pictureBox32 = new PictureBox();
             panel5 = new Panel();
@@ -94,14 +74,34 @@
             pcb_RegularPg5 = new PictureBox();
             pcb_MuitoRuimPg5 = new PictureBox();
             pictureBox38 = new PictureBox();
-            rbt_MuitoBomPg5 = new RadioButton();
-            rbt_BomPg5 = new RadioButton();
-            rbt_RegularPg5 = new RadioButton();
-            rbt_RuimPg5 = new RadioButton();
-            rbt_MuitoRuimPg5 = new RadioButton();
             pictureBox39 = new PictureBox();
             pictureBox40 = new PictureBox();
             label1 = new Label();
+            pcb_foguetinho1Pg1 = new PictureBox();
+            pcb_foguetinho2Pg1 = new PictureBox();
+            pcb_foguetinho3Pg1 = new PictureBox();
+            pcb_foguetinho4Pg1 = new PictureBox();
+            pcb_foguetinho5Pg1 = new PictureBox();
+            pcb_foguetinho1Pg2 = new PictureBox();
+            pcb_foguetinho2Pg2 = new PictureBox();
+            pcb_foguetinho3Pg2 = new PictureBox();
+            pcb_foguetinho4Pg2 = new PictureBox();
+            pcb_foguetinho5Pg2 = new PictureBox();
+            pcb_foguetinho1Pg5 = new PictureBox();
+            pcb_foguetinho2Pg5 = new PictureBox();
+            pcb_foguetinho3Pg5 = new PictureBox();
+            pcb_foguetinho4Pg5 = new PictureBox();
+            pcb_foguetinho5Pg5 = new PictureBox();
+            pcb_foguetinho1Pg4 = new PictureBox();
+            pcb_foguetinho2Pg4 = new PictureBox();
+            pcb_foguetinho3Pg4 = new PictureBox();
+            pcb_foguetinho4Pg4 = new PictureBox();
+            pcb_foguetinho5Pg4 = new PictureBox();
+            pcb_foguetinho1Pg3 = new PictureBox();
+            pcb_foguetinho2Pg3 = new PictureBox();
+            pcb_foguetinho3Pg3 = new PictureBox();
+            pcb_foguetinho4Pg3 = new PictureBox();
+            pcb_foguetinho5Pg3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)btn_VoltarMenu).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_ProximaPergunta).BeginInit();
             panel1.SuspendLayout();
@@ -149,6 +149,31 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox38).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg3).BeginInit();
             SuspendLayout();
             // 
             // btn_VoltarMenu
@@ -183,20 +208,20 @@
             // 
             panel1.BackColor = Color.Transparent;
             panel1.BackgroundImageLayout = ImageLayout.None;
+            panel1.Controls.Add(pcb_foguetinho5Pg1);
+            panel1.Controls.Add(pcb_foguetinho4Pg1);
+            panel1.Controls.Add(pcb_foguetinho3Pg1);
+            panel1.Controls.Add(pcb_foguetinho2Pg1);
+            panel1.Controls.Add(pcb_foguetinho1Pg1);
             panel1.Controls.Add(pcb_MuitoBomPg1);
             panel1.Controls.Add(pcb_BomPg1);
             panel1.Controls.Add(pcb_RuimPg1);
             panel1.Controls.Add(pcb_RegularPg1);
             panel1.Controls.Add(pcb_MuitoRuimPg1);
             panel1.Controls.Add(pictureBox5);
-            panel1.Controls.Add(rbt_MuitoBomPg1);
-            panel1.Controls.Add(rbt_BomPg1);
-            panel1.Controls.Add(rbt_RegularPg1);
-            panel1.Controls.Add(rbt_RuimPg1);
-            panel1.Controls.Add(rbt_MuitoRuimPg1);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(340, 147);
+            panel1.Location = new Point(363, 143);
             panel1.MaximumSize = new Size(1224, 435);
             panel1.MinimumSize = new Size(1224, 435);
             panel1.Name = "panel1";
@@ -290,71 +315,6 @@
             pictureBox5.TabIndex = 22;
             pictureBox5.TabStop = false;
             // 
-            // rbt_MuitoBomPg1
-            // 
-            rbt_MuitoBomPg1.AutoSize = true;
-            rbt_MuitoBomPg1.BackColor = Color.Transparent;
-            rbt_MuitoBomPg1.Location = new Point(1068, 320);
-            rbt_MuitoBomPg1.MaximumSize = new Size(14, 13);
-            rbt_MuitoBomPg1.MinimumSize = new Size(14, 13);
-            rbt_MuitoBomPg1.Name = "rbt_MuitoBomPg1";
-            rbt_MuitoBomPg1.Size = new Size(14, 13);
-            rbt_MuitoBomPg1.TabIndex = 21;
-            rbt_MuitoBomPg1.TabStop = true;
-            rbt_MuitoBomPg1.UseVisualStyleBackColor = false;
-            // 
-            // rbt_BomPg1
-            // 
-            rbt_BomPg1.AutoSize = true;
-            rbt_BomPg1.BackColor = Color.Transparent;
-            rbt_BomPg1.Location = new Point(835, 320);
-            rbt_BomPg1.MaximumSize = new Size(14, 13);
-            rbt_BomPg1.MinimumSize = new Size(14, 13);
-            rbt_BomPg1.Name = "rbt_BomPg1";
-            rbt_BomPg1.Size = new Size(14, 13);
-            rbt_BomPg1.TabIndex = 20;
-            rbt_BomPg1.TabStop = true;
-            rbt_BomPg1.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RegularPg1
-            // 
-            rbt_RegularPg1.AutoSize = true;
-            rbt_RegularPg1.BackColor = Color.Transparent;
-            rbt_RegularPg1.Location = new Point(600, 320);
-            rbt_RegularPg1.MaximumSize = new Size(14, 13);
-            rbt_RegularPg1.MinimumSize = new Size(14, 13);
-            rbt_RegularPg1.Name = "rbt_RegularPg1";
-            rbt_RegularPg1.Size = new Size(14, 13);
-            rbt_RegularPg1.TabIndex = 19;
-            rbt_RegularPg1.TabStop = true;
-            rbt_RegularPg1.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RuimPg1
-            // 
-            rbt_RuimPg1.AutoSize = true;
-            rbt_RuimPg1.BackColor = Color.Transparent;
-            rbt_RuimPg1.Location = new Point(383, 320);
-            rbt_RuimPg1.MaximumSize = new Size(14, 13);
-            rbt_RuimPg1.MinimumSize = new Size(14, 13);
-            rbt_RuimPg1.Name = "rbt_RuimPg1";
-            rbt_RuimPg1.Size = new Size(14, 13);
-            rbt_RuimPg1.TabIndex = 18;
-            rbt_RuimPg1.TabStop = true;
-            rbt_RuimPg1.UseVisualStyleBackColor = false;
-            // 
-            // rbt_MuitoRuimPg1
-            // 
-            rbt_MuitoRuimPg1.AutoSize = true;
-            rbt_MuitoRuimPg1.BackColor = Color.Transparent;
-            rbt_MuitoRuimPg1.Location = new Point(158, 320);
-            rbt_MuitoRuimPg1.MaximumSize = new Size(14, 13);
-            rbt_MuitoRuimPg1.MinimumSize = new Size(14, 13);
-            rbt_MuitoRuimPg1.Name = "rbt_MuitoRuimPg1";
-            rbt_MuitoRuimPg1.Size = new Size(14, 13);
-            rbt_MuitoRuimPg1.TabIndex = 17;
-            rbt_MuitoRuimPg1.TabStop = true;
-            rbt_MuitoRuimPg1.UseVisualStyleBackColor = false;
-            // 
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
@@ -385,22 +345,21 @@
             // 
             panel2.BackColor = Color.Transparent;
             panel2.BackgroundImageLayout = ImageLayout.None;
+            panel2.Controls.Add(pcb_foguetinho5Pg2);
+            panel2.Controls.Add(pcb_foguetinho4Pg2);
+            panel2.Controls.Add(pcb_foguetinho3Pg2);
+            panel2.Controls.Add(pcb_foguetinho2Pg2);
+            panel2.Controls.Add(pcb_foguetinho1Pg2);
             panel2.Controls.Add(pcb_MuitoBomPg2);
             panel2.Controls.Add(pcb_BomPg2);
             panel2.Controls.Add(pcb_RuimPg2);
             panel2.Controls.Add(pcb_RegularPg2);
             panel2.Controls.Add(pcb_MuitoRuimPg2);
             panel2.Controls.Add(pictureBox14);
-            panel2.Controls.Add(rbt_MuitoBomPg2);
-            panel2.Controls.Add(rbt_BomPg2);
-            panel2.Controls.Add(rbt_RegularPg2);
-            panel2.Controls.Add(rbt_RuimPg2);
-            panel2.Controls.Add(rbt_MuitoRuimPg2);
             panel2.Controls.Add(pictureBox15);
             panel2.Controls.Add(pictureBox16);
-            panel2.Location = new Point(340, 147);
+            panel2.Location = new Point(363, 143);
             panel2.MaximumSize = new Size(1224, 435);
-            panel2.MinimumSize = new Size(1224, 435);
             panel2.Name = "panel2";
             panel2.Size = new Size(1224, 435);
             panel2.TabIndex = 28;
@@ -494,71 +453,6 @@
             pictureBox14.TabIndex = 22;
             pictureBox14.TabStop = false;
             // 
-            // rbt_MuitoBomPg2
-            // 
-            rbt_MuitoBomPg2.AutoSize = true;
-            rbt_MuitoBomPg2.BackColor = Color.Transparent;
-            rbt_MuitoBomPg2.Location = new Point(1068, 320);
-            rbt_MuitoBomPg2.MaximumSize = new Size(14, 13);
-            rbt_MuitoBomPg2.MinimumSize = new Size(14, 13);
-            rbt_MuitoBomPg2.Name = "rbt_MuitoBomPg2";
-            rbt_MuitoBomPg2.Size = new Size(14, 13);
-            rbt_MuitoBomPg2.TabIndex = 21;
-            rbt_MuitoBomPg2.TabStop = true;
-            rbt_MuitoBomPg2.UseVisualStyleBackColor = false;
-            // 
-            // rbt_BomPg2
-            // 
-            rbt_BomPg2.AutoSize = true;
-            rbt_BomPg2.BackColor = Color.Transparent;
-            rbt_BomPg2.Location = new Point(835, 320);
-            rbt_BomPg2.MaximumSize = new Size(14, 13);
-            rbt_BomPg2.MinimumSize = new Size(14, 13);
-            rbt_BomPg2.Name = "rbt_BomPg2";
-            rbt_BomPg2.Size = new Size(14, 13);
-            rbt_BomPg2.TabIndex = 20;
-            rbt_BomPg2.TabStop = true;
-            rbt_BomPg2.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RegularPg2
-            // 
-            rbt_RegularPg2.AutoSize = true;
-            rbt_RegularPg2.BackColor = Color.Transparent;
-            rbt_RegularPg2.Location = new Point(600, 320);
-            rbt_RegularPg2.MaximumSize = new Size(14, 13);
-            rbt_RegularPg2.MinimumSize = new Size(14, 13);
-            rbt_RegularPg2.Name = "rbt_RegularPg2";
-            rbt_RegularPg2.Size = new Size(14, 13);
-            rbt_RegularPg2.TabIndex = 19;
-            rbt_RegularPg2.TabStop = true;
-            rbt_RegularPg2.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RuimPg2
-            // 
-            rbt_RuimPg2.AutoSize = true;
-            rbt_RuimPg2.BackColor = Color.Transparent;
-            rbt_RuimPg2.Location = new Point(383, 320);
-            rbt_RuimPg2.MaximumSize = new Size(14, 13);
-            rbt_RuimPg2.MinimumSize = new Size(14, 13);
-            rbt_RuimPg2.Name = "rbt_RuimPg2";
-            rbt_RuimPg2.Size = new Size(14, 13);
-            rbt_RuimPg2.TabIndex = 18;
-            rbt_RuimPg2.TabStop = true;
-            rbt_RuimPg2.UseVisualStyleBackColor = false;
-            // 
-            // rbt_MuitoRuimPg2
-            // 
-            rbt_MuitoRuimPg2.AutoSize = true;
-            rbt_MuitoRuimPg2.BackColor = Color.Transparent;
-            rbt_MuitoRuimPg2.Location = new Point(158, 320);
-            rbt_MuitoRuimPg2.MaximumSize = new Size(14, 13);
-            rbt_MuitoRuimPg2.MinimumSize = new Size(14, 13);
-            rbt_MuitoRuimPg2.Name = "rbt_MuitoRuimPg2";
-            rbt_MuitoRuimPg2.Size = new Size(14, 13);
-            rbt_MuitoRuimPg2.TabIndex = 17;
-            rbt_MuitoRuimPg2.TabStop = true;
-            rbt_MuitoRuimPg2.UseVisualStyleBackColor = false;
-            // 
             // pictureBox15
             // 
             pictureBox15.BackColor = Color.Transparent;
@@ -589,22 +483,21 @@
             // 
             panel3.BackColor = Color.Transparent;
             panel3.BackgroundImageLayout = ImageLayout.None;
+            panel3.Controls.Add(pcb_foguetinho5Pg3);
+            panel3.Controls.Add(pcb_foguetinho4Pg3);
+            panel3.Controls.Add(pcb_foguetinho3Pg3);
+            panel3.Controls.Add(pcb_foguetinho2Pg3);
+            panel3.Controls.Add(pcb_foguetinho1Pg3);
             panel3.Controls.Add(pcb_MuitoBomPg3);
             panel3.Controls.Add(pcb_BomPg3);
             panel3.Controls.Add(pcb_RuimPg3);
             panel3.Controls.Add(pcb_RegularPg3);
             panel3.Controls.Add(pcb_MuitoRuimPg3);
             panel3.Controls.Add(pictureBox22);
-            panel3.Controls.Add(rbt_MuitoBomPg3);
-            panel3.Controls.Add(rbt_BomPg3);
-            panel3.Controls.Add(rbt_RegularPg3);
-            panel3.Controls.Add(rbt_RuimPg3);
-            panel3.Controls.Add(rbt_MuitoRuimPg3);
             panel3.Controls.Add(pictureBox23);
             panel3.Controls.Add(pictureBox24);
-            panel3.Location = new Point(340, 147);
+            panel3.Location = new Point(363, 143);
             panel3.MaximumSize = new Size(1224, 435);
-            panel3.MinimumSize = new Size(1224, 435);
             panel3.Name = "panel3";
             panel3.Size = new Size(1224, 435);
             panel3.TabIndex = 29;
@@ -698,71 +591,6 @@
             pictureBox22.TabIndex = 22;
             pictureBox22.TabStop = false;
             // 
-            // rbt_MuitoBomPg3
-            // 
-            rbt_MuitoBomPg3.AutoSize = true;
-            rbt_MuitoBomPg3.BackColor = Color.Transparent;
-            rbt_MuitoBomPg3.Location = new Point(1068, 320);
-            rbt_MuitoBomPg3.MaximumSize = new Size(14, 13);
-            rbt_MuitoBomPg3.MinimumSize = new Size(14, 13);
-            rbt_MuitoBomPg3.Name = "rbt_MuitoBomPg3";
-            rbt_MuitoBomPg3.Size = new Size(14, 13);
-            rbt_MuitoBomPg3.TabIndex = 21;
-            rbt_MuitoBomPg3.TabStop = true;
-            rbt_MuitoBomPg3.UseVisualStyleBackColor = false;
-            // 
-            // rbt_BomPg3
-            // 
-            rbt_BomPg3.AutoSize = true;
-            rbt_BomPg3.BackColor = Color.Transparent;
-            rbt_BomPg3.Location = new Point(835, 320);
-            rbt_BomPg3.MaximumSize = new Size(14, 13);
-            rbt_BomPg3.MinimumSize = new Size(14, 13);
-            rbt_BomPg3.Name = "rbt_BomPg3";
-            rbt_BomPg3.Size = new Size(14, 13);
-            rbt_BomPg3.TabIndex = 20;
-            rbt_BomPg3.TabStop = true;
-            rbt_BomPg3.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RegularPg3
-            // 
-            rbt_RegularPg3.AutoSize = true;
-            rbt_RegularPg3.BackColor = Color.Transparent;
-            rbt_RegularPg3.Location = new Point(600, 320);
-            rbt_RegularPg3.MaximumSize = new Size(14, 13);
-            rbt_RegularPg3.MinimumSize = new Size(14, 13);
-            rbt_RegularPg3.Name = "rbt_RegularPg3";
-            rbt_RegularPg3.Size = new Size(14, 13);
-            rbt_RegularPg3.TabIndex = 19;
-            rbt_RegularPg3.TabStop = true;
-            rbt_RegularPg3.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RuimPg3
-            // 
-            rbt_RuimPg3.AutoSize = true;
-            rbt_RuimPg3.BackColor = Color.Transparent;
-            rbt_RuimPg3.Location = new Point(383, 320);
-            rbt_RuimPg3.MaximumSize = new Size(14, 13);
-            rbt_RuimPg3.MinimumSize = new Size(14, 13);
-            rbt_RuimPg3.Name = "rbt_RuimPg3";
-            rbt_RuimPg3.Size = new Size(14, 13);
-            rbt_RuimPg3.TabIndex = 18;
-            rbt_RuimPg3.TabStop = true;
-            rbt_RuimPg3.UseVisualStyleBackColor = false;
-            // 
-            // rbt_MuitoRuimPg3
-            // 
-            rbt_MuitoRuimPg3.AutoSize = true;
-            rbt_MuitoRuimPg3.BackColor = Color.Transparent;
-            rbt_MuitoRuimPg3.Location = new Point(158, 320);
-            rbt_MuitoRuimPg3.MaximumSize = new Size(14, 13);
-            rbt_MuitoRuimPg3.MinimumSize = new Size(14, 13);
-            rbt_MuitoRuimPg3.Name = "rbt_MuitoRuimPg3";
-            rbt_MuitoRuimPg3.Size = new Size(14, 13);
-            rbt_MuitoRuimPg3.TabIndex = 17;
-            rbt_MuitoRuimPg3.TabStop = true;
-            rbt_MuitoRuimPg3.UseVisualStyleBackColor = false;
-            // 
             // pictureBox23
             // 
             pictureBox23.BackColor = Color.Transparent;
@@ -793,22 +621,21 @@
             // 
             panel4.BackColor = Color.Transparent;
             panel4.BackgroundImageLayout = ImageLayout.None;
+            panel4.Controls.Add(pcb_foguetinho5Pg4);
+            panel4.Controls.Add(pcb_foguetinho4Pg4);
+            panel4.Controls.Add(pcb_foguetinho3Pg4);
+            panel4.Controls.Add(pcb_foguetinho2Pg4);
+            panel4.Controls.Add(pcb_foguetinho1Pg4);
             panel4.Controls.Add(pcb_MuitoBomPg4);
             panel4.Controls.Add(pcb_BomPg4);
             panel4.Controls.Add(pcb_RuimPg4);
             panel4.Controls.Add(pcb_RegularPg4);
             panel4.Controls.Add(pcb_MuitoRuimPg4);
             panel4.Controls.Add(pictureBox30);
-            panel4.Controls.Add(rbt_MuitoBomPg4);
-            panel4.Controls.Add(rbt_BomPg4);
-            panel4.Controls.Add(rbt_RegularPg4);
-            panel4.Controls.Add(rbt_RuimPg4);
-            panel4.Controls.Add(rbt_MuitoRuimPg4);
             panel4.Controls.Add(pictureBox31);
             panel4.Controls.Add(pictureBox32);
-            panel4.Location = new Point(340, 147);
+            panel4.Location = new Point(363, 143);
             panel4.MaximumSize = new Size(1224, 435);
-            panel4.MinimumSize = new Size(1224, 435);
             panel4.Name = "panel4";
             panel4.Size = new Size(1224, 435);
             panel4.TabIndex = 30;
@@ -902,71 +729,6 @@
             pictureBox30.TabIndex = 22;
             pictureBox30.TabStop = false;
             // 
-            // rbt_MuitoBomPg4
-            // 
-            rbt_MuitoBomPg4.AutoSize = true;
-            rbt_MuitoBomPg4.BackColor = Color.Transparent;
-            rbt_MuitoBomPg4.Location = new Point(1068, 320);
-            rbt_MuitoBomPg4.MaximumSize = new Size(14, 13);
-            rbt_MuitoBomPg4.MinimumSize = new Size(14, 13);
-            rbt_MuitoBomPg4.Name = "rbt_MuitoBomPg4";
-            rbt_MuitoBomPg4.Size = new Size(14, 13);
-            rbt_MuitoBomPg4.TabIndex = 21;
-            rbt_MuitoBomPg4.TabStop = true;
-            rbt_MuitoBomPg4.UseVisualStyleBackColor = false;
-            // 
-            // rbt_BomPg4
-            // 
-            rbt_BomPg4.AutoSize = true;
-            rbt_BomPg4.BackColor = Color.Transparent;
-            rbt_BomPg4.Location = new Point(835, 320);
-            rbt_BomPg4.MaximumSize = new Size(14, 13);
-            rbt_BomPg4.MinimumSize = new Size(14, 13);
-            rbt_BomPg4.Name = "rbt_BomPg4";
-            rbt_BomPg4.Size = new Size(14, 13);
-            rbt_BomPg4.TabIndex = 20;
-            rbt_BomPg4.TabStop = true;
-            rbt_BomPg4.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RegularPg4
-            // 
-            rbt_RegularPg4.AutoSize = true;
-            rbt_RegularPg4.BackColor = Color.Transparent;
-            rbt_RegularPg4.Location = new Point(600, 320);
-            rbt_RegularPg4.MaximumSize = new Size(14, 13);
-            rbt_RegularPg4.MinimumSize = new Size(14, 13);
-            rbt_RegularPg4.Name = "rbt_RegularPg4";
-            rbt_RegularPg4.Size = new Size(14, 13);
-            rbt_RegularPg4.TabIndex = 19;
-            rbt_RegularPg4.TabStop = true;
-            rbt_RegularPg4.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RuimPg4
-            // 
-            rbt_RuimPg4.AutoSize = true;
-            rbt_RuimPg4.BackColor = Color.Transparent;
-            rbt_RuimPg4.Location = new Point(383, 320);
-            rbt_RuimPg4.MaximumSize = new Size(14, 13);
-            rbt_RuimPg4.MinimumSize = new Size(14, 13);
-            rbt_RuimPg4.Name = "rbt_RuimPg4";
-            rbt_RuimPg4.Size = new Size(14, 13);
-            rbt_RuimPg4.TabIndex = 18;
-            rbt_RuimPg4.TabStop = true;
-            rbt_RuimPg4.UseVisualStyleBackColor = false;
-            // 
-            // rbt_MuitoRuimPg4
-            // 
-            rbt_MuitoRuimPg4.AutoSize = true;
-            rbt_MuitoRuimPg4.BackColor = Color.Transparent;
-            rbt_MuitoRuimPg4.Location = new Point(158, 320);
-            rbt_MuitoRuimPg4.MaximumSize = new Size(14, 13);
-            rbt_MuitoRuimPg4.MinimumSize = new Size(14, 13);
-            rbt_MuitoRuimPg4.Name = "rbt_MuitoRuimPg4";
-            rbt_MuitoRuimPg4.Size = new Size(14, 13);
-            rbt_MuitoRuimPg4.TabIndex = 17;
-            rbt_MuitoRuimPg4.TabStop = true;
-            rbt_MuitoRuimPg4.UseVisualStyleBackColor = false;
-            // 
             // pictureBox31
             // 
             pictureBox31.BackColor = Color.Transparent;
@@ -997,22 +759,21 @@
             // 
             panel5.BackColor = Color.Transparent;
             panel5.BackgroundImageLayout = ImageLayout.None;
+            panel5.Controls.Add(pcb_foguetinho5Pg5);
+            panel5.Controls.Add(pcb_foguetinho4Pg5);
+            panel5.Controls.Add(pcb_foguetinho3Pg5);
+            panel5.Controls.Add(pcb_foguetinho2Pg5);
+            panel5.Controls.Add(pcb_foguetinho1Pg5);
             panel5.Controls.Add(pcb_MuitoBomPg5);
             panel5.Controls.Add(pcb_BomPg5);
             panel5.Controls.Add(pcb_RuimPg5);
             panel5.Controls.Add(pcb_RegularPg5);
             panel5.Controls.Add(pcb_MuitoRuimPg5);
             panel5.Controls.Add(pictureBox38);
-            panel5.Controls.Add(rbt_MuitoBomPg5);
-            panel5.Controls.Add(rbt_BomPg5);
-            panel5.Controls.Add(rbt_RegularPg5);
-            panel5.Controls.Add(rbt_RuimPg5);
-            panel5.Controls.Add(rbt_MuitoRuimPg5);
             panel5.Controls.Add(pictureBox39);
             panel5.Controls.Add(pictureBox40);
-            panel5.Location = new Point(340, 147);
+            panel5.Location = new Point(363, 143);
             panel5.MaximumSize = new Size(1224, 435);
-            panel5.MinimumSize = new Size(1224, 435);
             panel5.Name = "panel5";
             panel5.Size = new Size(1224, 435);
             panel5.TabIndex = 31;
@@ -1107,71 +868,6 @@
             pictureBox38.TabIndex = 22;
             pictureBox38.TabStop = false;
             // 
-            // rbt_MuitoBomPg5
-            // 
-            rbt_MuitoBomPg5.AutoSize = true;
-            rbt_MuitoBomPg5.BackColor = Color.Transparent;
-            rbt_MuitoBomPg5.Location = new Point(1068, 320);
-            rbt_MuitoBomPg5.MaximumSize = new Size(14, 13);
-            rbt_MuitoBomPg5.MinimumSize = new Size(14, 13);
-            rbt_MuitoBomPg5.Name = "rbt_MuitoBomPg5";
-            rbt_MuitoBomPg5.Size = new Size(14, 13);
-            rbt_MuitoBomPg5.TabIndex = 21;
-            rbt_MuitoBomPg5.TabStop = true;
-            rbt_MuitoBomPg5.UseVisualStyleBackColor = false;
-            // 
-            // rbt_BomPg5
-            // 
-            rbt_BomPg5.AutoSize = true;
-            rbt_BomPg5.BackColor = Color.Transparent;
-            rbt_BomPg5.Location = new Point(835, 320);
-            rbt_BomPg5.MaximumSize = new Size(14, 13);
-            rbt_BomPg5.MinimumSize = new Size(14, 13);
-            rbt_BomPg5.Name = "rbt_BomPg5";
-            rbt_BomPg5.Size = new Size(14, 13);
-            rbt_BomPg5.TabIndex = 20;
-            rbt_BomPg5.TabStop = true;
-            rbt_BomPg5.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RegularPg5
-            // 
-            rbt_RegularPg5.AutoSize = true;
-            rbt_RegularPg5.BackColor = Color.Transparent;
-            rbt_RegularPg5.Location = new Point(600, 320);
-            rbt_RegularPg5.MaximumSize = new Size(14, 13);
-            rbt_RegularPg5.MinimumSize = new Size(14, 13);
-            rbt_RegularPg5.Name = "rbt_RegularPg5";
-            rbt_RegularPg5.Size = new Size(14, 13);
-            rbt_RegularPg5.TabIndex = 19;
-            rbt_RegularPg5.TabStop = true;
-            rbt_RegularPg5.UseVisualStyleBackColor = false;
-            // 
-            // rbt_RuimPg5
-            // 
-            rbt_RuimPg5.AutoSize = true;
-            rbt_RuimPg5.BackColor = Color.Transparent;
-            rbt_RuimPg5.Location = new Point(383, 320);
-            rbt_RuimPg5.MaximumSize = new Size(14, 13);
-            rbt_RuimPg5.MinimumSize = new Size(14, 13);
-            rbt_RuimPg5.Name = "rbt_RuimPg5";
-            rbt_RuimPg5.Size = new Size(14, 13);
-            rbt_RuimPg5.TabIndex = 18;
-            rbt_RuimPg5.TabStop = true;
-            rbt_RuimPg5.UseVisualStyleBackColor = false;
-            // 
-            // rbt_MuitoRuimPg5
-            // 
-            rbt_MuitoRuimPg5.AutoSize = true;
-            rbt_MuitoRuimPg5.BackColor = Color.Transparent;
-            rbt_MuitoRuimPg5.Location = new Point(158, 320);
-            rbt_MuitoRuimPg5.MaximumSize = new Size(14, 13);
-            rbt_MuitoRuimPg5.MinimumSize = new Size(14, 13);
-            rbt_MuitoRuimPg5.Name = "rbt_MuitoRuimPg5";
-            rbt_MuitoRuimPg5.Size = new Size(14, 13);
-            rbt_MuitoRuimPg5.TabIndex = 17;
-            rbt_MuitoRuimPg5.TabStop = true;
-            rbt_MuitoRuimPg5.UseVisualStyleBackColor = false;
-            // 
             // pictureBox39
             // 
             pictureBox39.BackColor = Color.Transparent;
@@ -1208,6 +904,256 @@
             label1.TextAlign = ContentAlignment.TopCenter;
             label1.Click += label1_Click;
             // 
+            // pcb_foguetinho1Pg1
+            // 
+            pcb_foguetinho1Pg1.Anchor = AnchorStyles.None;
+            pcb_foguetinho1Pg1.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho1Pg1.Location = new Point(139, 281);
+            pcb_foguetinho1Pg1.Name = "pcb_foguetinho1Pg1";
+            pcb_foguetinho1Pg1.Size = new Size(53, 84);
+            pcb_foguetinho1Pg1.TabIndex = 28;
+            pcb_foguetinho1Pg1.TabStop = false;
+            // 
+            // pcb_foguetinho2Pg1
+            // 
+            pcb_foguetinho2Pg1.Anchor = AnchorStyles.None;
+            pcb_foguetinho2Pg1.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho2Pg1.Location = new Point(368, 281);
+            pcb_foguetinho2Pg1.Name = "pcb_foguetinho2Pg1";
+            pcb_foguetinho2Pg1.Size = new Size(53, 84);
+            pcb_foguetinho2Pg1.TabIndex = 29;
+            pcb_foguetinho2Pg1.TabStop = false;
+            // 
+            // pcb_foguetinho3Pg1
+            // 
+            pcb_foguetinho3Pg1.Anchor = AnchorStyles.None;
+            pcb_foguetinho3Pg1.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho3Pg1.Location = new Point(579, 281);
+            pcb_foguetinho3Pg1.Name = "pcb_foguetinho3Pg1";
+            pcb_foguetinho3Pg1.Size = new Size(53, 84);
+            pcb_foguetinho3Pg1.TabIndex = 30;
+            pcb_foguetinho3Pg1.TabStop = false;
+            // 
+            // pcb_foguetinho4Pg1
+            // 
+            pcb_foguetinho4Pg1.Anchor = AnchorStyles.None;
+            pcb_foguetinho4Pg1.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho4Pg1.Location = new Point(820, 281);
+            pcb_foguetinho4Pg1.Name = "pcb_foguetinho4Pg1";
+            pcb_foguetinho4Pg1.Size = new Size(53, 84);
+            pcb_foguetinho4Pg1.TabIndex = 31;
+            pcb_foguetinho4Pg1.TabStop = false;
+            // 
+            // pcb_foguetinho5Pg1
+            // 
+            pcb_foguetinho5Pg1.Anchor = AnchorStyles.None;
+            pcb_foguetinho5Pg1.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho5Pg1.Location = new Point(1047, 281);
+            pcb_foguetinho5Pg1.Name = "pcb_foguetinho5Pg1";
+            pcb_foguetinho5Pg1.Size = new Size(53, 84);
+            pcb_foguetinho5Pg1.TabIndex = 32;
+            pcb_foguetinho5Pg1.TabStop = false;
+            // 
+            // pcb_foguetinho1Pg2
+            // 
+            pcb_foguetinho1Pg2.Anchor = AnchorStyles.None;
+            pcb_foguetinho1Pg2.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho1Pg2.Location = new Point(139, 281);
+            pcb_foguetinho1Pg2.Name = "pcb_foguetinho1Pg2";
+            pcb_foguetinho1Pg2.Size = new Size(53, 84);
+            pcb_foguetinho1Pg2.TabIndex = 34;
+            pcb_foguetinho1Pg2.TabStop = false;
+            // 
+            // pcb_foguetinho2Pg2
+            // 
+            pcb_foguetinho2Pg2.Anchor = AnchorStyles.None;
+            pcb_foguetinho2Pg2.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho2Pg2.Location = new Point(368, 281);
+            pcb_foguetinho2Pg2.Name = "pcb_foguetinho2Pg2";
+            pcb_foguetinho2Pg2.Size = new Size(53, 84);
+            pcb_foguetinho2Pg2.TabIndex = 35;
+            pcb_foguetinho2Pg2.TabStop = false;
+            // 
+            // pcb_foguetinho3Pg2
+            // 
+            pcb_foguetinho3Pg2.Anchor = AnchorStyles.None;
+            pcb_foguetinho3Pg2.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho3Pg2.Location = new Point(579, 281);
+            pcb_foguetinho3Pg2.Name = "pcb_foguetinho3Pg2";
+            pcb_foguetinho3Pg2.Size = new Size(53, 84);
+            pcb_foguetinho3Pg2.TabIndex = 36;
+            pcb_foguetinho3Pg2.TabStop = false;
+            // 
+            // pcb_foguetinho4Pg2
+            // 
+            pcb_foguetinho4Pg2.Anchor = AnchorStyles.None;
+            pcb_foguetinho4Pg2.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho4Pg2.Location = new Point(820, 281);
+            pcb_foguetinho4Pg2.Name = "pcb_foguetinho4Pg2";
+            pcb_foguetinho4Pg2.Size = new Size(53, 84);
+            pcb_foguetinho4Pg2.TabIndex = 37;
+            pcb_foguetinho4Pg2.TabStop = false;
+            // 
+            // pcb_foguetinho5Pg2
+            // 
+            pcb_foguetinho5Pg2.Anchor = AnchorStyles.None;
+            pcb_foguetinho5Pg2.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho5Pg2.Location = new Point(1047, 281);
+            pcb_foguetinho5Pg2.Name = "pcb_foguetinho5Pg2";
+            pcb_foguetinho5Pg2.Size = new Size(53, 84);
+            pcb_foguetinho5Pg2.TabIndex = 38;
+            pcb_foguetinho5Pg2.TabStop = false;
+            // 
+            // pcb_foguetinho1Pg5
+            // 
+            pcb_foguetinho1Pg5.Anchor = AnchorStyles.None;
+            pcb_foguetinho1Pg5.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho1Pg5.Location = new Point(139, 281);
+            pcb_foguetinho1Pg5.Name = "pcb_foguetinho1Pg5";
+            pcb_foguetinho1Pg5.Size = new Size(53, 84);
+            pcb_foguetinho1Pg5.TabIndex = 34;
+            pcb_foguetinho1Pg5.TabStop = false;
+            // 
+            // pcb_foguetinho2Pg5
+            // 
+            pcb_foguetinho2Pg5.Anchor = AnchorStyles.None;
+            pcb_foguetinho2Pg5.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho2Pg5.Location = new Point(368, 281);
+            pcb_foguetinho2Pg5.Name = "pcb_foguetinho2Pg5";
+            pcb_foguetinho2Pg5.Size = new Size(53, 84);
+            pcb_foguetinho2Pg5.TabIndex = 35;
+            pcb_foguetinho2Pg5.TabStop = false;
+            // 
+            // pcb_foguetinho3Pg5
+            // 
+            pcb_foguetinho3Pg5.Anchor = AnchorStyles.None;
+            pcb_foguetinho3Pg5.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho3Pg5.Location = new Point(579, 281);
+            pcb_foguetinho3Pg5.Name = "pcb_foguetinho3Pg5";
+            pcb_foguetinho3Pg5.Size = new Size(53, 84);
+            pcb_foguetinho3Pg5.TabIndex = 36;
+            pcb_foguetinho3Pg5.TabStop = false;
+            // 
+            // pcb_foguetinho4Pg5
+            // 
+            pcb_foguetinho4Pg5.Anchor = AnchorStyles.None;
+            pcb_foguetinho4Pg5.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho4Pg5.Location = new Point(820, 281);
+            pcb_foguetinho4Pg5.Name = "pcb_foguetinho4Pg5";
+            pcb_foguetinho4Pg5.Size = new Size(53, 84);
+            pcb_foguetinho4Pg5.TabIndex = 37;
+            pcb_foguetinho4Pg5.TabStop = false;
+            // 
+            // pcb_foguetinho5Pg5
+            // 
+            pcb_foguetinho5Pg5.Anchor = AnchorStyles.None;
+            pcb_foguetinho5Pg5.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho5Pg5.Location = new Point(1047, 281);
+            pcb_foguetinho5Pg5.Name = "pcb_foguetinho5Pg5";
+            pcb_foguetinho5Pg5.Size = new Size(53, 84);
+            pcb_foguetinho5Pg5.TabIndex = 38;
+            pcb_foguetinho5Pg5.TabStop = false;
+            // 
+            // pcb_foguetinho1Pg4
+            // 
+            pcb_foguetinho1Pg4.Anchor = AnchorStyles.None;
+            pcb_foguetinho1Pg4.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho1Pg4.Location = new Point(139, 281);
+            pcb_foguetinho1Pg4.Name = "pcb_foguetinho1Pg4";
+            pcb_foguetinho1Pg4.Size = new Size(53, 84);
+            pcb_foguetinho1Pg4.TabIndex = 34;
+            pcb_foguetinho1Pg4.TabStop = false;
+            // 
+            // pcb_foguetinho2Pg4
+            // 
+            pcb_foguetinho2Pg4.Anchor = AnchorStyles.None;
+            pcb_foguetinho2Pg4.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho2Pg4.Location = new Point(368, 281);
+            pcb_foguetinho2Pg4.Name = "pcb_foguetinho2Pg4";
+            pcb_foguetinho2Pg4.Size = new Size(53, 84);
+            pcb_foguetinho2Pg4.TabIndex = 35;
+            pcb_foguetinho2Pg4.TabStop = false;
+            // 
+            // pcb_foguetinho3Pg4
+            // 
+            pcb_foguetinho3Pg4.Anchor = AnchorStyles.None;
+            pcb_foguetinho3Pg4.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho3Pg4.Location = new Point(579, 281);
+            pcb_foguetinho3Pg4.Name = "pcb_foguetinho3Pg4";
+            pcb_foguetinho3Pg4.Size = new Size(53, 84);
+            pcb_foguetinho3Pg4.TabIndex = 36;
+            pcb_foguetinho3Pg4.TabStop = false;
+            // 
+            // pcb_foguetinho4Pg4
+            // 
+            pcb_foguetinho4Pg4.Anchor = AnchorStyles.None;
+            pcb_foguetinho4Pg4.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho4Pg4.Location = new Point(815, 281);
+            pcb_foguetinho4Pg4.Name = "pcb_foguetinho4Pg4";
+            pcb_foguetinho4Pg4.Size = new Size(53, 84);
+            pcb_foguetinho4Pg4.TabIndex = 37;
+            pcb_foguetinho4Pg4.TabStop = false;
+            // 
+            // pcb_foguetinho5Pg4
+            // 
+            pcb_foguetinho5Pg4.Anchor = AnchorStyles.None;
+            pcb_foguetinho5Pg4.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho5Pg4.Location = new Point(1047, 281);
+            pcb_foguetinho5Pg4.Name = "pcb_foguetinho5Pg4";
+            pcb_foguetinho5Pg4.Size = new Size(53, 84);
+            pcb_foguetinho5Pg4.TabIndex = 38;
+            pcb_foguetinho5Pg4.TabStop = false;
+            // 
+            // pcb_foguetinho1Pg3
+            // 
+            pcb_foguetinho1Pg3.Anchor = AnchorStyles.None;
+            pcb_foguetinho1Pg3.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho1Pg3.Location = new Point(139, 281);
+            pcb_foguetinho1Pg3.Name = "pcb_foguetinho1Pg3";
+            pcb_foguetinho1Pg3.Size = new Size(53, 84);
+            pcb_foguetinho1Pg3.TabIndex = 34;
+            pcb_foguetinho1Pg3.TabStop = false;
+            // 
+            // pcb_foguetinho2Pg3
+            // 
+            pcb_foguetinho2Pg3.Anchor = AnchorStyles.None;
+            pcb_foguetinho2Pg3.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho2Pg3.Location = new Point(368, 281);
+            pcb_foguetinho2Pg3.Name = "pcb_foguetinho2Pg3";
+            pcb_foguetinho2Pg3.Size = new Size(53, 84);
+            pcb_foguetinho2Pg3.TabIndex = 35;
+            pcb_foguetinho2Pg3.TabStop = false;
+            // 
+            // pcb_foguetinho3Pg3
+            // 
+            pcb_foguetinho3Pg3.Anchor = AnchorStyles.None;
+            pcb_foguetinho3Pg3.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho3Pg3.Location = new Point(579, 281);
+            pcb_foguetinho3Pg3.Name = "pcb_foguetinho3Pg3";
+            pcb_foguetinho3Pg3.Size = new Size(53, 84);
+            pcb_foguetinho3Pg3.TabIndex = 36;
+            pcb_foguetinho3Pg3.TabStop = false;
+            // 
+            // pcb_foguetinho4Pg3
+            // 
+            pcb_foguetinho4Pg3.Anchor = AnchorStyles.None;
+            pcb_foguetinho4Pg3.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho4Pg3.Location = new Point(815, 281);
+            pcb_foguetinho4Pg3.Name = "pcb_foguetinho4Pg3";
+            pcb_foguetinho4Pg3.Size = new Size(53, 84);
+            pcb_foguetinho4Pg3.TabIndex = 37;
+            pcb_foguetinho4Pg3.TabStop = false;
+            // 
+            // pcb_foguetinho5Pg3
+            // 
+            pcb_foguetinho5Pg3.Anchor = AnchorStyles.None;
+            pcb_foguetinho5Pg3.Image = Properties.Resources.Foguetinhovirado;
+            pcb_foguetinho5Pg3.Location = new Point(1047, 281);
+            pcb_foguetinho5Pg3.Name = "pcb_foguetinho5Pg3";
+            pcb_foguetinho5Pg3.Size = new Size(53, 84);
+            pcb_foguetinho5Pg3.TabIndex = 38;
+            pcb_foguetinho5Pg3.TabStop = false;
+            // 
             // Frm_TelaPerguntas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1215,10 +1161,11 @@
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1918, 1030);
+            Controls.Add(panel2);
+            Controls.Add(panel3);
             Controls.Add(panel5);
             Controls.Add(panel4);
-            Controls.Add(panel3);
-            Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(btn_ProximaPergunta);
             Controls.Add(btn_VoltarMenu);
@@ -1235,7 +1182,6 @@
             ((System.ComponentModel.ISupportInitialize)btn_VoltarMenu).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_ProximaPergunta).EndInit();
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pcb_MuitoBomPg1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_BomPg1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_RuimPg1).EndInit();
@@ -1245,7 +1191,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pcb_MuitoBomPg2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_BomPg2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_RuimPg2).EndInit();
@@ -1255,7 +1200,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pcb_MuitoBomPg3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_BomPg3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_RuimPg3).EndInit();
@@ -1265,7 +1209,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
             panel4.ResumeLayout(false);
-            panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pcb_MuitoBomPg4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_BomPg4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_RuimPg4).EndInit();
@@ -1275,7 +1218,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox32).EndInit();
             panel5.ResumeLayout(false);
-            panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pcb_MuitoBomPg5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_BomPg5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcb_RuimPg5).EndInit();
@@ -1284,6 +1226,31 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox38).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox40).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho1Pg3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho2Pg3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho3Pg3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho4Pg3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_foguetinho5Pg3).EndInit();
             ResumeLayout(false);
         }
 
@@ -1297,11 +1264,6 @@
         private PictureBox pcb_RegularPg1;
         private PictureBox pcb_MuitoRuimPg1;
         private PictureBox pictureBox5;
-        private RadioButton rbt_MuitoBomPg1;
-        private RadioButton rbt_BomPg1;
-        private RadioButton rbt_RegularPg1;
-        private RadioButton rbt_RuimPg1;
-        private RadioButton rbt_MuitoRuimPg1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Panel panel2;
@@ -1311,11 +1273,6 @@
         private PictureBox pcb_RegularPg2;
         private PictureBox pcb_MuitoRuimPg2;
         private PictureBox pictureBox14;
-        private RadioButton rbt_MuitoBomPg2;
-        private RadioButton rbt_BomPg2;
-        private RadioButton rbt_RegularPg2;
-        private RadioButton rbt_RuimPg2;
-        private RadioButton rbt_MuitoRuimPg2;
         private PictureBox pictureBox15;
         private PictureBox pictureBox16;
         private Panel panel3;
@@ -1325,11 +1282,6 @@
         private PictureBox pcb_RegularPg3;
         private PictureBox pcb_MuitoRuimPg3;
         private PictureBox pictureBox22;
-        private RadioButton rbt_MuitoBomPg3;
-        private RadioButton rbt_BomPg3;
-        private RadioButton rbt_RegularPg3;
-        private RadioButton rbt_RuimPg3;
-        private RadioButton rbt_MuitoRuimPg3;
         private PictureBox pictureBox23;
         private PictureBox pictureBox24;
         private Panel panel4;
@@ -1339,11 +1291,6 @@
         private PictureBox pcb_RegularPg4;
         private PictureBox pcb_MuitoRuimPg4;
         private PictureBox pictureBox30;
-        private RadioButton rbt_MuitoBomPg4;
-        private RadioButton rbt_BomPg4;
-        private RadioButton rbt_RegularPg4;
-        private RadioButton rbt_RuimPg4;
-        private RadioButton rbt_MuitoRuimPg4;
         private PictureBox pictureBox31;
         private PictureBox pictureBox32;
         private Panel panel5;
@@ -1353,13 +1300,33 @@
         private PictureBox pcb_RegularPg5;
         private PictureBox pcb_MuitoRuimPg5;
         private PictureBox pictureBox38;
-        private RadioButton rbt_MuitoBomPg5;
-        private RadioButton rbt_BomPg5;
-        private RadioButton rbt_RegularPg5;
-        private RadioButton rbt_RuimPg5;
-        private RadioButton rbt_MuitoRuimPg5;
         private PictureBox pictureBox39;
         private PictureBox pictureBox40;
         private Label label1;
+        private PictureBox pcb_foguetinho1Pg1;
+        private PictureBox pcb_foguetinho5Pg1;
+        private PictureBox pcb_foguetinho4Pg1;
+        private PictureBox pcb_foguetinho3Pg1;
+        private PictureBox pcb_foguetinho2Pg1;
+        private PictureBox pcb_foguetinho5Pg2;
+        private PictureBox pcb_foguetinho4Pg2;
+        private PictureBox pcb_foguetinho3Pg2;
+        private PictureBox pcb_foguetinho2Pg2;
+        private PictureBox pcb_foguetinho1Pg2;
+        private PictureBox pcb_foguetinho5Pg5;
+        private PictureBox pcb_foguetinho4Pg5;
+        private PictureBox pcb_foguetinho3Pg5;
+        private PictureBox pcb_foguetinho2Pg5;
+        private PictureBox pcb_foguetinho1Pg5;
+        private PictureBox pcb_foguetinho5Pg3;
+        private PictureBox pcb_foguetinho4Pg3;
+        private PictureBox pcb_foguetinho3Pg3;
+        private PictureBox pcb_foguetinho2Pg3;
+        private PictureBox pcb_foguetinho1Pg3;
+        private PictureBox pcb_foguetinho5Pg4;
+        private PictureBox pcb_foguetinho4Pg4;
+        private PictureBox pcb_foguetinho3Pg4;
+        private PictureBox pcb_foguetinho2Pg4;
+        private PictureBox pcb_foguetinho1Pg4;
     }
 }

@@ -31,7 +31,11 @@ namespace SoftwarePIM
             lbl_QtdRegular.Text = Relatorio.total_regular.ToString();
             lbl_QtdBom.Text = Relatorio.total_bom.ToString();
             lbl_QtdMuitoBom.Text = Relatorio.total_muitobom.ToString();
-            lbl_MediaAvaliacao.Text = Relatorio.media_avaliacao + "%" + " " + Relatorio.maior_reposta;
+            lbl_MediaAvaliacao.Text =  Relatorio.maior_reposta;
+            lbl_Qtd60.Text = Relatorio.total_mais60.ToString();
+            lbl_Qtd18Menos.Text = Relatorio.total_menos18.ToString();
+            lbl_Qtd18a60.Text = Relatorio.total_entre18e60.ToString();
+            lbl_MediaEtaria.Text = Relatorio.media_idade.ToString();
             label1.Text = Relatorio.total_muitoruim.ToString();
 
         }
@@ -58,6 +62,11 @@ namespace SoftwarePIM
         {
             this.Close();
             this.FormPrincipal?.Show();
+        }
+
+        private void lbl_QtdBom_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

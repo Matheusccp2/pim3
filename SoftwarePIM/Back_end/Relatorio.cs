@@ -1,7 +1,9 @@
 ﻿using SoftwarePIM.Back_end;
+using SoftwarePIM.Modelo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +17,15 @@ namespace SoftwarePIM.Back_End
         private int total_respostas;
         private int multi_resposta;
         private int resultado;
+        public static List<int> lista_int_idade = new List<int> ();
+        private int soma_idade;
+
+        public static int media_idade;
+        public static int total_menos18;
+        public static int total_mais60;
+        public static int total_entre18e60;
+
+
         public static int media_avaliacao;
         public static string maior_reposta;
 
@@ -25,15 +36,9 @@ namespace SoftwarePIM.Back_End
         public static int total_bom;
         public static int total_muitobom;
 
-        private int media_etaria;
+        public static string Nome;
+        private int Idade;
         
-
-
-        
-
-
-        
-
         #endregion
 
         #region Constructor
@@ -48,10 +53,24 @@ namespace SoftwarePIM.Back_End
 
         }
 
-        public Relatorio() { 
+        public Relatorio(string nome, int Idadei) 
+        {
+            this.Idade = Idadei;
+            Nome = nome;
+            lista_int_idade.Add(Idadei);
+            calcular_media_idade(); 
+        }
 
-            
-        
+        private void calcular_media_idade()
+        {       if (this.Idade < 18) total_menos18++;
+                if (this.Idade > 60) total_mais60++;
+                if (this.Idade < 60 && this.Idade > 18) total_entre18e60++;
+            for (int i = 0; i < lista_int_idade.Count; i++) 
+            {
+                soma_idade = soma_idade + lista_int_idade[i];
+            }
+
+            media_idade = soma_idade / lista_int_idade.Count;
         }
 
         #endregion
@@ -75,7 +94,7 @@ namespace SoftwarePIM.Back_End
             else { maior_reposta = "MUITO BOM"; }
         }
 
-        internal string ToString()
+        internal new string ToString()
         {
             throw new NotImplementedException();
         }
@@ -90,9 +109,6 @@ namespace SoftwarePIM.Back_End
         public int Total_muitobom { get => total_muitobom; }
 
         #endregion
-
-
-
 
     }
 

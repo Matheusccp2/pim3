@@ -35,7 +35,7 @@ namespace SoftwarePIM
             // Criando uma instância do FormSecundario
             Frm_RegistroUsuario frm_RegistroUsuario = new Frm_RegistroUsuario();
 
-            frm_RegistroUsuario.FormPrincipal = this;
+           // frm_RegistroUsuario.FormPrincipal = this; nao da ruim se tirar
 
             // Exibindo o FormSecundario
             frm_RegistroUsuario.Show();

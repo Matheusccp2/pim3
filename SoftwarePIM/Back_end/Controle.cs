@@ -11,6 +11,7 @@ namespace SoftwarePIM.Back_end
 {
     internal class Controle : Abspropriedades
     {
+        public string mensagem;
         public Controle(int muito_ruim, int ruim,int regular,int bom,int muito_bom, int numero_pergunta)
 
         {            
@@ -26,6 +27,7 @@ namespace SoftwarePIM.Back_end
         {
             this.nome = nome;
             this.idade = idade;
+            Executar_validacao();
 
         }
 
@@ -34,14 +36,20 @@ namespace SoftwarePIM.Back_end
             Relatorio relatorio = new Relatorio(this.muito_ruim, this.ruim, this.regular, this.bom, this.muito_bom);                           
         }
 
-        private void Executar(string nome,string idade)
+        private void Executar_validacao()
 
         {
             Validacao validacao = new Validacao(nome,idade);
+            this.mensagem = validacao.Mensagem;
+            if (this.mensagem.Equals("ok")) {
+                Relatorio relatorio = new Relatorio(nome, validacao.Idadei);
+            }
+
 
         }
         public int Alternativa { get => alternativa; }
         public int Numero_pergunta { get => numero_pergunta; }
+        
     }
 }
 

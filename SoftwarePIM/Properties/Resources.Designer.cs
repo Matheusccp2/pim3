@@ -223,6 +223,16 @@ namespace SoftwarePIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Foguetinhovirado {
+            get {
+                object obj = ResourceManager.GetObject("Foguetinhovirado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Foto_de_Fundo2 {
             get {
                 object obj = ResourceManager.GetObject("Foto de Fundo2", resourceCulture);
@@ -456,6 +466,16 @@ namespace SoftwarePIM.Properties {
         internal static string String1 {
             get {
                 return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Teclado_doidao {
+            get {
+                object obj = ResourceManager.GetObject("Teclado doidao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

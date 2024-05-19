@@ -94,6 +94,10 @@ namespace SoftwarePIM.Modelo
         {
             get { return this.mensagem; }
         }
+        public int Idadei
+        {
+            get { return this.idadei; }
+        }
         #endregion
     }
 }
