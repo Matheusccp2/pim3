@@ -263,7 +263,7 @@
             btnEnter.TabIndex = 38;
             btnEnter.Text = "ENTER";
             btnEnter.UseVisualStyleBackColor = true;
-            btnEnter.Click += btnEnter_Click;
+            //btnEnter.Click += btnEnter_Click;
             // 
             // btnN
             // 
@@ -566,7 +566,7 @@
             btnEnter_Idade.TabIndex = 41;
             btnEnter_Idade.Text = "ENTER";
             btnEnter_Idade.UseVisualStyleBackColor = true;
-            btnEnter_Idade.Click += btnEnter_Idade_Click;
+            //btnEnter_Idade.Click += btnEnter_Idade_Click;
             // 
             // btn2
             // 
