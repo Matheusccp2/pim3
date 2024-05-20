@@ -82,7 +82,7 @@ namespace SoftwarePIM
             if (alternativa == 4) bom++;
             if (alternativa == 5) muito_bom++;
             if (numero_pergunta == 5) mandar();
-            label1.Text = Relatorio.maior_reposta;
+            
 
 
                 // Esconde o painel atual

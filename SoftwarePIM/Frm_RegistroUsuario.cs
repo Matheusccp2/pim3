@@ -25,11 +25,12 @@ namespace SoftwarePIM
         public Frm_RegistroUsuario()
         {
             InitializeComponent();
-            this.pnlTeclado_Nome.Show();
+            this.pnlTeclado_Nome.Hide();
             this.pnlTeclado_idade.Hide();
         }
 
-        private void Validar(string nome,string idade) {
+        private void Validar(string nome, string idade)
+        {
 
             Controle controle = new Controle(nome, idade);
             if (controle.mensagem.Equals("ok"))
@@ -40,7 +41,8 @@ namespace SoftwarePIM
                 frm_TelaPerguntas.Show();
                 frm_TelaPerguntas.BringToFront();
             }
-            else {
+            else
+            {
                 lbl_validacao.Text = controle.mensagem;
             }
 
@@ -53,7 +55,6 @@ namespace SoftwarePIM
             if (!dig.Equals("Backspace") && this.enter == false)
 
             {
-
                 if (maiusculo == false)
                 {
                     dig = dig.ToLower();
@@ -85,9 +86,7 @@ namespace SoftwarePIM
 
             else if (this.enter == true)
             {
-                pnlTeclado_idade.Show();
-                pnlTeclado_Nome.Hide();
-                pnlTeclado_idade.BringToFront();
+                
                 if (!dig.Equals("Enter") && this.frase_idade.Count() < 3) txb_IdadeUsuario.Text = frase_idade += dig;
             }
 
@@ -95,7 +94,7 @@ namespace SoftwarePIM
 
         private void btn_Confirmar_Click(object sender, EventArgs e)
         {
-            Validar(frase,frase_idade);
+            Validar(frase, frase_idade);
         }
 
         private void btn_VoltarMenu_Click(object sender, EventArgs e)
@@ -120,6 +119,9 @@ namespace SoftwarePIM
                 this.maiusculo = false;
             }
         }
+
+        #region teclado
+
         private void btnBackspace_Click(object sender, EventArgs e)
         {
             this.Teclado("Backspace");
@@ -130,18 +132,6 @@ namespace SoftwarePIM
             this.Teclado("Backspace");
         }
 
-        private void btnEnter_Click(object sender, EventArgs e)
-        {
-            this.Teclado("Enter");
-        }
-
-        private void btnEnter_Idade_Click(object sender, EventArgs e)
-        {
-            this.enter = false;
-            pnlTeclado_idade.Hide();
-            pnlTeclado_Nome.Show();
-            pnlTeclado_Nome.BringToFront();
-        }
         private void btn1_Click(object sender, EventArgs e)
         {
             this.Teclado("1");
@@ -327,6 +317,7 @@ namespace SoftwarePIM
             this.Teclado(" ");
         }
 
+        #endregion
         private void txb_NomeUsuario_TextChanged(object sender, EventArgs e)
         {
 
@@ -340,6 +331,32 @@ namespace SoftwarePIM
         private void lbl_validacao_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txb_NomeUsuario_Enter(object sender, EventArgs e)
+        {
+            this.pnlTeclado_Nome.Show();
+            this.pnlTeclado_idade.Hide();
+            this.enter = false;
+
+        }
+
+        private void txb_NomeUsuario_Leave(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txb_IdadeUsuario_Enter(object sender, EventArgs e)
+        {
+            this.pnlTeclado_idade.Show();
+            this.pnlTeclado_Nome.Hide();
+            this.enter = true;
+
+        }
+
+        private void txb_IdadeUsuario_Leave(object sender, EventArgs e)
+        {
+            
         }
 
         public Form? FormAnterior { get; set; }
