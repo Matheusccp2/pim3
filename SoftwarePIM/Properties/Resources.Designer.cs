@@ -263,6 +263,16 @@ namespace SoftwarePIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MAPA {
+            get {
+                object obj = ResourceManager.GetObject("MAPA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MEDIA_ETÁRIA {
             get {
                 object obj = ResourceManager.GetObject("MEDIA ETÁRIA", resourceCulture);

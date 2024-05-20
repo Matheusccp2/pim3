@@ -16,5 +16,10 @@ namespace SoftwarePIM
         {
             InitializeComponent();
         }
+
+        private void btn_Menu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
