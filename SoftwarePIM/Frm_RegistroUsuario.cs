@@ -19,7 +19,6 @@ namespace SoftwarePIM
         private bool maiusculo = false;
         private string frase = "";
         private string frase_idade = "";
-        private string campo;
         private bool enter = false;
 
         public Frm_RegistroUsuario()
@@ -86,7 +85,7 @@ namespace SoftwarePIM
 
             else if (this.enter == true)
             {
-                
+
                 if (!dig.Equals("Enter") && this.frase_idade.Count() < 3) txb_IdadeUsuario.Text = frase_idade += dig;
             }
 
@@ -343,7 +342,7 @@ namespace SoftwarePIM
 
         private void txb_NomeUsuario_Leave(object sender, EventArgs e)
         {
-            
+
         }
 
         private void txb_IdadeUsuario_Enter(object sender, EventArgs e)
@@ -356,7 +355,7 @@ namespace SoftwarePIM
 
         private void txb_IdadeUsuario_Leave(object sender, EventArgs e)
         {
-            
+
         }
 
         public Form? FormAnterior { get; set; }

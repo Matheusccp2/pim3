@@ -46,12 +46,17 @@
             lbl_MediaAvaliacao = new Label();
             lbl_MediaEtaria = new Label();
             label1 = new Label();
+            pcb_Total_Pessoas = new PictureBox();
+            lbl_Total_Pessoas = new Label();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_Confirmar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_Total_Pessoas).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -272,6 +277,41 @@
             label1.TabIndex = 16;
             label1.Text = "label1";
             // 
+            // pcb_Total_Pessoas
+            // 
+            pcb_Total_Pessoas.BackColor = Color.Transparent;
+            pcb_Total_Pessoas.Image = Properties.Resources.MEDIA_ETÁRIA;
+            pcb_Total_Pessoas.Location = new Point(908, 476);
+            pcb_Total_Pessoas.Name = "pcb_Total_Pessoas";
+            pcb_Total_Pessoas.Size = new Size(198, 37);
+            pcb_Total_Pessoas.TabIndex = 16;
+            pcb_Total_Pessoas.TabStop = false;
+            // 
+            // lbl_Total_Pessoas
+            // 
+            lbl_Total_Pessoas.AutoSize = true;
+            lbl_Total_Pessoas.BackColor = Color.Transparent;
+            lbl_Total_Pessoas.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lbl_Total_Pessoas.ForeColor = Color.White;
+            lbl_Total_Pessoas.Location = new Point(993, 507);
+            lbl_Total_Pessoas.Margin = new Padding(4, 0, 4, 0);
+            lbl_Total_Pessoas.Name = "lbl_Total_Pessoas";
+            lbl_Total_Pessoas.Size = new Size(23, 38);
+            lbl_Total_Pessoas.TabIndex = 17;
+            lbl_Total_Pessoas.Text = "0";
+            lbl_Total_Pessoas.TextAlign = ContentAlignment.MiddleCenter;
+            lbl_Total_Pessoas.UseCompatibleTextRendering = true;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Image = Properties.Resources.agradecimento;
+            pictureBox3.Location = new Point(1231, 462);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(292, 83);
+            pictureBox3.TabIndex = 18;
+            pictureBox3.TabStop = false;
+            // 
             // Frm_Relatorio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -280,6 +320,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1920, 1080);
+            Controls.Add(pictureBox3);
+            Controls.Add(lbl_Total_Pessoas);
+            Controls.Add(pcb_Total_Pessoas);
             Controls.Add(lbl_MediaEtaria);
             Controls.Add(lbl_MediaAvaliacao);
             Controls.Add(lbl_Qtd18Menos);
@@ -313,6 +356,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcb_Total_Pessoas).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -336,5 +381,8 @@
         private Label lbl_MediaAvaliacao;
         private Label lbl_MediaEtaria;
         private Label label1;
+        private PictureBox pcb_Total_Pessoas;
+        private Label lbl_Total_Pessoas;
+        private PictureBox pictureBox3;
     }
 }

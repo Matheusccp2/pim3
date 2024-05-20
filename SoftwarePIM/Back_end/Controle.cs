@@ -11,7 +11,7 @@ namespace SoftwarePIM.Back_end
 {
     internal class Controle : Abspropriedades
     {
-        public string mensagem;
+
         public Controle(int muito_ruim, int ruim,int regular,int bom,int muito_bom, int numero_pergunta)
 
         {            

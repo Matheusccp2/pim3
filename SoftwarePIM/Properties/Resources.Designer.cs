@@ -63,6 +63,16 @@ namespace SoftwarePIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agradecimento {
+            get {
+                object obj = ResourceManager.GetObject("agradecimento", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BORDA {
             get {
                 object obj = ResourceManager.GetObject("BORDA", resourceCulture);
@@ -246,6 +256,16 @@ namespace SoftwarePIM.Properties {
         internal static System.Drawing.Bitmap IDADE_ {
             get {
                 object obj = ResourceManager.GetObject("IDADE_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MEDIA_ETÁRIA {
+            get {
+                object obj = ResourceManager.GetObject("MEDIA ETÁRIA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

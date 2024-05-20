@@ -14,6 +14,7 @@ namespace SoftwarePIM
         public static int TOTAL_ENTRE18E60;
         public static int MEDIA_AVALIACAO;
         public static string MAIOR_REPOSTA;
+        public static int NUMERO_PESSOAS;
         public static int TOTAL_MUITORUIM;
         public static int TOTAL_RUIM;
         public static int TOTAL_REGULAR;

@@ -34,14 +34,9 @@ namespace SoftwarePIM.Modelo
 
             try
             {
-                this.idadei = Convert.ToInt32(idade);
-                string pattern = @"[^\w\s]"; // Identifica qualquer caractere que não seja alfanumérico
-
-                if (Regex.IsMatch(nome, pattern))
-                {
-                    this.mensagem = "O nome não pode conter caracteres especiais.";
-                }
-
+                if (idade == "") { idade = "0"; }
+                this.idadei = Convert.ToInt32(idade); 
+                
                 foreach (char c in nome) //Verifica se esta sendo acrescido 2 espaços entre os caracteres
                 {
 
@@ -59,24 +54,15 @@ namespace SoftwarePIM.Modelo
                         contadorEspacos = 0;
                     }
                     i = c;
-
-                }
-
-                foreach (char c in nome)//verifica se tem numero no nome
-                {
-                    if (char.IsDigit(c))
-                    {
-                        this.mensagem = "nome não pode ter numero ";
-                    }
                 }
 
                 if (nome.Length > 255 || nome.Length < 3)
                 {
-                    this.mensagem = "O nome deve conter entre 3 a 255 caracteres";
+                    this.mensagem = "Digite seu nome (O nome deve conter entre 3 a 255 caracteres)";
                 }
-                if (this.idadei < 1 || this.idadei > 110)
+                else if (this.idadei < 1 || this.idadei > 110)
                 {
-                    this.mensagem = "Idade com valor invalido, digite um numero com valor entre 1 a 110";
+                    this.mensagem = "Digite sua idade (deve conter numero com valor entre 1 a 110)";
                 }
 
             }

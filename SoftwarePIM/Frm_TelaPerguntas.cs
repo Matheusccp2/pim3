@@ -72,6 +72,7 @@ namespace SoftwarePIM
 
         {
             Controle controle = new Controle(muito_ruim,ruim,regular,bom,muito_bom,numero_pergunta);
+            Estaticos.NUMERO_PESSOAS++;
         }
         private void btn_ProximaPergunta_Click(object sender, EventArgs e)
 
@@ -82,7 +83,7 @@ namespace SoftwarePIM
             if (alternativa == 4) bom++;
             if (alternativa == 5) muito_bom++;
             if (numero_pergunta == 5) mandar();
-            label1.Text = Relatorio.maior_reposta;
+            
 
 
                 // Esconde o painel atual
