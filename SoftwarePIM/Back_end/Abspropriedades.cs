@@ -18,5 +18,9 @@ namespace SoftwarePIM.Back_end
         public int muito_bom;
         public string nome;
         public string idade;
+
+
+
+
     }
 }

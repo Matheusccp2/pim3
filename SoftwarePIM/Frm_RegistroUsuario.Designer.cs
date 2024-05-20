@@ -98,7 +98,7 @@
             txb_NomeUsuario.ForeColor = Color.FromArgb(0, 0, 64);
             txb_NomeUsuario.Location = new Point(824, 295);
             txb_NomeUsuario.Name = "txb_NomeUsuario";
-            txb_NomeUsuario.Size = new Size(643, 50);
+            txb_NomeUsuario.Size = new Size(607, 50);
             txb_NomeUsuario.TabIndex = 9;
             txb_NomeUsuario.TextChanged += txb_NomeUsuario_TextChanged;
             // 
@@ -662,14 +662,11 @@
             // lbl_validacao
             // 
             lbl_validacao.AutoSize = true;
-            lbl_validacao.BackColor = Color.White;
-            lbl_validacao.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lbl_validacao.ForeColor = Color.Red;
-            lbl_validacao.Location = new Point(473, 465);
+            lbl_validacao.Location = new Point(1006, 390);
             lbl_validacao.Name = "lbl_validacao";
-            lbl_validacao.Size = new Size(985, 37);
+            lbl_validacao.Size = new Size(38, 15);
             lbl_validacao.TabIndex = 12;
-            lbl_validacao.Text = "________________________________________________________________________________________";
+            lbl_validacao.Text = "label1";
             lbl_validacao.Click += lbl_validacao_Click;
             // 
             // Frm_RegistroUsuario

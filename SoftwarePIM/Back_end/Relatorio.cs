@@ -40,8 +40,8 @@ namespace SoftwarePIM.Back_End
         private int Idade;
         
         #endregion
-        #region Constructor
 
+        #region Constructor
         public Relatorio(int muitoruim, int ruim, int regular, int bom, int muitobom)
         {
             total_muitoruim += muitoruim;
@@ -50,6 +50,7 @@ namespace SoftwarePIM.Back_End
             total_bom += bom;
             total_muitobom += muitobom;
             calcular_media();
+
         }
 
         public Relatorio(string nome, int Idadei) 
@@ -61,11 +62,9 @@ namespace SoftwarePIM.Back_End
         }
 
         private void calcular_media_idade()
-        {       
-            if (this.Idade < 18) total_menos18++;
-            if (this.Idade > 60) total_mais60++;
-            if (this.Idade < 60 && this.Idade > 18) total_entre18e60++;
-
+        {       if (this.Idade < 18) total_menos18++;
+                if (this.Idade > 60) total_mais60++;
+                if (this.Idade < 60 && this.Idade > 18) total_entre18e60++;
             for (int i = 0; i < lista_int_idade.Count; i++) 
             {
                 soma_idade = soma_idade + lista_int_idade[i];
@@ -75,9 +74,10 @@ namespace SoftwarePIM.Back_End
         }
 
         #endregion
-        #region Metodos
 
+        #region Metodos
         private void calcular_media()
+
         {
             this.total_respostas = total_muitoruim + total_ruim + total_regular + total_bom + total_muitobom;
 
@@ -98,16 +98,18 @@ namespace SoftwarePIM.Back_End
         {
             throw new NotImplementedException();
         }
-
         #endregion
+
         #region propriedades
-       
+
+        
         public int Total_ruim { get => total_ruim; }
         public int Total_regular { get => total_regular; }
         public int Total_bom { get => total_bom; }
         public int Total_muitobom { get => total_muitobom; }
 
         #endregion
+
     }
 
 
