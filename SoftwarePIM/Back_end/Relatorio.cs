@@ -18,21 +18,22 @@ namespace SoftwarePIM.Back_End
         private int multi_resposta;
         private int resultado;
         private int soma_idade;
+        private List<int> lista_int_idade = new List<int>();
 
-        public static List<int> lista_int_idade = new List<int>();
-        public static int media_idade;
-        public static int total_menos18;
-        public static int total_mais60;
-        public static int total_entre18e60;
-        public static int media_avaliacao;
-        public static string maior_reposta;
-        public static int total_muitoruim;
-        public static int total_ruim;
-        public static int total_regular;
-        public static int total_bom;
-        public static int total_muitobom;
+        private int total_muitoruim;
+        private int total_ruim;
+        private int total_regular;
+        private int total_bom;
+        private int total_muitobom;
 
-        public static string Nome;
+        private int total_menos18;
+        private int total_mais60;
+        private int total_entre18e60;
+        private int media_idade;
+        private int media_avaliacao;
+        private string maior_reposta;
+
+        private  string Nome;
         private int Idade;
         
         #endregion
@@ -40,11 +41,11 @@ namespace SoftwarePIM.Back_End
         #region Constructor
         public Relatorio(int muitoruim, int ruim, int regular, int bom, int muitobom)
         {
-            total_muitoruim += muitoruim;
-            total_ruim += ruim;
-            total_regular += regular;
-            total_bom += bom;
-            total_muitobom += muitobom;
+            this.total_muitoruim += muitoruim;
+            this.total_ruim += ruim;
+            this.total_regular += regular;
+            this.total_bom += bom;
+            this.total_muitobom += muitobom;
             calcular_media();
 
         }
@@ -58,15 +59,19 @@ namespace SoftwarePIM.Back_End
         }
 
         private void calcular_media_idade()
-        {       if (this.Idade < 18) total_menos18++;
-                if (this.Idade > 60) total_mais60++;
-                if (this.Idade < 60 && this.Idade > 18) total_entre18e60++;
+        {       if (this.Idade < 18) this.total_menos18++;
+                if (this.Idade > 60) this.total_mais60++;
+                if (this.Idade < 60 && this.Idade > 18) this.total_entre18e60++;
             for (int i = 0; i < lista_int_idade.Count; i++) 
             {
                 soma_idade = soma_idade + lista_int_idade[i];
             }
+            this.media_idade = soma_idade / lista_int_idade.Count;
 
-            media_idade = soma_idade / lista_int_idade.Count;
+            Estaticos.TOTAL_MENOS18 = this.total_menos18;
+            Estaticos.TOTAL_MAIS60 = this.total_mais60;
+            Estaticos.TOTAL_ENTRE18E60 = this.total_entre18e60;
+            Estaticos.MEDIA_IDADE = this.media_idade;
         }
 
         #endregion
@@ -75,19 +80,25 @@ namespace SoftwarePIM.Back_End
         private void calcular_media()
 
         {
-            this.total_respostas = total_muitoruim + total_ruim + total_regular + total_bom + total_muitobom;
+            this.total_respostas = this.total_muitoruim + this.total_ruim + this.total_regular + this.total_bom + this.total_muitobom;
+            this.multi_resposta = (this.total_muitoruim * 1) + (this.total_ruim * 2) + (this.total_regular * 3) + (this.total_bom * 4) + (this.total_muitobom * 5);
+            this.resultado = this.multi_resposta / this.total_respostas;
+            this.media_avaliacao = resultado;
 
-            multi_resposta = (total_muitoruim * 1) + (total_ruim * 2) + (total_regular * 3) + (total_bom * 4) + (total_muitobom * 5);
+            if (resultado < 2) { this.maior_reposta = "MUITO RUIM";}
+            else if (resultado < 3) { this.maior_reposta = "RUIM"; }
+            else if (resultado < 4) { this.maior_reposta = "REGULAR"; }
+            else if (resultado < 5) { this.maior_reposta = "BOM"; }
+            else { this.maior_reposta = "MUITO BOM"; }
 
-            resultado = multi_resposta / total_respostas;
+            Estaticos.MAIOR_REPOSTA = this.maior_reposta;
+            Estaticos.MEDIA_AVALIACAO = this.media_avaliacao;
+            Estaticos.TOTAL_MUITORUIM = this.total_muitoruim;
+            Estaticos.TOTAL_RUIM = this.total_ruim;
+            Estaticos.TOTAL_REGULAR = this.total_regular;
+            Estaticos.TOTAL_BOM = this.total_bom;
+            Estaticos.TOTAL_MUITOBOM = this.total_muitobom;
 
-            media_avaliacao = resultado;
-
-            if (resultado < 2) { maior_reposta = "MUITO RUIM";}
-            else if (resultado < 3) { maior_reposta = "RUIM"; }
-            else if (resultado < 4) { maior_reposta = "REGULAR"; }
-            else if (resultado < 5) { maior_reposta = "BOM"; }
-            else { maior_reposta = "MUITO BOM"; }
         }
 
         internal new string ToString()
