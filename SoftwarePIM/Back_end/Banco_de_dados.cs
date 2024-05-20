@@ -26,19 +26,12 @@ namespace SoftwarePIM.Back_End
         private int total_menos18;
         private int total_mais60;
 
-
-
         public Banco_de_dados(int muitoruim, int ruim, int regular, int bom, int muitobom)
-
-        {
-           
-
+        {          
             Armazenar_alternativas(muitoruim, ruim, regular, bom, muitobom);
-
         }
 
         public Banco_de_dados(string nome, int idade)
-
         {
             if (idade < 18) this.total_menos18++;
             if (idade > 18) this.total_mais18++;
@@ -49,43 +42,28 @@ namespace SoftwarePIM.Back_End
             Armazenar_id_visitante();
         }
 
-
-
         private void Armazenar_id_visitante()
         {
-
             for (int i = 0; i < this.lista_id_visitante.Count; i++)
-
             {
-
                 this.lista_id_visitante.Add(this.lista_id_visitante[i] + 1);
                 this.id_visitante = this.lista_id_visitante.Count - 1;
-
             }
         }
 
         private void Armazenar_nome_idade(string nome, int idade)
-
         {
-
-
-
             this.lista_nome.Add(this.id_visitante, nome);
             this.lista_idade.Add(this.id_visitante, Convert.ToString(idade));
-
         }
 
         private void Armazenar_alternativas(int muitoruim, int ruim, int regular, int bom, int muitobom)
         {
-
             if (muitoruim != 0) lista_muitoruim.Add(this.id_visitante, Convert.ToString(muitoruim));
             if (ruim != 0) lista_ruim.Add(this.id_visitante, Convert.ToString(ruim));
             if (regular != 0) lista_regular.Add(this.id_visitante, Convert.ToString(regular));
             if (bom != 0) lista_bom.Add(this.id_visitante, Convert.ToString(bom));
             if (muitobom != 0) lista_muitobom.Add(this.id_visitante, Convert.ToString(muitobom));
-
-
-
         }
 
         public Dictionary<int, string> Lista_idade { get => lista_idade; }
