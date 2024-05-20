@@ -20,10 +20,15 @@ namespace SoftwarePIM.Back_End
         public static List<int> lista_int_idade = new List<int> ();
         private int soma_idade;
 
+<<<<<<< HEAD
+=======
+        public static List<int> lista_int_idade = new List<int>();
+>>>>>>> parent of 2681b50 (classe estatico)
         public static int media_idade;
         public static int total_menos18;
         public static int total_mais60;
         public static int total_entre18e60;
+<<<<<<< HEAD
 
 
         public static int media_avaliacao;
@@ -36,6 +41,16 @@ namespace SoftwarePIM.Back_End
         public static int total_bom;
         public static int total_muitobom;
 
+=======
+        public static int media_avaliacao;
+        public static string maior_reposta;
+        public static int total_muitoruim;
+        public static int total_ruim;
+        public static int total_regular;
+        public static int total_bom;
+        public static int total_muitobom;
+
+>>>>>>> parent of 2681b50 (classe estatico)
         public static string Nome;
         private int Idade;
         

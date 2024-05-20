@@ -26,16 +26,18 @@ namespace SoftwarePIM
         {
             InitializeComponent();
 
-            lbl_QtdMuitoRuim.Text = Estaticos.TOTAL_MUITORUIM.ToString();
-            lbl_QtdRuim.Text = Estaticos.TOTAL_RUIM.ToString();
-            lbl_QtdRegular.Text = Estaticos.TOTAL_REGULAR.ToString();
-            lbl_QtdBom.Text = Estaticos.TOTAL_BOM.ToString();
-            lbl_QtdMuitoBom.Text = Estaticos.TOTAL_BOM.ToString();
-            lbl_MediaAvaliacao.Text = Estaticos.MAIOR_REPOSTA;
-            lbl_Qtd60.Text = Estaticos.TOTAL_MAIS60.ToString();
-            lbl_Qtd18Menos.Text = Estaticos.TOTAL_MENOS18.ToString();
-            lbl_Qtd18a60.Text = Estaticos.TOTAL_ENTRE18E60.ToString();
-            lbl_MediaEtaria.Text = Estaticos.MEDIA_IDADE.ToString();          
+            lbl_QtdMuitoRuim.Text = Relatorio.total_muitoruim.ToString();
+            lbl_QtdRuim.Text = Relatorio.total_ruim.ToString();
+            lbl_QtdRegular.Text = Relatorio.total_regular.ToString();
+            lbl_QtdBom.Text = Relatorio.total_bom.ToString();
+            lbl_QtdMuitoBom.Text = Relatorio.total_muitobom.ToString();
+            lbl_MediaAvaliacao.Text =  Relatorio.maior_reposta;
+            lbl_Qtd60.Text = Relatorio.total_mais60.ToString();
+            lbl_Qtd18Menos.Text = Relatorio.total_menos18.ToString();
+            lbl_Qtd18a60.Text = Relatorio.total_entre18e60.ToString();
+            lbl_MediaEtaria.Text = Relatorio.media_idade.ToString();
+            label1.Text = Relatorio.total_muitoruim.ToString();
+
         }
 
 
