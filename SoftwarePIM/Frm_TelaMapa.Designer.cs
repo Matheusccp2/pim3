@@ -51,10 +51,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.MAPA;
-            pictureBox1.Location = new Point(613, 158);
+            pictureBox1.Image = Properties.Resources.Totem3sem1;
+            pictureBox1.Location = new Point(565, 143);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(712, 433);
+            pictureBox1.Size = new Size(818, 460);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 

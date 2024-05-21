@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="agradecimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agradecimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Obra4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\Obra4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Seta Esquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\Seta Esquerda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Totem3sem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Totem3sem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pergunta (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\Pergunta (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,6 +175,9 @@
   <data name="emoji muito feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\emoji muito feliz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Seta Direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Seta Direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MEDIA ETÁRIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MEDIA ETÁRIA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,17 +217,20 @@
   <data name="TEXTO_ALTERNATIVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\TEXTO_ALTERNATIVA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PERGUNTA (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Imagens\PERGUNTA (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="agradecimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agradecimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BOTÃO CONFIRMAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\BOTÃO CONFIRMAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PERGUNTA (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PERGUNTA (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PERGUNTA (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\PERGUNTA (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Seta Direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Imagens\Seta Direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PERGUNTA (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PERGUNTA (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="emoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\emoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,8 +247,8 @@
   <data name="Obra5.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\Obra5.3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PERGUNTA (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Imagens\PERGUNTA (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MAPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>imagens\MAPA.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="String1" xml:space="preserve">
     <value />
@@ -253,7 +259,7 @@
   <data name="BOTA 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Imagens\BOTA 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>imagens\MAPA.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Totem3sem1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Totem3sem1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
