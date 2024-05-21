@@ -64,18 +64,16 @@ namespace SoftwarePIM.Back_End
         { 
             if (this.Idade < 18) this.total_menos18++;
             if (this.Idade > 60) this.total_mais60++;
-            if (this.Idade < 60 && this.Idade > 18) this.total_entre18e60++;
+            if (this.Idade <= 60 && this.Idade >= 18) this.total_entre18e60++;
             for (int i = 0; i < lista_int_idade.Count; i++) 
             {
                 soma_idade = soma_idade + lista_int_idade[i];
             }
 
             this.media_idade = soma_idade / this.lista_int_idade.Count;
+            salvar_estatico();
 
-            Estaticos.MEDIA_IDADE = this.media_idade;
-            Estaticos.TOTAL_MENOS18 = this.total_menos18;
-            Estaticos.TOTAL_MAIS60 = this.total_mais60;
-            Estaticos.TOTAL_ENTRE18E60 = this.total_entre18e60;
+
         }
 
         #endregion
@@ -97,6 +95,10 @@ namespace SoftwarePIM.Back_End
             else if (resultado < 4) { this.maior_reposta = "REGULAR"; }
             else if (resultado < 5) { this.maior_reposta = "BOM"; }
             else { this.maior_reposta = "MUITO BOM"; }
+            salvar_estatico();
+
+        }
+            public void salvar_estatico() { 
 
             Estaticos.MAIOR_REPOSTA = this.maior_reposta;
             Estaticos.MEDIA_AVALIACAO = this.media_avaliacao;
@@ -105,6 +107,10 @@ namespace SoftwarePIM.Back_End
             Estaticos.TOTAL_REGULAR = this.total_regular;
             Estaticos.TOTAL_BOM = this.total_bom;
             Estaticos.TOTAL_MUITOBOM = this.total_muitobom;
+            Estaticos.MEDIA_IDADE = this.media_idade;
+            Estaticos.TOTAL_MENOS18 = this.total_menos18;
+            Estaticos.TOTAL_MAIS60 = this.total_mais60;
+            Estaticos.TOTAL_ENTRE18E60 = this.total_entre18e60;
         }
 
         internal new string ToString()

@@ -20,5 +20,13 @@ namespace SoftwarePIM
         public static int TOTAL_REGULAR;
         public static int TOTAL_BOM;
         public static int TOTAL_MUITOBOM;
+
+        public static Frm_Relatorio Frm_Relatorio
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

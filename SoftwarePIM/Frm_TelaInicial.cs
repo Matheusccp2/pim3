@@ -7,6 +7,30 @@ namespace SoftwarePIM
             InitializeComponent();
         }
 
+        public Frm_TelaHistoria Frm_TelaHistoria
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Frm_TelaMapa Frm_TelaMapa
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Frm_RegistroUsuario Frm_RegistroUsuario
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         private void btn_Mapa_Click(object sender, EventArgs e)
         {
             // Criando uma instância da Tela do Mapa

@@ -49,7 +49,30 @@ namespace SoftwarePIM.Back_end
         }
         public int Alternativa { get => alternativa; }
         public int Numero_pergunta { get => numero_pergunta; }
-        
+
+        internal Validacao Validacao
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Frm_RegistroUsuario Frm_RegistroUsuario
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Relatorio Relatorio
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }
 

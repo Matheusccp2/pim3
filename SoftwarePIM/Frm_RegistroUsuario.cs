@@ -361,5 +361,21 @@ namespace SoftwarePIM
         public Form? FormAnterior { get; set; }
         public Form? FormPrincipal { get; set; }
         public Form? FormAnterior2 { get; set; }
+
+        internal Controle Controle
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Frm_TelaPerguntas Frm_TelaPerguntas
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

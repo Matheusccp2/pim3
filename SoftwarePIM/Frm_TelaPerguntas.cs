@@ -381,5 +381,13 @@ namespace SoftwarePIM
         {
 
         }
+
+        internal Controle Controle
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

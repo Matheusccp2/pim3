@@ -85,5 +85,13 @@ namespace SoftwarePIM.Modelo
             get { return this.idadei; }
         }
         #endregion
+
+        internal Back_end.Controle Controle
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

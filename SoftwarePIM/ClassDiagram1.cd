@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoftwarePIM.Back_end.Abspropriedades" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUBEABAAABAAAAAEAAAAAgAAAAAAADAAAAAAAAAAAAA=</HashCode>
+      <FileName>Back_end\Abspropriedades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftwarePIM.Back_end.Controle" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <AssociationLine Name="Validacao" Type="SoftwarePIM.Modelo.Validacao" ManuallyRouted="true">
+      <Path>
+        <Point X="5.5" Y="4.941" />
+        <Point X="5.5" Y="5.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAUEAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Back_end\Controle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Validacao" />
+      <Property Name="Frm_RegistroUsuario" />
+      <Property Name="Relatorio" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoftwarePIM.Estaticos" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABCAAAAAgAABAAAAYAICIABAAAAABAAAAABAAAAAA=</HashCode>
+      <FileName>Back_end\Estaticos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Frm_Relatorio" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoftwarePIM.Frm_RegistroUsuario" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBICBPB/QSAAARAAEKiAQABz8P/vjwCD/v//XwBw8B8=</HashCode>
+      <FileName>Frm_RegistroUsuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Controle" />
+      <Property Name="Frm_TelaPerguntas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoftwarePIM.Frm_Relatorio" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAALhgAQCEAABAAACCAYAADBBJAAABCAAAAAQRAAAA=</HashCode>
+      <FileName>Frm_Relatorio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftwarePIM.Frm_TelaHistoria" Collapsed="true">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAExAAQCAAIBAACACgQAADAACAgAEAAACABQDBAAA=</HashCode>
+      <FileName>Frm_TelaHistoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftwarePIM.Frm_TelaInicial" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <AssociationLine Name="Frm_TelaMapa" Type="SoftwarePIM.Frm_TelaMapa" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="3.375" />
+        <Point X="4.375" Y="3.375" />
+        <Point X="4.375" Y="1.691" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAIAAAAACIAACAgAECAAAgCAAQAAEAAACAAAAAAAAA=</HashCode>
+      <FileName>Frm_TelaInicial.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Frm_TelaHistoria" />
+      <Property Name="Frm_TelaMapa" />
+      <Property Name="Frm_RegistroUsuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoftwarePIM.Frm_TelaMapa" Collapsed="true">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAACACAAAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Frm_TelaMapa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftwarePIM.Frm_TelaPerguntas" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BFBmAhUEQKhwDJH4EYDjRjADAAAAAPGPEAAgAQBBBgg=</HashCode>
+      <FileName>Frm_TelaPerguntas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Controle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoftwarePIM.Back_End.Relatorio" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABECAAgSAgAAAmIBAAAAAAAAAAAACAAAhAnEFAAQA=</HashCode>
+      <FileName>Back_end\Relatorio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftwarePIM.Modelo.Validacao" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACEAAAABAAAAAEAAAABAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Back_end\Validacao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Controle" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
