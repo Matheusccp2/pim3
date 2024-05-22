@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SoftwarePIM.Back_end;
 
 namespace SoftwarePIM
 {
     public static class Estaticos
+
     {
         public static int MEDIA_IDADE;
         public static int TOTAL_MENOS18;
@@ -21,12 +23,5 @@ namespace SoftwarePIM
         public static int TOTAL_BOM;
         public static int TOTAL_MUITOBOM;
 
-        public static Frm_Relatorio Frm_Relatorio
-        {
-            get => default;
-            set
-            {
-            }
-        }
     }
 }

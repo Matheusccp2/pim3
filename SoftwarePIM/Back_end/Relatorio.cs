@@ -14,29 +14,30 @@ namespace SoftwarePIM.Back_End
 
         #region Atributos
 
-        private int total_respostas;
-        private int multi_resposta;
-        private int resultado;
-        private int soma_idade;
+         public static int total_respostas;
+         public static int multi_resposta;
+         public static int resultado;
+         public static int soma_idade;
+        public static int numero_pessoas;
 
-        private List<int> lista_int_idade = new List<int>();
+        public List<int> lista_int_idade = new List<int>();
 
-        private int media_idade;
-        private int total_menos18;
-        private int total_mais60;
-        private int total_entre18e60;
+         public static int media_idade;
+         public static int total_menos18;
+         public static int total_mais60;
+         public static int total_entre18e60;
 
-        private int media_avaliacao;
-        private string maior_reposta = "";
+         public static int media_avaliacao;
+         public static string maior_reposta = "";
 
-        private int total_muitoruim;
-        private int total_ruim;
-        private int total_regular;
-        private int total_bom;
-        private int total_muitobom;
+         public static int total_muitoruim;
+         public static int total_ruim;
+         public static int total_regular;
+         public static int total_bom;
+         public static int total_muitobom;
 
-        private string Nome = "";
-        private int Idade;
+         private string Nome = "";
+         private int Idade;
         
         #endregion
 
@@ -54,7 +55,7 @@ namespace SoftwarePIM.Back_End
 
         public Relatorio(string nome, int Idadei) 
         {
-            this.Idade = Idadei;
+            Idade = Idadei;
             Nome = nome;
             lista_int_idade.Add(Idadei);
             calcular_media_idade(); 
@@ -62,18 +63,13 @@ namespace SoftwarePIM.Back_End
 
         private void calcular_media_idade()
         { 
-            if (this.Idade < 18) this.total_menos18++;
-            if (this.Idade > 60) this.total_mais60++;
-            if (this.Idade <= 60 && this.Idade >= 18) this.total_entre18e60++;
-            for (int i = 0; i < lista_int_idade.Count; i++) 
-            {
-                soma_idade = soma_idade + lista_int_idade[i];
-            }
-
-            this.media_idade = soma_idade / this.lista_int_idade.Count;
-            salvar_estatico();
-
-
+            if (Idade < 18) total_menos18++;
+            if (Idade > 60) total_mais60++;
+            if (Idade <= 60 && Idade >= 18) total_entre18e60++;
+            
+            soma_idade = soma_idade + Idade;           
+            media_idade = soma_idade / numero_pessoas;
+            
         }
 
         #endregion
@@ -82,36 +78,37 @@ namespace SoftwarePIM.Back_End
         private void calcular_media()
 
         {
-            this.total_respostas = total_muitoruim + total_ruim + total_regular + total_bom + total_muitobom;
+            total_respostas = total_muitoruim + total_ruim + total_regular + total_bom + total_muitobom;
 
             multi_resposta = (total_muitoruim * 1) + (total_ruim * 2) + (total_regular * 3) + (total_bom * 4) + (total_muitobom * 5);
 
             resultado = multi_resposta / total_respostas;
 
-            this.media_avaliacao = resultado;
+            media_avaliacao = resultado;
 
-            if (resultado < 2) { this.maior_reposta = "MUITO RUIM";}
-            else if (resultado < 3) { this.maior_reposta = "RUIM"; }
-            else if (resultado < 4) { this.maior_reposta = "REGULAR"; }
-            else if (resultado < 5) { this.maior_reposta = "BOM"; }
-            else { this.maior_reposta = "MUITO BOM"; }
-            salvar_estatico();
+            if (resultado < 2) { maior_reposta = "MUITO RUIM";}
+            else if (resultado < 3) { maior_reposta = "RUIM"; }
+            else if (resultado < 4) { maior_reposta = "REGULAR"; }
+            else if (resultado < 5) { maior_reposta = "BOM"; }
+            else { maior_reposta = "MUITO BOM"; }
+            
+
 
         }
-            public void salvar_estatico() { 
+        //    //public void salvar_estatico() { 
 
-            Estaticos.MAIOR_REPOSTA = this.maior_reposta;
-            Estaticos.MEDIA_AVALIACAO = this.media_avaliacao;
-            Estaticos.TOTAL_MUITORUIM = this.total_muitoruim;
-            Estaticos.TOTAL_RUIM = this.total_ruim;
-            Estaticos.TOTAL_REGULAR = this.total_regular;
-            Estaticos.TOTAL_BOM = this.total_bom;
-            Estaticos.TOTAL_MUITOBOM = this.total_muitobom;
-            Estaticos.MEDIA_IDADE = this.media_idade;
-            Estaticos.TOTAL_MENOS18 = this.total_menos18;
-            Estaticos.TOTAL_MAIS60 = this.total_mais60;
-            Estaticos.TOTAL_ENTRE18E60 = this.total_entre18e60;
-        }
+        //    Estaticos.MAIOR_REPOSTA = this.maior_reposta;
+        //    Estaticos.MEDIA_AVALIACAO = this.media_avaliacao;
+        //    Estaticos.TOTAL_MUITORUIM = this.total_muitoruim;
+        //    Estaticos.TOTAL_RUIM = this.total_ruim;
+        //    Estaticos.TOTAL_REGULAR = this.total_regular;
+        //    Estaticos.TOTAL_BOM = this.total_bom;
+        //    Estaticos.TOTAL_MUITOBOM = this.total_muitobom;
+        //    Estaticos.MEDIA_IDADE = this.media_idade;
+        //    Estaticos.TOTAL_MENOS18 = this.total_menos18;
+        //    Estaticos.TOTAL_MAIS60 = this.total_mais60;
+        //    Estaticos.TOTAL_ENTRE18E60 = this.total_entre18e60;
+        //}
 
         internal new string ToString()
         {

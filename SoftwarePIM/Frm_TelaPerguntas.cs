@@ -72,7 +72,7 @@ namespace SoftwarePIM
 
         {
             Controle controle = new Controle(muito_ruim,ruim,regular,bom,muito_bom,numero_pergunta);
-            Estaticos.NUMERO_PESSOAS++;
+            
         }
         private void btn_ProximaPergunta_Click(object sender, EventArgs e)
 

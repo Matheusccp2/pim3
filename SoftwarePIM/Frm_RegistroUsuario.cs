@@ -30,8 +30,9 @@ namespace SoftwarePIM
 
         private void Validar(string nome, string idade)
         {
-
+            Relatorio.numero_pessoas++;
             Controle controle = new Controle(nome, idade);
+            
             if (controle.mensagem.Equals("ok"))
             {
                 var frm_TelaPerguntas = new Frm_TelaPerguntas();
