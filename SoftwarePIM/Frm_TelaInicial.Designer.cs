@@ -32,6 +32,7 @@
             btn_Historia = new PictureBox();
             btn_Mapa = new PictureBox();
             btn_Avaliacao = new PictureBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)btn_Historia).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_Mapa).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_Avaliacao).BeginInit();
@@ -85,6 +86,18 @@
             btn_Avaliacao.TabStop = false;
             btn_Avaliacao.Click += btn_Avaliacao_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(386, 1050);
+            label1.Name = "label1";
+            label1.Size = new Size(1121, 21);
+            label1.TabIndex = 3;
+            label1.Text = "Nós respeitamos sua privacidade e seguimos as normas da LGPD, mesmo tratando apenas de dados não pessoais. Sua proteção é nossa prioridade.";
+            // 
             // Frm_TelaInicial
             // 
             AutoScaleDimensions = new SizeF(96F, 96F);
@@ -93,6 +106,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1920, 1080);
+            Controls.Add(label1);
             Controls.Add(btn_Avaliacao);
             Controls.Add(btn_Mapa);
             Controls.Add(btn_Historia);
@@ -110,6 +124,7 @@
             ((System.ComponentModel.ISupportInitialize)btn_Mapa).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_Avaliacao).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -117,5 +132,6 @@
         private PictureBox btn_Historia;
         private PictureBox btn_Mapa;
         private PictureBox btn_Avaliacao;
+        private Label label1;
     }
 }

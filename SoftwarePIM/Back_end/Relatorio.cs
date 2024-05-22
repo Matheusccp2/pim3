@@ -126,6 +126,13 @@ namespace SoftwarePIM.Back_End
 
         #endregion
 
+        public Frm_Relatorio Frm_Relatorio
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 
 

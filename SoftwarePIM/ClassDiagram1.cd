@@ -25,16 +25,6 @@
       <Property Name="Relatorio" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="SoftwarePIM.Estaticos" Collapsed="true">
-    <Position X="7.5" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>CAABCAAAAAgAABAAAAYAICIABAAAAABAAAAABAAAAAA=</HashCode>
-      <FileName>Back_end\Estaticos.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Frm_Relatorio" />
-    </ShowAsAssociation>
-  </Class>
   <Class Name="SoftwarePIM.Frm_RegistroUsuario" Collapsed="true">
     <Position X="2.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
@@ -47,9 +37,9 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="SoftwarePIM.Frm_Relatorio" Collapsed="true">
-    <Position X="9.75" Y="4" Width="1.5" />
+    <Position X="10.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>hAAALhgAQCEAABAAACCAYAADBBJAAABCAAAAAQRAAAA=</HashCode>
+      <HashCode>hAAALhgAQCEAABAAACCAYAADBBJAAABCAAAAAQRAABA=</HashCode>
       <FileName>Frm_Relatorio.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -70,7 +60,7 @@
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AIAIAAAAACIAACAgAECAAAgCAAQAAEAAACAAAAAAAAA=</HashCode>
+      <HashCode>AIAIAAAAACIAADAgAECAAAgCAAQAAEAAACAAAAAAAAA=</HashCode>
       <FileName>Frm_TelaInicial.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -99,9 +89,12 @@
   <Class Name="SoftwarePIM.Back_End.Relatorio" Collapsed="true">
     <Position X="7.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEABECAAgSAgAAAmIBAAAAAAAAAAAACAAAhAnEFAAQA=</HashCode>
+      <HashCode>AEABECAAgSAgAAAmIBAAAAAAAAAIAADAAAhAnEFAAQA=</HashCode>
       <FileName>Back_end\Relatorio.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Frm_Relatorio" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="SoftwarePIM.Modelo.Validacao" Collapsed="true">
     <Position X="5.25" Y="5.75" Width="1.5" />
