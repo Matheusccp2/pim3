@@ -67,5 +67,10 @@ namespace SoftwarePIM
         {
 
         }
+
+        private void lbl_Qtd60_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

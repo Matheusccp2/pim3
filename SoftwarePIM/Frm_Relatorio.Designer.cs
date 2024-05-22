@@ -212,6 +212,7 @@
             lbl_Qtd60.Size = new Size(28, 32);
             lbl_Qtd60.TabIndex = 11;
             lbl_Qtd60.Text = "0";
+            lbl_Qtd60.Click += lbl_Qtd60_Click;
             // 
             // lbl_Qtd18a60
             // 

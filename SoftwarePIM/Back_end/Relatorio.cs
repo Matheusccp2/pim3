@@ -18,26 +18,24 @@ namespace SoftwarePIM.Back_End
          public static int multi_resposta;
          public static int resultado;
          public static int soma_idade;
-        public static int numero_pessoas;
-
-        public List<int> lista_int_idade = new List<int>();
-
-         public static int media_idade;
+         public static int numero_pessoas;     
          public static int total_menos18;
          public static int total_mais60;
          public static int total_entre18e60;
-
+         public static int Idade;
          public static int media_avaliacao;
          public static string maior_reposta = "";
-
          public static int total_muitoruim;
          public static int total_ruim;
          public static int total_regular;
          public static int total_bom;
          public static int total_muitobom;
+         public static int media_idade;
 
-         private string Nome = "";
-         private int Idade;
+        public List<int> lista_int_idade = new List<int>();
+
+        private string Nome = "";
+
         
         #endregion
 
@@ -49,7 +47,10 @@ namespace SoftwarePIM.Back_End
             total_regular += regular;
             total_bom += bom;
             total_muitobom += muitobom;
+            Relatorio.numero_pessoas++;
+            calcular_media_idade();
             calcular_media();
+            
 
         }
 
@@ -57,8 +58,7 @@ namespace SoftwarePIM.Back_End
         {
             Idade = Idadei;
             Nome = nome;
-            lista_int_idade.Add(Idadei);
-            calcular_media_idade(); 
+           
         }
 
         private void calcular_media_idade()

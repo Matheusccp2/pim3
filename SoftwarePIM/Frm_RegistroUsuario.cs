@@ -30,10 +30,11 @@ namespace SoftwarePIM
 
         private void Validar(string nome, string idade)
         {
-            Relatorio.numero_pessoas++;
+
             Controle controle = new Controle(nome, idade);
             
             if (controle.mensagem.Equals("ok"))
+
             {
                 var frm_TelaPerguntas = new Frm_TelaPerguntas();
                 frm_TelaPerguntas.FormAnterior = this;
@@ -41,9 +42,12 @@ namespace SoftwarePIM
                 frm_TelaPerguntas.Show();
                 frm_TelaPerguntas.BringToFront();
             }
+
             else
+
             {
                 lbl_validacao.Text = controle.mensagem;
+
             }
 
         }
