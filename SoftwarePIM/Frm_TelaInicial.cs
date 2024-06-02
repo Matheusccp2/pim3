@@ -7,16 +7,41 @@ namespace SoftwarePIM
             InitializeComponent();
         }
 
+        public Frm_TelaHistoria Frm_TelaHistoria
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Frm_TelaMapa Frm_TelaMapa
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Frm_RegistroUsuario Frm_RegistroUsuario
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         private void btn_Mapa_Click(object sender, EventArgs e)
         {
             // Criando uma instância da Tela do Mapa
             Frm_TelaMapa frm_TelaMapa = new Frm_TelaMapa();
 
+            frm_TelaMapa.FormPrincipal = this;
+
             // Exibindo o FormSecundario
             frm_TelaMapa.Show();
 
-            // Fechar a Tela Inicial
-            this.Hide();
+            
         }
 
         private void btn_Historia_Click(object sender, EventArgs e)
@@ -24,23 +49,27 @@ namespace SoftwarePIM
             // Criando uma instância do FormSecundario
             Frm_TelaHistoria frm_TelaHistoria = new Frm_TelaHistoria();
 
+            frm_TelaHistoria.FormPrincipal = this;
+
             // Exibindo o FormSecundario
             frm_TelaHistoria.Show();
 
-            // Fechar a Tela Inicial
-            this.Hide();
         }
 
         private void btn_Avaliacao_Click(object sender, EventArgs e)
         {
             // Criando uma instância do FormSecundario
-            Frm_Pergunta1 frm_Pergunta1 = new Frm_Pergunta1();
+            Frm_RegistroUsuario frm_RegistroUsuario = new Frm_RegistroUsuario();
+
+           // frm_RegistroUsuario.FormPrincipal = this; nao da ruim se tirar
 
             // Exibindo o FormSecundario
-            frm_Pergunta1.Show();
+            frm_RegistroUsuario.Show();
+        }
 
-            // Fechar a Tela Inicial
-            this.Hide();
+        private void Frm_TelaInicial_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

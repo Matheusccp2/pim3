@@ -117,4 +117,149 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Obra4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Obra4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seta Esquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Seta Esquerda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Totem3sem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Totem3sem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pergunta (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Pergunta (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoji feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\emoji feliz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDADE_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDADE_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SETA PROXIMO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\SETA PROXIMO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obra3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Obra3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Foto de Fundo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Foto de Fundo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoji triste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\emoji triste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obra5.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Obra5.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SETA ANTERIOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\SETA ANTERIOR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Históroia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Botão Históroia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PERGUNTA (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PERGUNTA (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTÃO_INICIAR_VALIDAÇÃO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTÃO INICIAR VALIDAÇÃO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTÃO voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\BOTÃO voltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obra5.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Obra5.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Botão Mapa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoji muito feliz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\emoji muito feliz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seta Direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Seta Direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEDIA ETÁRIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDIA ETÁRIA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NÃO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\NÃO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PERGUNTA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PERGUNTA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PopUp Pergunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PopUp Pergunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Teclado doidao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teclado doidao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Foguetinhovirado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Foguetinhovirado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obra2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Obra2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOME_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOME_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTÃO CONFIRMAR (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\BOTÃO CONFIRMAR (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emoji bravo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Emoji bravo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BORDA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\BORDA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obra1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Obra1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEXTO_ALTERNATIVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\TEXTO_ALTERNATIVA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agradecimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agradecimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTÃO CONFIRMAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\BOTÃO CONFIRMAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PERGUNTA (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PERGUNTA (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PERGUNTA (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PERGUNTA (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PERGUNTA (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\PERGUNTA (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\emoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoji neutro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\emoji neutro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\SIM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Foguetinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Foguetinho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obra5.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Obra5.3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>imagens\MAPA.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Botão Avaliação" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\Botão Avaliação.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTA 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens\BOTA 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Totem3sem1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Totem3sem1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
