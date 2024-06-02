@@ -24,9 +24,9 @@ namespace SoftwarePIM
         public Frm_TelaPerguntas()
         {
             InitializeComponent();
-            Esconder();
-            
+            Esconder();            
         }
+
         private void btn_VoltarMenu_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -37,10 +37,9 @@ namespace SoftwarePIM
         private int regular;
         private int bom;
         private int muito_bom;
-        private int painelAtual = 1; // Variável para rastrear qual painel está atualmente visível
+        private int painelAtual = 1;
 
-        private void Esconder() {
-            
+        private void Esconder() {            
             pcb_foguetinho1Pg1.Hide();
             pcb_foguetinho2Pg1.Hide();
             pcb_foguetinho3Pg1.Hide();
@@ -66,16 +65,14 @@ namespace SoftwarePIM
             pcb_foguetinho3Pg5.Hide();
             pcb_foguetinho4Pg5.Hide();
             pcb_foguetinho5Pg5.Hide();
-
         }
-        private void mandar()
 
+        private void mandar()
         {
             Controle controle = new Controle(muito_ruim,ruim,regular,bom,muito_bom,numero_pergunta);
-            
         }
-        private void btn_ProximaPergunta_Click(object sender, EventArgs e)
 
+        private void btn_ProximaPergunta_Click(object sender, EventArgs e)
         {
             if (alternativa == 1) muito_ruim++;
             if (alternativa == 2) ruim++;
@@ -83,79 +80,67 @@ namespace SoftwarePIM
             if (alternativa == 4) bom++;
             if (alternativa == 5) muito_bom++;
             if (numero_pergunta == 5) mandar();
-            
 
-
-                // Esconde o painel atual
-                switch (painelAtual)
-                {
-                    case 1:
-                        panel1.Visible = false;
-                        // this.numero_pergunta = 0;
-                        break;
-                    case 2:
-                        panel2.Visible = false;
-                        // this.numero_pergunta = 0;
-                        break;
-                    case 3:
-                        panel3.Visible = false;
-                        // this.numero_pergunta = 0;
-                        break;
-                    case 4:
-                        panel4.Visible = false;
-                        // this.numero_pergunta = 0;
-                        break;
-                    case 5:
-                        panel5.Visible = false;
-                        // this.numero_pergunta = 0;
-                        break;
-                }
+            // Esconde o painel atual
+            switch (painelAtual)
+            {
+                case 1:
+                    panel1.Visible = false;
+                    break;
+                case 2:
+                    panel2.Visible = false;
+                    break;
+                case 3:
+                    panel3.Visible = false;
+                    break;
+                case 4:
+                    panel4.Visible = false;
+                    break;
+                case 5:
+                    panel5.Visible = false;
+                    break;
+            }
 
             if (alternativa != 0 )
             {
                 painelAtual++;
             }
-                if (painelAtual > 5)
+            if (painelAtual > 5)
+            {
+                painelAtual = 1;
+                AbrirNovoFormulario();
+            }
+            else
+            {
+                switch (painelAtual)
                 {
+                    case 1:
+                        panel1.Visible = true;
 
-                    painelAtual = 1;
-                    // Abre um novo formulário
-                    AbrirNovoFormulario();
+                        break;
+                    case 2:
+                        panel2.Visible = true;
+
+                        break;
+                    case 3:
+                        panel3.Visible = true;
+
+                        break;
+                    case 4:
+                        panel4.Visible = true;
+
+                        break;
+                    case 5:
+                        panel5.Visible = true;
+
+                        break;
                 }
-                else
-                {
+            }
 
-                    // Exibe o próximo painel
-                    switch (painelAtual)
-                    {
-                        case 1:
-                            panel1.Visible = true;
-
-                            break;
-                        case 2:
-                            panel2.Visible = true;
-
-                            break;
-                        case 3:
-                            panel3.Visible = true;
-
-                            break;
-                        case 4:
-                            panel4.Visible = true;
-
-                            break;
-                        case 5:
-                            panel5.Visible = true;
-
-                            break;
-                    }
-                }
             alternativa = 0;
-            
-
         }
-        private void AbrirNovoFormulario()
 
+        private void AbrirNovoFormulario()
         {
             var frm_Relatorio = new Frm_Relatorio();
             frm_Relatorio.FormAnterior = this;
@@ -177,12 +162,10 @@ namespace SoftwarePIM
 
         private void pcb_BomPg1_Click(object sender, EventArgs e)
         {
-
             Esconder();
             pcb_foguetinho4Pg1.Show();
-                this.alternativa = 4;
-                this.numero_pergunta = 1;
-           
+            this.alternativa = 4;
+            this.numero_pergunta = 1;
         }
 
         private void pcb_BomPg2_Click(object sender, EventArgs e)
@@ -375,11 +358,6 @@ namespace SoftwarePIM
             pcb_foguetinho2Pg5.Show();
             this.alternativa = 2;
             this.numero_pergunta = 5;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         internal Controle Controle

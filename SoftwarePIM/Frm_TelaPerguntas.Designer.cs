@@ -894,16 +894,6 @@
             pictureBox40.TabIndex = 15;
             pictureBox40.TabStop = false;
             // 
-            // label1
-            // 
-            label1.Location = new Point(874, 532);
-            label1.Name = "label1";
-            label1.Size = new Size(100, 30);
-            label1.TabIndex = 32;
-            label1.Text = "label1";
-            label1.TextAlign = ContentAlignment.TopCenter;
-            label1.Click += label1_Click;
-            // 
             // pcb_foguetinho1Pg1
             // 
             pcb_foguetinho1Pg1.Anchor = AnchorStyles.None;

@@ -30,7 +30,9 @@ namespace SoftwarePIM
             timer1.Start();
 
         }
+
         private int counter = 1;
+
         private void Timer1_Tick(object sender, EventArgs e)
         {
             counter++;

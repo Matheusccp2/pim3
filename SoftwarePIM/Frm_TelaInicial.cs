@@ -36,10 +36,12 @@ namespace SoftwarePIM
             // Criando uma instância da Tela do Mapa
             Frm_TelaMapa frm_TelaMapa = new Frm_TelaMapa();
 
+            frm_TelaMapa.FormPrincipal = this;
+
             // Exibindo o FormSecundario
             frm_TelaMapa.Show();
 
-            //frm_TelaMapa.FormPrincipal = this;
+            
         }
 
         private void btn_Historia_Click(object sender, EventArgs e)

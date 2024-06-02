@@ -39,7 +39,7 @@
             // 
             btn_Menu.BackColor = Color.Transparent;
             btn_Menu.Image = (Image)resources.GetObject("btn_Menu.Image");
-            btn_Menu.Location = new Point(831, 608);
+            btn_Menu.Location = new Point(831, 623);
             btn_Menu.Margin = new Padding(3, 2, 3, 2);
             btn_Menu.MinimumSize = new Size(169, 32);
             btn_Menu.Name = "btn_Menu";
@@ -75,6 +75,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mapa";
             WindowState = FormWindowState.Maximized;
+            FormClosing += Frm_TelaMapa_FormClosing;
+            Load += Frm_TelaMapa_Load;
             ((System.ComponentModel.ISupportInitialize)btn_Menu).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
