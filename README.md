@@ -50,12 +50,11 @@ Matérias abordadas:
 
 Esse projeto foi desenvolvido com a seguinte tecnologia:
 
-- C#
 
   
 [![My Skills](https://skillicons.dev/icons?i=cs,)](https://skillicons.dev)
 
-## 👨‍🎓👨‍🎓👨‍🎓 Desenvolvedores
+## 👨‍🎓 Desenvolvedores
 - [Matheus Costa Caetano Pinto](https://github.com/Matheusccp2)
 - [Juan Gabriel](https://github.com/JuanGabriel741)
 - [David Rodgers](https://github.com/DavidRodgersNunes)
